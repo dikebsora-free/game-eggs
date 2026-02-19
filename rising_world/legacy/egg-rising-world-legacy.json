@@ -7,7 +7,7 @@
     "exported_at": "2022-10-16T09:21:36+02:00",
     "name": "Rising World Java Legacy",
     "author": "eggs@goover.dev",
-    "description": "Rising World is a voxel based open-world sandbox game, featuring a procedurally generated world, playable in single and multi-player.",
+    "description": "Rising World Legacy 是 Rising World 的旧版本，体素沙盒生存游戏。",
     "features": [
         "steam_disk_space"
     ],

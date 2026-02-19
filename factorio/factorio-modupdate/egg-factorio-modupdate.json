@@ -7,7 +7,7 @@
     "exported_at": "2024-04-02T11:04:03+02:00",
     "name": "Factorio-ModUpdate",
     "author": "tueye@tuworld.de",
-    "description": "The vanilla Factorio server. With automatic Mod Updates after ReInstall.\r\n\r\nhttps://www.factorio.com/",
+    "description": "Factorio 模组自动更新工具。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

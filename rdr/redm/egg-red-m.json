@@ -7,7 +7,7 @@
     "exported_at": "2023-07-06T01:51:39+00:00",
     "name": "RedM",
     "author": "parker@parkervcp.com",
-    "description": "A new RedM egg for the latest builds due to recent changes in RedM",
+    "description": "RedM 是荒野大镖客 2 (RDR2) 的多人模组平台。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

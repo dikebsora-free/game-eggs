@@ -7,7 +7,7 @@
     "exported_at": "2024-04-02T11:03:08+02:00",
     "name": "Factorio",
     "author": "parker@parkervcp.com",
-    "description": "The vanilla Factorio server.\r\n\r\nhttps://www.factorio.com/",
+    "description": "Factorio 是一款工厂建设和管理模拟游戏，专注于自动化。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

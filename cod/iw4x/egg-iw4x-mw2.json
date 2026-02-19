@@ -7,7 +7,7 @@
     "exported_at": "2025-10-25T18:35:30+02:00",
     "name": "IW4x",
     "author": "brainshead@gmail.com",
-    "description": "IW4x is a community-driven modification for Call of Duty Modern Warfare 2 (2009) that enhances the game with improved security, dedicated servers, and extensive modding capabilities.",
+    "description": "IW4x 是使命召唤：现代战争 2 的客户端和服务器模组。",
     "features": null,
     "docker_images": {
         "Wine Latest ": " registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest",

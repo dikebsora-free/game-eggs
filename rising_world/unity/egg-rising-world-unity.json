@@ -7,7 +7,7 @@
     "exported_at": "2025-12-23T07:33:48+00:00",
     "name": "Rising World Unity",
     "author": "eggs@goover.dev",
-    "description": "Rising World is a voxel based open-world sandbox game, featuring a procedurally generated world, playable in single and multi-player.",
+    "description": "Rising World Unity 是使用 Unity 引擎重制的版本，体素沙盒生存游戏。",
     "features": [
         "steam_disk_space"
     ],

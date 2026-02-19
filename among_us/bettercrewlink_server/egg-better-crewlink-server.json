@@ -7,7 +7,7 @@
     "exported_at": "2024-04-02T13:58:58+02:00",
     "name": "BetterCrewlink Server",
     "author": "tobiornotto@gmail.com",
-    "description": "An egg designed to allow support for Proximity Chat in Among Us using BetterCrewLink Server",
+    "description": "BetterCrewLink 服务器，为 Among Us 提供语音聊天功能。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_16": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_16"

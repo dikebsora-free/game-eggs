@@ -7,7 +7,7 @@
     "exported_at": "2023-05-17T20:11:37+02:00",
     "name": "Liteloader Bedrock Dedicated Server",
     "author": "frizth_tatierra@informatics.edu.ph",
-    "description": "LiteLoaderBDS - Epoch-making & Cross-language Bedrock Dedicated Servers Plugin Loader\r\n\r\nLiteLoaderBDS is an unofficial plugin loader that provides basic API support for Bedrock Dedicated Server, with a massive API, lots of packed utility interfaces, a rich event system and powerful basic interface support.",
+    "description": "LiteLoader-bedrock 是 Minecraft 基岩版的模组加载器。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest"

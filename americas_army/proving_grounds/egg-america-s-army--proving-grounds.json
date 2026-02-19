@@ -7,7 +7,7 @@
     "exported_at": "2025-01-09T17:43:24+00:00",
     "name": "America's Army: Proving Grounds",
     "author": "eggs@purpleflaghosting.com",
-    "description": "America’s Army: Proving Grounds is the official game of the U.S. Army and part of the highly acclaimed America’s Army game series. This free military game focuses on small unit tactical maneuvers and puts you to the test in a wide variety of new America’s Army maps and AA fan favorites.",
+    "description": "America's Army: Proving Grounds 是免费的战术第一人称射击游戏。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

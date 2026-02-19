@@ -7,7 +7,7 @@
     "exported_at": "2025-09-03T17:06:25+00:00",
     "name": "Rimworld Together",
     "author": "josdekurk@gmail.com",
-    "description": "A community driven multiplayer mod, for Rimworld.",
+    "description": "Rimworld Together 是 RimWorld 的多人联机模组。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:dotnet_7": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:dotnet_7"

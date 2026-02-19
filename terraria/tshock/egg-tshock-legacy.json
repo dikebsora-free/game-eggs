@@ -7,7 +7,7 @@
     "exported_at": "2022-11-06T14:42:12+01:00",
     "name": "tshock legacy",
     "author": "parker@parkervcp.com",
-    "description": "The t-shock modded terraria server.\r\n\r\nhttps://tshock.co/",
+    "description": "TShock Legacy 是 Terraria 服务器管理工具的旧版本。",
     "features": null,
     "docker_images": {
         "mono": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:mono_latest"

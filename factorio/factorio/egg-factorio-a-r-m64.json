@@ -7,7 +7,7 @@
     "exported_at": "2023-11-18T10:08:36+01:00",
     "name": "Factorio ARM64",
     "author": "parker@parkervcp.com",
-    "description": "The vanilla Factorio server.\r\n\r\nhttps://www.factorio.com/",
+    "description": "Factorio ARM64 版本，为 ARM 架构优化的工厂建设游戏。",
     "features": null,
     "docker_images": {
         "Box64": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:box64"

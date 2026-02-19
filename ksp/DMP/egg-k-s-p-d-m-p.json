@@ -7,7 +7,7 @@
     "exported_at": "2023-09-22T19:54:35+02:00",
     "name": "KSP DMP",
     "author": "rufanyin29@gmail.com",
-    "description": "Dark Multiplayer mod server for Kerbal Space Program",
+    "description": "DMP (Dark Multiplayer) 是坎巴拉太空计划的多人模组。",
     "features": null,
     "docker_images": {
         "Mono": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:mono_latest"

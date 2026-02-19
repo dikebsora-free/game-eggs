@@ -7,7 +7,7 @@
     "exported_at": "2023-05-27T13:03:41+03:00",
     "name": "Rimworld: Open World",
     "author": "kyle@williquette.us",
-    "description": "The Open World mod allows you to create and join servers to play with people all around the world, it introduces plenty of new features including trading, gifting, bartering, PvP and so much more!\r\n\r\nhttps://github.com/D12-Dev/OpenWorld",
+    "description": "RimWorld Open World 是开放世界多人模组。",
     "features": null,
     "docker_images": {
         "Dotnet 3.1": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:dotnet_3.1",
