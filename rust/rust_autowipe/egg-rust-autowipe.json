@@ -12,7 +12,7 @@
         "steam_disk_space"
     ],
     "docker_images": {
-        "ghcr.io/pterodactyl/games:rust": "ghcr.io/pterodactyl/games:rust"
+        "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/games:rust": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/games:rust"
     },
     "file_denylist": [],
     "startup": "\"./RustDedicated -batchmode +server.port {{SERVER_PORT}} +server.queryport {{QUERY_PORT}} +server.identity \"rust\" +rcon.ip 0.0.0.0 +rcon.port {{RCON_PORT}} +rcon.web true +server.hostname \\\"{{HOSTNAME}}\\\" +server.level \\\"{{LEVEL}}\\\" +server.description \\\"{{DESCRIPTION}}\\\" +server.url \\\"{{SERVER_URL}}\\\" +server.headerimage \\\"{{SERVER_IMG}}\\\" +server.maxplayers {{MAX_PLAYERS}} +rcon.password \\\"{{RCON_PASS}}\\\" +app.port {{APP_PORT}} +server.saveinterval {{SAVEINTERVAL}} $( [ -z ${MAP_URL} ] && printf %s \"+server.worldsize \\\"{{WORLD_SIZE}}\\\" +server.seed \\\"$( if [ -f seed.txt ] && [[ ${WORLD_SEED} == \"0\" ]]; then printf %s $(cat seed.txt); else printf %s ${WORLD_SEED}; fi )\\\"\"|| printf %s \"+server.levelurl {{MAP_URL}}\" ) {{ADDITIONAL_ARGS}}\"",

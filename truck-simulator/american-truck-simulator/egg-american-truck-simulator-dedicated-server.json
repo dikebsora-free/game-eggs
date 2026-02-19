@@ -7,7 +7,7 @@
     "exported_at": "2023-04-24T17:42:49+02:00",
     "name": "American Truck Simulator Dedicated Server",
     "author": "chase@cstmgames.com",
-    "description": "This will set up SteamCMD and all the required files for the newly released American Truck Simulator Dedicated server.  Simply placed the exported server config from your ATS instance to the .local/share/American Truck Simulator/ folder and select start.  Make sure that auto start is off on server creation to allow you to upload your config files.",
+    "description": "This will set up SteamCMD and all the required files for the newly released American Truck Simulator 专用服务器.  Simply placed the exported server config from your ATS instance to the .local/share/American Truck Simulator/ folder and select start.  Make sure that auto start is off on server creation to allow you to upload your config files.",
     "features": [
         "steam_disk_space"
     ],

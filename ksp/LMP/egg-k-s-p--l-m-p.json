@@ -7,7 +7,7 @@
     "exported_at": "2025-10-30T16:08:41+01:00",
     "name": "KSP - LMP",
     "author": "brainshead@gmail.com",
-    "description": "Dedicated server for the LunaMultiplayer (LMP) mod for Kerbal Space Program. Automatically installs the latest or specified version from GitHub. Runs on .NET 5 using the official Ptero-Eggs yolk.",
+    "description": "专用服务器 for the LunaMultiplayer (LMP) mod for Kerbal Space Program. Automatically installs the latest or specified version from GitHub. Runs on .NET 5 using the official Ptero-Eggs yolk.",
     "features": null,
     "docker_images": {
         "Dotnet 5 ": " registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:dotnet_5"

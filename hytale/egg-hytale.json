@@ -7,15 +7,15 @@
     "exported_at": "2026-01-13T05:17:28+00:00",
     "name": "Hytale",
     "author": "hello@pterodactyl.io",
-    "description": "Set out on an adventure built for both creation and play. Hytale blends the freedom of a sandbox with the momentum of an RPG: explore a procedurally generated world full of dungeons, secrets, and a variety of creatures, then shape it block by block.",
+    "description": "踏上为创作和游戏而生的冒险之旅。Hytale 融合了沙盒的自由度和 RPG 的动力：探索充满地牢、秘密和各种生物的程序生成世界，然后逐块塑造它。",
     "features": [
         "java_version"
     ],
     "docker_images": {
-        "ghcr.io/pterodactyl/games:hytale": "ghcr.io/pterodactyl/games:hytale"
+        "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/games:hytale": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/games:hytale"
     },
     "file_denylist": [],
-    "startup": "java $( ((USE_AOT_CACHE)) && printf %s \"-XX:AOTCache=Server\/HytaleServer.aot\" ) -Xms128M $( ((SERVER_MEMORY)) && printf %s \"-Xmx${SERVER_MEMORY}M\" ) -jar Server\/HytaleServer.jar $( ((HYTALE_ALLOW_OP)) && printf %s \"--allow-op\" ) $( ((HYTALE_ACCEPT_EARLY_PLUGINS)) && printf %s \"--accept-early-plugins\" ) $( ((DISABLE_SENTRY)) && printf %s \"--disable-sentry\" ) --auth-mode ${HYTALE_AUTH_MODE} --assets Assets.zip --bind 0.0.0.0:${SERVER_PORT}",
+    "startup": "java $( ((USE_AOT_CACHE)) && printf %s \"-XX:AOTCache=Server/HytaleServer.aot\" ) -Xms128M $( ((SERVER_MEMORY)) && printf %s \"-Xmx${SERVER_MEMORY}M\" ) -jar Server/HytaleServer.jar $( ((HYTALE_ALLOW_OP)) && printf %s \"--allow-op\" ) $( ((HYTALE_ACCEPT_EARLY_PLUGINS)) && printf %s \"--accept-early-plugins\" ) $( ((DISABLE_SENTRY)) && printf %s \"--disable-sentry\" ) --auth-mode ${HYTALE_AUTH_MODE} --assets Assets.zip --bind 0.0.0.0:${SERVER_PORT}",
     "config": {
         "files": "{}",
         "startup": "{\n    \"done\": \"Hytale Server Booted\"\n}",
@@ -24,15 +24,15 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/ash\nset -e\n\nmkdir -p \/mnt\/server\ncd \/mnt\/server\n\necho -e \"Downloading Hytale Downloader CLI...\"\n\nDOWNLOAD_URL=\"https:\/\/downloader.hytale.com\/hytale-downloader.zip\"\n\nrm -f hytale-downloader.zip\ncurl -o hytale-downloader.zip $DOWNLOAD_URL\nunzip -o hytale-downloader.zip -d hytale-downloader\nmv hytale-downloader\/hytale-downloader-linux-amd64 hytale-downloader\/hytale-downloader-linux\nchmod 555 hytale-downloader\/hytale-downloader-linux\n\necho -e \"Verifying Hytale Downloader installation...\"\n\necho -e \"Hytale Downloader version: `.\/hytale-downloader\/hytale-downloader-linux -version`\"\n\necho -e \"Hytale Downloader installed successfully.\"",
-            "container": "ghcr.io/pterodactyl/installers:alpine",
+            "script": "#!/bin/ash\nset -e\n\nmkdir -p /mnt/server\ncd /mnt/server\n\necho -e \"Downloading Hytale Downloader CLI...\"\n\nDOWNLOAD_URL=\"https://downloader.hytale.com/hytale-downloader.zip\"\n\nrm -f hytale-downloader.zip\ncurl -o hytale-downloader.zip $DOWNLOAD_URL\nunzip -o hytale-downloader.zip -d hytale-downloader\nmv hytale-downloader/hytale-downloader-linux-amd64 hytale-downloader/hytale-downloader-linux\nchmod 555 hytale-downloader/hytale-downloader-linux\n\necho -e \"Verifying Hytale Downloader installation...\"\n\necho -e \"Hytale Downloader version: `./hytale-downloader/hytale-downloader-linux -version`\"\n\necho -e \"Hytale Downloader installed successfully.\"",
+            "container": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/installers:alpine",
             "entrypoint": "ash"
         }
     },
     "variables": [
         {
-            "name": "Accept Early Plugins",
-            "description": "Hytale warns that loading early plugins is unsupported and may cause stability issues.",
+            "name": "接受早期插件",
+            "description": "Hytale 警告加载早期插件不受支持，可能会导致稳定性问题。",
             "env_variable": "HYTALE_ACCEPT_EARLY_PLUGINS",
             "default_value": "0",
             "user_viewable": true,
@@ -41,8 +41,8 @@
             "field_type": "text"
         },
         {
-            "name": "Auth Mode",
-            "description": "Authentication mode.",
+            "name": "认证模式",
+            "description": "认证模式。",
             "env_variable": "HYTALE_AUTH_MODE",
             "default_value": "authenticated",
             "user_viewable": true,
@@ -61,7 +61,7 @@
             "field_type": "text"
         },
         {
-            "name": "Disable Sentry",
+            "name": "禁用 Sentry",
             "description": "Hytale uses Sentry to track crashes. Disable Sentry during active plugin development.",
             "env_variable": "DISABLE_SENTRY",
             "default_value": "0",

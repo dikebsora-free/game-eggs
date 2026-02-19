@@ -7,7 +7,7 @@
     "exported_at": "2025-12-28T17:10:03+01:00",
     "name": "Just Cause 3 Multiplayer",
     "author": "brainshead@gmail.com",
-    "description": "Dedicated server for Just Cause 3 Multiplayer (JC3:MP)  Using the Just Cause™ 3: Multiplayer Mod.",
+    "description": "专用服务器 for Just Cause 3 Multiplayer (JC3:MP)  Using the Just Cause™ 3: Multiplayer Mod.",
     "features": null,
     "docker_images": {
         "Ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:ubuntu"
