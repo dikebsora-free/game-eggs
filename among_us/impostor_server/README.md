@@ -9,10 +9,10 @@ There are no special features at this moment, the goal is aiming to be as close 
 
 You MUST use Port 22023 for the Master Server. To host multiple servers, please read [Impostor Multiple Servers Documentation](https://github.com/Impostor/Impostor/blob/master/docs/Running-the-server.md#multiple-servers).
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 22023   |
+| 游戏 | 22023   |

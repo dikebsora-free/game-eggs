@@ -13,11 +13,11 @@ Files listed in the `REMOVE_FILES` variable, space separated, will be removed.
 The server requires at least 4096MB to run properly.
 This is mostly needed for the startup only, once it is running (depending on your world size) it should consume less.
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
 | Game and Query | 28015 UDP |
 | RCON | 28016 TCP |

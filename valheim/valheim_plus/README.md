@@ -20,9 +20,9 @@ Discord: https://discord.gg/AmH6Va97GT
 ***!!! ATTENTION !!!***
 ***All (Server + Clients) need to have a installed Valheim Plus Mod !!!!***
 
-## Server Ports
+## 服务器端口
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 2456    |
-| Query | 2457    |
+| 游戏 | 2456    |
+| 查询 | 2457    |

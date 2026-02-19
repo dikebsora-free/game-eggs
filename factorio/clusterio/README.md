@@ -37,11 +37,11 @@ Additional configuration options can be found in config-Controller.json and conf
 
 Changes to the Cluster will only be written out to the database on a graceful stop.
 
-## Server Ports
+## 服务器端口
 
 Clusterio requires a single port
 
-| Port       | default    |
+| 端口 | default    |
 |------------|------------|
 | Controller HTTP| 8081       |
 | Host Game | 34197      |

@@ -8,11 +8,11 @@ Steam page: [link](https://store.steampowered.com/app/1169040/Necesse/)
 Official Wiki: [link](https://necessewiki.com)
 Server Wiki Page: [link](https://necessewiki.com/Multiplayer) (Linux specifics can be [found here](https://necessewiki.com/Multiplayer-Linux))
 
-### Server Ports
+### 服务器端口
 
-| Port      | default |
+| 端口 | default |
 |-----------|---------|
-| Game      | 14159   |
+| 游戏 | 14159   |
 
 ### Configuration files
 

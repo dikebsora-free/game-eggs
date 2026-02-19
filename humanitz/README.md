@@ -12,19 +12,19 @@ The current version of the server software is slightly buggy, and as of this wri
 
 They include a `README.txt` file with the server software, that includes a description of most of the variables, but not more than that. This is only obtainable via the SteamCMD tool.
 
-## Installation/System Requirements
+## 安装/系统要求
 
 Requires a 64-bit processor and operating system
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port         | default |
+| 端口 | default |
 |--------------|---------|
 | Game  Port   | 7777    |
 | Query Port   | 27015   |
 
-### Notes
+### 备注
 
 7777 is the default port, but any port can be used.

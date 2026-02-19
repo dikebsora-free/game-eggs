@@ -5,7 +5,7 @@
 
 ___
 
-## Authors / Contributors
+## 作者 / 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -49,13 +49,13 @@ ___
 
 ___
 
-### Game Description
+### 游戏简介
 
 From Bohemia Interactive's [Website](https://dayz.com/):
 > How long can you survive a post-apocalyptic world? A land overrun with an infected "zombie" population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.
 ___
 
-### Egg Capabilities
+### Egg 功能
 
 - Able to download server updates on startup
 - Able to download, update, and load Steam Workshop mods on startup (\*see [Installation/System Requirements: Game Ownership](#game-ownership))
@@ -71,19 +71,19 @@ ___
 
 ___
 
-### Server Ports
+### 服务器端口
 
 Default server ports are listed below, but all ports can be changed freely.
 
-| Port | Default | Protocol | Required | Notes |
+| 端口 | 默认值 | 协议 | 必需 | 备注 |
 |---------|---------|---------|---------|---------|
-| **Game** | 2302 | UDP | **Yes** | Primary port in Panel |
+| **游戏** | 2302 | UDP | **是** | Primary port in Panel |
 | Steam Query | 27016 | UDP | Partially | Required for server listing |
-| RCON | 2305 | UDP | No | Required to be defined, but not required to be assigned to the server |
+| RCON | 2305 | UDP | 否 | Required to be defined, but not required to be assigned to the server |
 
 ___
 
-### Installation/System Requirements
+### 安装/系统要求
 
 > [!IMPORTANT]
 > A real, valid Steam account is required to install this game server.
@@ -91,13 +91,13 @@ ___
 > [!WARNING]
 > Steam Guard **must** be completely **turned off** for the server and mods to download efficiently. See [Running With Steam Guard Enabled](#running-with-steam-guard-enabled) for an unofficial workaround.
 
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Recent x86/64 (AMD/Intel) processor. No 32-bit or ARM support. | Avoid CPU Pinning; may cause issues. |
-| RAM | 4096-5120 MiB | 8192 MiB |
-| Storage | 3072 MiB | 7168+ MiB (depends on how many mods are installed) |
-| Network | 0.512 Mbit/s/player | 1-5 Mbit/s/player |
-| Host OS | Most stable Linux OS branches should work | Using the latest kernel version for your installed OS can prevent some edge-case installation/boot issues. |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. No 32-bit or ARM support. | Avoid CPU Pinning; may cause issues. |
+| 内存 | 4096-5120 MiB | 8192 MiB |
+| 存储 | 3072 MiB | 7168+ MiB (depends on how many mods are installed) |
+| 网络 | 0.512 Mbit/s/player | 1-5 Mbit/s/player |
+| 主机操作系统 | Most stable Linux OS branches should work | Using the latest kernel version for your installed OS can prevent some edge-case installation/boot issues. |
 
 #### Game Ownership:
 

@@ -10,8 +10,8 @@ You may want to assign a minimum of 768 mb of RAM to a server as it will use aro
 
 Terraria only requires a single port to run. The default is 7777
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 7777    |
+| 游戏 | 7777    |
 
 ### Plugins may require ports to be added to the server

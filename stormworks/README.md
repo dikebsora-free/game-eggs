@@ -12,16 +12,16 @@ Due to the way the Stormworks configuration file is structured and how Pterodact
 Other configuration options not set during installation, such as `player_damage`, `npc_damage`, and various gameplay modifiers can still be freely edited in the `server_config.xml` file to customize the server to your liking.
 
 
-## Server Ports
+## 服务器端口
 
 Stormworks requires 2 consecutive ports in order to run. The default ports are shown below. Using non-default ports is possible; however, they must remain consecutive.
 
 The `server_config.xml` only sets the **first** port, the game automatically assumes the second port is the next consecutive number (`port + 1`).
 
-| Port | default |
+| 端口 | default |
 |------|---------|
-| Game | 25564   |
-| Game | 25565   |
+| 游戏 | 25564   |
+| 游戏 | 25565   |
 
 ## Final Note
 

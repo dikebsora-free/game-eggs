@@ -17,15 +17,15 @@ Astroneer required at least 700MiB to run. If more than one player will connect,
 
 Astroneer required at least 3GiB. The size may increase with larger save file.
 
-## Server Ports
+## 服务器端口
 
 Astroneer requires a single port to run.
 
-| Port        | default |
+| 端口 | default |
 |-------------|---------|
-| Game        | 27000   |
+| 游戏 | 27000   |
 
-### Notes
+### 备注
 
 27000 is the default port, but any port can be used.
 

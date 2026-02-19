@@ -4,10 +4,10 @@
 
 alt:V Multiplayer a third-party multiplayer modification for Grand Theft Auto: V.
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 7788    |
+| 游戏 | 7788    |

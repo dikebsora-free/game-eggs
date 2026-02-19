@@ -4,10 +4,10 @@ A Bukkit server implementation on common mod loaders.
 
 Check out the [Github](https://github.com/IzzelAliz/Arclight) for more information.
 
-## Server Ports
+## 服务器端口
 
 The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

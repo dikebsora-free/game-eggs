@@ -3,14 +3,14 @@
 Nazi Zombies: Portable is a project that allows you to play Call of Duty: Zombies on a LOT of devices/platforms, from Windows to Linux to Browser to Nintendo Switch to PSP to PlayStation VITA (you get the idea).
 It is based on the FTEQW engine and this egg can be used as a plain FTEQW egg if you desire.
 
-## Server Ports
+## 服务器端口
 
-| Port                          | default |
+| 端口 | default |
 |-------------------------------|---------|
 | Game WS/TCP (for Web Clients) |  27500  |
 | Game UDP (for Native Clients) |  27500  |
 
-### Notes
+### 备注
 
 Resources pertaining to NZ:P Native Client download, browser release and documentation.
 

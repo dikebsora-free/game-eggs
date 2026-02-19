@@ -15,14 +15,14 @@ The windows version of the server running in Wine.
 This supports some mods that do not work with the linux version of the server.
 Uses more resources for the server than the linux version.
 
-## Server Ports
+## 服务器端口
 
 Mordhau requires 3 ports
 
-| Port    | default       |
+| 端口 | default       |
 |---------|---------------|
-| Game    | 7777          |
-| Query   | 27015         |
+| 游戏 | 7777          |
+| 查询 | 27015         |
 | Beacon  | 15000         |
 
 ## Map Rotation / Change Config

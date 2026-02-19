@@ -15,28 +15,28 @@ The description of the server usually provided by the game/server maker.
 
 To get a persistent server (server that appears on the server list), you need to get a [Steam Server Login Token](https://steamcommunity.com/dev/managegameservers), it's not required though.
 
-## Installation/System Requirements
+## 安装/系统要求
 <!--Make changes to reflect the server minimum/recommended hardware specs-->
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Does not support ARM(?) | - |
-| RAM | 512MB | 1GB |
-| Storage | 3GB | 6GB |
-| Network | 1Mbit/s | 5Mbit/s |
-| Game Ownership | No | See **Install Notes** |
+| 处理器 | Does not support ARM(?) | - |
+| 内存 | 512MB | 1GB |
+| 存储 | 3GB | 6GB |
+| 网络 | 1Mbit/s | 5Mbit/s |
+| 游戏所有权 | 否 | See **Install Notes** |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 27015   |
+| 游戏 | 27015   |
 | Source TV | 27020 |
 | Client  | 27005   |
 | Steam   | 26900   |
 
-### Notes
+### 备注
 
 27015 is the default port, but any port can be used.
 The only required port is the Game port, server can run perfectly fine without other allocations.

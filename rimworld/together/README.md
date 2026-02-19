@@ -8,9 +8,9 @@ A community driven multiplayer mod, for Rimworld.
 
 [Rimworld Together](https://steamcommunity.com/sharedfiles/filedetails/?id=3005289691)
 
-## Server Ports
+## 服务器端口
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 25555   |
+| 游戏 | 25555   |
 

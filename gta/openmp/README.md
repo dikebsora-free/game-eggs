@@ -2,9 +2,9 @@
 
 The [OpenMp](https://www.open.mp/) GTA San Andreas dedicated server
 
-## Server Ports
+## 服务器端口
 
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 25570   |
+| 游戏 | 25570   |

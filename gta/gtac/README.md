@@ -2,10 +2,10 @@
 
 The [GTAC](https://gtaconnected.com/) Grand Theft Auto Connected is a custom scriptable multiplayer modification for multiple Grand Theft Auto games.
 
-## Server Ports
+## 服务器端口
 
 GTAC requires one port for both UDP/TCP
 
-| Port    | default  |
+| 端口 | default  |
 |---------|----------|
-| Game    | 22000    |
+| 游戏 | 22000    |

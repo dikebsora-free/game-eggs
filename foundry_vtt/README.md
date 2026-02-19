@@ -8,5 +8,5 @@ Foundry requires a license. In order to use this egg, you will need to purchase 
 
 Note that this egg only runs the node application. You will need to manage TLS, reverse proxying, etc. on your own.
 
-# Server Ports
+# 服务器端口
 This is a node application and only needs a single port that you will connect to over http(s)

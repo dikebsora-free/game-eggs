@@ -1,7 +1,7 @@
 # R5Reloaded (Apex Legends Modding SDK)
 R5Reloaded - Apex Legends Modding SDK
-### Server Ports
+### 服务器端口
 R5Reloaded requires 1 port.
-| Port  | Default | Notes                                 |
+| 端口 | 默认值 | 备注 |
 | ----- | ------- | ------------------------------------- |
-| Game  | 37015   |
+| 游戏 | 37015   |

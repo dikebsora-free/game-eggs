@@ -3,10 +3,10 @@
 [Dark Multiplayer](https://d-mp.org/)   
 Dark Multiplayer is an up-to-date mod adding the long awaited multiplayer feature to Kerbal Space Program while including support for other mods!
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 6702    |
+| 游戏 | 6702    |

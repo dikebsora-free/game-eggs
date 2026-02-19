@@ -2,13 +2,13 @@
 
 https://www.technicpack.net/modpack/the-1122-pack.1406454
 
-## Server Ports
+## 服务器端口
 The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
 
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |
 
 
 Egg is based on the "1.7.10 Pack"-Egg

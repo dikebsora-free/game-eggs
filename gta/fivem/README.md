@@ -35,12 +35,12 @@ The last update to the egg changes the server to use txadmin to run. On first st
 
 ### Your server will not go online until it's started from txadmin
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 30110   |
+| 游戏 | 30110   |
 | Game+1  | 30120   |
 | txAdmin | 40120   |

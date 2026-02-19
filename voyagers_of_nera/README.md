@@ -13,7 +13,7 @@ Players can connect by
 - Using Direct Connect and entering the IP:Port and password if set
 - Using the invite code in `BoatGame/Saved/DedicatedServerMagicJoinCode.txt`
 
-## Server Ports
-| Port            | Default |
+## 服务器端口
+| 端口 | 默认值 |
 | --------------- | ------- |
-| Game            | 7777    |
+| 游戏 | 7777    |

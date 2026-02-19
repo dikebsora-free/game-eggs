@@ -2,14 +2,14 @@
 
 Citadel: Forged With Fire is a massive online sandbox RPG set in the mystical world of Ignus. Featuring magic, spellcasting, building, exploring and crafting as you fight to make a name for yourself and achieve notoriety across the land.
 
-## Server Ports
+## 服务器端口
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 7777    |
-| Query | 27015   |
+| 游戏 | 7777    |
+| 查询 | 27015   |
 
-## Notes
+## 备注
 
 You need to setup the Config of the Server in
 /Config/Game.ini

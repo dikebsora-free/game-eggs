@@ -6,25 +6,25 @@
 ## [Documentation](https://ramjet.notion.site/Server-Hosting-85f92f43f32548c1b5b33797ddf456ad)
 
 
-## Installation/System Requirements
-|  | Bare Minimum | Recommended |
+## 安装/系统要求
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Almost any proccessor will work (AMD64 only) | -|
-| RAM | 12 GiB | 16 GiB |
-| Storage | 15 GiB | 20 GiB |
-| Network | Any reasonable speed |- |
-| Game Ownership | Not needed | * |   
+| 处理器 | Almost any proccessor will work (AMD64 only) | -|
+| 内存 | 12 GiB | 16 GiB |
+| 存储 | 15 GiB | 20 GiB |
+| 网络 | Any reasonable speed |- |
+| 游戏所有权 | Not needed | * |   
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 7777    |
-| Query   | 27015   |
+| 游戏 | 7777    |
+| 查询 | 27015   |
 
-## Config
+## 配置
 
 Some config values can be changed under the startup tab.
 Everything else must manual be changed in `Vein/Saved/Config/LinuxServer/Game.ini`

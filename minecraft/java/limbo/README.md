@@ -4,10 +4,10 @@ Standalone server program Limbo.
 
 [Limbo Github](https://github.com/LOOHP/Limbo)
 
-## Server Ports
+## 服务器端口
 
 The Limbo server requires a single port for access (default 25565).
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

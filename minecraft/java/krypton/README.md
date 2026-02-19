@@ -4,14 +4,14 @@ A fast, lightweight Minecraft server written in Kotlin
 
 [Krypton GitHub](https://github.com/KryptonMC/Krypton)
 
-## Server Ports
+## 服务器端口
 
 Krypton only requires a single port to run, just like vanilla, though plugins may need extra ports.
 
-## Notes
+## 备注
 
 Please note that the server will not function correctly unless a pre-generated world is provided.
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

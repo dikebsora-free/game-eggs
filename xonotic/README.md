@@ -2,10 +2,10 @@
 
 The Free and Fast Arena Shooter
 
-## Server Ports
+## 服务器端口
 
 Xonotic requires 1 port
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 26000   |
+| 游戏 | 26000   |

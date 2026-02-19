@@ -13,6 +13,6 @@ Banana Shooter is a fast-paced, meme-filled FPS where you battle online or with 
 Banana Shooter requires one port.  
 You can use any available port.
 
-| Port        | Default (example) |
+| 端口 | Default (example) |
 | ----------- | ----------------- |
 | Server Port | 27015             |

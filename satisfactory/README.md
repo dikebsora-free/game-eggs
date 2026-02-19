@@ -7,7 +7,7 @@
 > - While not required, it's recommended existing servers delete the `LinuxServer` directory under `~/FactoryGame/Saved/Config/` to remove depreciated settings, and reconfigure the settings via the in-game Server Manager.
 ___
 
-### Authors / Contributors
+### 作者 / 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -74,14 +74,14 @@ ___
 
 ___
 
-### Game Description
+### 游戏简介
 
 From Coffee Stain's [Website](https://www.satisfactorygame.com/):
 > Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!
 
 ___
 
-### Egg Capabilities
+### Egg 功能
 
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
 - Configurable number of rotating autosaves.
@@ -94,32 +94,32 @@ ___
 
 ___
 
-### Server Ports
+### 服务器端口
 
-| Port          | Default | Protocol  | Required | Notes                                                                                                                                                  |
+| 端口 | 默认值 | 协议 | 必需 | 备注 |
 |---------------|---------|-----------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Primary**   | 7777    | UDP & TCP | **Yes** | Clients connect using this port. UDP is un-encrypted game traffic. TCP is also required for the in-game Server Manager & API, and it is TLS encrypted. |
-| **Reliable Messaging** | 8888    | TCP       | **Yes** | Reliable messaging port. Required for Satisfactory version 1.1 and above.                                                                    |
+| **主要**   | 7777    | UDP & TCP | **是** | Clients connect using this port. UDP is un-encrypted game traffic. TCP is also required for the in-game Server Manager & API, and it is TLS encrypted. |
+| **可靠消息** | 8888    | TCP       | **是** | Reliable messaging port. Required for Satisfactory version 1.1 and above.                                                                    |
 
 > [!TIP]
 > \*Your internal ports **must match** your external ports on your network (ie. you can't have an external port of 7778 forwarded to your 7777 internal port; they must match).
 
 ___
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Recent x86/64 (AMD/Intel) processor that supports modern instructions (ie. AVX, AES, etc.). No 32 bit or ARM support. | Favours higher single-core performance over multiple cores. If you are running Wings via Proxmox, you may need to set the VM's CPU Type to "host" to avoid session save/load crashes. |
-| RAM | 4608 MiB | 8192-12288 MiB (especially for 4 players or large save files) |
-| Storage | 5120 MiB | 7168-10240 MiB (or more, depending on save size or frequency) |
-| Network | 1 Mbit/s | 1-5 Mbit/s ([may require server *and* client config tweaks](https://satisfactory.wiki.gg/wiki/Multiplayer#Temporary_lag_solution)) |
-| Host OS | Most stable Linux OS branches should work | Using the latest kernel version for your installed OS can prevent some edge-case installation/boot issues. |
-| Game Ownership | Not required to start. | Required to fully "initialize" (see [Server Initialization](#server-initialization) below) |
+| 处理器 | Recent x86/64 (AMD/Intel) processor that supports modern instructions (ie. AVX, AES, etc.). No 32 bit or ARM support. | Favours higher single-core performance over multiple cores. If you are running Wings via Proxmox, you may need to set the VM's CPU Type to "host" to avoid session save/load crashes. |
+| 内存 | 4608 MiB | 8192-12288 MiB (especially for 4 players or large save files) |
+| 存储 | 5120 MiB | 7168-10240 MiB (or more, depending on save size or frequency) |
+| 网络 | 1 Mbit/s | 1-5 Mbit/s ([may require server *and* client config tweaks](https://satisfactory.wiki.gg/wiki/Multiplayer#Temporary_lag_solution)) |
+| 主机操作系统 | Most stable Linux OS branches should work | Using the latest kernel version for your installed OS can prevent some edge-case installation/boot issues. |
+| 游戏所有权 | Not required to start. | Required to fully "initialize" (see [Server Initialization](#server-initialization) below) |
 
 ___
 
-### Server Initialization
+### 服务器初始化
 
 > [!WARNING]
 > The server cannot be joined for the first time via "Join Game -> Join game directly..." on the main menu due to the TLS certificate not being trusted yet. Instead, join via "Server Manager -> Add Server" and you will be prompted to trust the certificate and initialize the server.
@@ -145,7 +145,7 @@ Misc. settings listed below can be configured by an admin client via the Server 
 
 ___
 
-### Save Files
+### 存档文件
 
 > [!CAUTION]
 > Stopping the server **does not** currently save your game! Ensure it is saved before stopping the server!
@@ -166,7 +166,7 @@ If you have forgotten your administrator password or would generally like to res
 
 ___
 
-### Console Commands
+### 控制台命令
 
 The "Console" tab in the in-game Server Manager is the only way to execute commands. Entering commands via the Panel do nothing.
 
@@ -174,7 +174,7 @@ The "Console" tab in the in-game Server Manager is the only way to execute comma
 
 ___
 
-### Known Errors/Warnings
+### 已知错误/警告
 
 The following errors or warnings you see in the console can safely be ignored:
 

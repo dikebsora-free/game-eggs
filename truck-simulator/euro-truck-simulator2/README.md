@@ -3,10 +3,10 @@
 
 Ports below are the default ports that are associated with the ETS2 dedicated server.
 
-| Port     | default       |
+| 端口 | default       |
 |----------|---------------|
 | Dedicated| 27015         |
-| Query    | 27016         |
+| 查询 | 27016         |
 
 
 # Adding moderators

@@ -6,24 +6,24 @@
 
 The Quilt project is an open-source, community-driven modding toolchain designed primarily for Minecraft. By focusing on speed, ease of use and modularity, Quilt aims to provide a sleek and modern modding toolchain with an open ecosystem.
 
-## Installation/System Requirements
+## 安装/系统要求
 <!--Make changes to reflect the server minimum/recommended hardware specs-->
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Minecraft probably supports everything? | - |
-| RAM | 2GB | 5GB |
-| Storage | 300MB | 10GB |
-| Network | 3 Mbit/s | 7 Mbit/s	 |
-| Game Ownership | The game is not required to run the server. | - |
+| 处理器 | Minecraft probably supports everything? | - |
+| 内存 | 2GB | 5GB |
+| 存储 | 300MB | 10GB |
+| 网络 | 3 Mbit/s | 7 Mbit/s	 |
+| 游戏所有权 | The game is not required to run the server. | - |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 25565   |
+| 游戏 | 25565   |
 
-### Notes
+### 备注
 
 25565 is the default port, but any port can be used.

@@ -9,23 +9,23 @@ FortressCraft Evolved is a unique blend of Voxel Landscapes, Tower Defense, Craf
 | ------------- |-------------|
 |   brainshead   | https://github.com/brainshead |
 
-## Server Ports
+## 服务器端口
 
 FotressCraft Evolved requires up to 2 ports
 
-| Port    | default       |
+| 端口 | default       |
 |---------|---------------|
-| Game    | 27000         |
+| 游戏 | 27000         |
 | RCON    | 27001         | 
 
 This can be changed to any port.
 
 ## Install Notes
 
-| Requirements        | Memory| Storage | CPU   | Network|
+| Requirements        | Memory| 存储 | CPU   | 网络 |
 |---------------------|-------|---------|-------|-----------|
 | Minimal             | 8 GB   | 10GB   |Decent Quad-Core CPU (3.2GHz+)| 1-2Mbit/s per client is a rough guide|
-| Recommended         | 8+ GB  | 20GB+ (SSD)  |   | |
+| 推荐 | 8+ GB  | 20GB+ (SSD)  |   | |
 
 ## Settings
 

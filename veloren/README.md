@@ -6,7 +6,7 @@ Veloren is a multiplayer voxel RPG written in Rust. It is inspired by games such
 
 Veloren is fully open-source, licensed under GPL 3. It uses original graphics, musics and other assets created by its community. Being contributor-driven, its development community and user community is one and the same: developers, players, artists and musicians come together to develop the game.
 
-## Server Ports
+## 服务器端口
 
 **Due to there new config file you have to set the game port manual in the config file!!**
 
@@ -16,9 +16,9 @@ Veloren is fully open-source, licensed under GPL 3. It uses original graphics, m
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 14004   |
+| 游戏 | 14004   |
 | Metrics | 14005   |
 
 ### Mods/Plugins may require ports to be added to the server

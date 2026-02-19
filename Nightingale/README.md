@@ -7,22 +7,22 @@ Nightingale is an open world survival crafting game, where you’ll adventure ac
 | ------------- |-------------|
 |   brainshead   | https://github.com/brainshead |
 
-## Server Ports
+## 服务器端口
 
 Nightingale requires up to 1 ports
 
-| Port    | default       |
+| 端口 | default       |
 |---------|---------------|
-| Game    | 7777          |
+| 游戏 | 7777          |
 
 This can be changed to any port.
 
 ## Install Notes
 
-| Requirements        | Memory| Storage | 
+| Requirements        | Memory| 存储 | 
 |---------------------|-------|---------|
 | Minimal             | 4GB   | 15 GB   |
-| Recommended         | 6-8+ GB| 40GB+  |
+| 推荐 | 6-8+ GB| 40GB+  |
 
 
 ## Settings

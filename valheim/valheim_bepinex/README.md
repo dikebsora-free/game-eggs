@@ -31,12 +31,12 @@ In particular, the changes from base BepInEx releases are:
 ## Automatic Mod Downloading
 Mods can be downloaded from modpacks automatically by entering the "dependency string" for the modpack from https://valheim.thunderstore.io/
 
-## Server Ports
+## 服务器端口
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 2456    |
-| Query | 2457    |
+| 游戏 | 2456    |
+| 查询 | 2457    |
 
-## Updating
+## 更新
 Because the `DOORSTOP_CORLIB_OVERRIDE_PATH=./unstripped_corlib;` has been removed from the startup with the latest update of this egg. If your server is already running, update the startup manually.

@@ -2,8 +2,8 @@
 
 Brand new proxy server for Minecraft: Bedrock Edition
 
-## Server Ports
+## 服务器端口
 
-| Port     | default |
+| 端口 | default |
 |----------|---------|
 | server   | 19132   |

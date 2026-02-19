@@ -12,13 +12,13 @@ Due to rate limiting the console on the panel cannot keep up with the game conso
 
 You may want to assign a minimum of 768 mb of RAM to a server as it will use around 650 mb to generate the world on the first start.
 
-## Server Ports
+## 服务器端口
 
 tModloader, like Terraria, only requires a single port to run. The default is 7777
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 7777    |
+| 游戏 | 7777    |
 
 ### Plugins may require ports to be added to the server.
 

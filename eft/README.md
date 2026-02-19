@@ -18,13 +18,13 @@ To install the SIT client:
 - Afterwards, follow the instructions here [`SIT Manager Method`](https://docs.stayintarkov.com/en/install.html#).
 
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port                 | default |
+| 端口 | default |
 |----------------------|---------|
-| Game                 | 6969    |
+| 游戏 | 6969    |
 | SIT Mod Websocket    | 6970    |
 | Nat Helper WebSocket | 6971    |
 

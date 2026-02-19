@@ -3,10 +3,10 @@ Zandronum is a multiplayer oriented port, based off Skulltag, for Doom and Doom 
 
 This egg uses the [Freedoom](https://freedoom.github.io/) WAD by default.
 
-### Server Ports
+### 服务器端口
 
 Zandronum requires a single port:
 
-| Port    | default  |
+| 端口 | default  |
 |---------|----------|
-| Game    | 10666    |
+| 游戏 | 10666    |

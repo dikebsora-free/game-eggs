@@ -13,14 +13,14 @@ The Front is a survival open-world crafting shooter. You play the role of a resi
 
 Steam: https://store.steampowered.com/app/2285150/The_Front/
 
-## Server Ports
+## 服务器端口
 The Server needs 4 Ports. You can choose every Port you want
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 27015    |
+| 游戏 | 27015    |
 | Beacon | 27016    |
-| Query | 27017 |
+| 查询 | 27017 |
 | ShutDownService | 27018 |
 
 ## Updating the Server

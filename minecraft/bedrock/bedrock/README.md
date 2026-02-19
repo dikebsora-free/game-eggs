@@ -4,15 +4,15 @@ The official Minecraft Bedrock (Formerly Minecraft Pocket Edition) server.
 
 This is an alpha release server from the mojang team.
 
-### Server Ports
+### 服务器端口
 
 Bedrock requires a single port (default 19132)
 
-| Port    | default  |
+| 端口 | default  |
 |---------|----------|
-| Game    | 19132    |
+| 游戏 | 19132    |
 
-### Known Issues
+### 已知问题
 Also see the [Mojang Issue tracker](https://bugs.mojang.com/projects/BDS/issues/)
 
 * On start the server will report is is listening on port 19132 but is listening on the correct port

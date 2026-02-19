@@ -7,21 +7,21 @@ For over two decades, Counter-Strike has offered an elite competitive experience
 
 For CS2 Valve has decided to merge the game and server files. There will not be standalone dedicated server files.<br>
 
-## Installation/System Requirements
+## 安装/系统要求
 
-|  | Minimum | Recommended |
+|  | Minimum | 推荐 |
 |---------|---------|---------|
-| Processor | minim x86-64-v2 (with popcnt) | --- |
-| RAM | 2 GB | --- |
-| Storage | 33 GB | --- |
+| 处理器 | minim x86-64-v2 (with popcnt) | --- |
+| 内存 | 2 GB | --- |
+| 存储 | 33 GB | --- |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 27015   |
+| 游戏 | 27015   |
 | Source TV (Optional) | 27020 |
 
 ## RCON
@@ -29,6 +29,6 @@ Ports required to run the server in a table format.
 RCON is only accessible from external apps, NOT from the game client itself. It's broken in CS2.<br>
 If possible always use the Pterodactyl console to use your commands like ``map de_nuke`` or ``mp_restartgame 3``.<br>
 
-## Notes
+## 备注
 
 Further install instructions can be found at the official [Documentation](https://developer.valvesoftware.com/wiki/Counter-Strike_2/Dedicated_Servers).

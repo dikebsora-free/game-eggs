@@ -4,13 +4,13 @@ Empyrion – Galactic Survival is a true space sandbox survival adventure that u
 
 
 
-### Server Ports
+### 服务器端口
 
 Empyrion requires 2 ports.
 
-| Port  | Default | Notes                                 |
+| 端口 | 默认值 | 备注 |
 | ----- | ------- | ------------------------------------- |
-| Game  | 27015   |
-| Query | 27016   | Has no variable and *must* be Game +1 |
+| 游戏 | 27015   |
+| 查询 | 27016   | Has no variable and *must* be Game +1 |
 
 DO NOT expose the TELNET_PORT to the internet as there is no authentication.

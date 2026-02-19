@@ -13,11 +13,11 @@ You can manually create GSLTs while logged in with your Steam account here: http
 
 Use Unturned's app ID 304930, and a memo to remind you which server the token is for.
 
-## Server Ports
+## 服务器端口
 
 Unturned requires 2 ports to run properly.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 27015   |
+| 游戏 | 27015   |
 | Game +1 | 27016   |

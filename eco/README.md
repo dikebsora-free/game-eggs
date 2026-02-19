@@ -1,6 +1,6 @@
 # Eco
 
-## Steam Description
+## Steam 简介
 Eco is a community-based game; the players develop laws, government, and an economy to determine the success of their world. We need extensive playtesting to get the balance of our core features just right. Early Access is the perfect fit for finding an audience for this while also funding additional development.
 
 ## Author & Contributers
@@ -8,14 +8,14 @@ Eco is a community-based game; the players develop laws, government, and an econ
 | ------------- |-------------|-------------|
 |   gOOvER   | https://github.com/gOOvER | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B351D0Q) |
 
-## Server Ports
+## 服务器端口
 
 Eco requires up to 2 ports
 
 game port (default 3000)
 web port (default 3001)
 
-| Port    | default       |
+| 端口 | default       |
 |---------|---------------|
-| Game    |     3000      |
+| 游戏 |     3000      |
 | Web     |     3001      |

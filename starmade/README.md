@@ -4,10 +4,10 @@
 
 The ultimate space sandbox. Participate in epic fleet battles, form alliances, strive to dominate entire galaxies and harness the universe’s resources for your industrious empire or the destruction of others. Customise your experience, the universe is yours!
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 4242    |
+| 游戏 | 4242    |

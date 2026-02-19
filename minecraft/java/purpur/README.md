@@ -5,10 +5,10 @@ Purpur is a drop-in replacement for Paper servers designed for configurability, 
 [Purpur GitHub](https://github.com/PurpurMC/Purpur)
 [Purpur Website](https://purpurmc.org/)
 
-## Server Ports
+## 服务器端口
 
 The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

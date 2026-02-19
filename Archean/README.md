@@ -5,18 +5,18 @@ Design and build vehicles, bases, rockets, space stations and much more using cu
 Test your builds, refine your designs and defy the laws of physics.
 Archean is a game in development focused on engineering and build.
 
-## Installation/System Requirements
-|  | Bare Minimum | Recommended |
+## 安装/系统要求
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Any mid/high-end should work | -|
-| RAM | 2GB | 8 GB |
-| Storage | 700 MB | 2 GB |
-| Network | Depends on your patience :P |- |
+| 处理器 | Any mid/high-end should work | -|
+| 内存 | 2GB | 8 GB |
+| 存储 | 700 MB | 2 GB |
+| 网络 | Depends on your patience :P |- |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 8881    |
+| 游戏 | 8881    |

@@ -5,7 +5,7 @@
 **_NOTE: Serverstart can take up to 15mins on first start!!!**
 ---
 
-### Authors / Contributors
+### 作者 / 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -50,7 +50,7 @@
 
 ---
 
-### Game Description
+### 游戏简介
 
 From Stunlock Studios's [Website](https://playvrising.com/):
 
@@ -58,7 +58,7 @@ From Stunlock Studios's [Website](https://playvrising.com/):
 
 ---
 
-### Egg Capabilities
+### Egg 功能
 
 - Currently runs the Windows build of the server via Wine. This egg will be updated when a proper, native Linux server binary is released.
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
@@ -69,29 +69,29 @@ From Stunlock Studios's [Website](https://playvrising.com/):
 
 ---
 
-### Server Ports
+### 服务器端口
 
 - Default server ports are listed below, but all three ports can be changed freely.
 - The only _required_ port is the Game port, but the Query port is needed for the server to appear in the server list (Direct connect is still possible without the Query port). There have also been reports that servers only appear in the server list if they are popular, so consider this when troubleshooting.
 - Clients connect via the Game port.
 - The RCON port is optional and only required if the server owner enables/uses RCON.
 
-| Port                                   | Default | Protocol |
+| 端口 | 默认值 | 协议 |
 | -------------------------------------- | ------- | -------- |
 | **Game (Primary Port in Pterodactyl)** | 9876    | UDP      |
-| Query                                  | 9877    | UDP      |
+| 查询 | 9877    | UDP      |
 | RCON                                   | 25575   | TCP      |
 
 ---
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|                | Bare Minimum                                                   | Recommended                                                                                                                   |
+|                | 最低要求 | 推荐 |
 | -------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Processor      | Recent x86/64 (AMD/Intel) processor. No 32 bit or ARM support. | Unsubstantiated reports say that RCON uses significantly more CPU when enabled, but I have not been able to replicate myself. |
-| RAM            | 3072 MiB                                                       | 4096-6144 MiB                                                                                                                 |
-| Storage        | 3.5 GB                                                         | 5-10 GB (or more, depending on save size or frequency)                                                                        |
-| Game Ownership | Not required at all.                                           | ----                                                                                                                          |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. No 32 bit or ARM support. | Unsubstantiated reports say that RCON uses significantly more CPU when enabled, but I have not been able to replicate myself. |
+| 内存 | 3072 MiB                                                       | 4096-6144 MiB                                                                                                                 |
+| 存储 | 3.5 GB                                                         | 5-10 GB (or more, depending on save size or frequency)                                                                        |
+| 游戏所有权 | Not required at all.                                           | ----                                                                                                                          |
 
 ---
 

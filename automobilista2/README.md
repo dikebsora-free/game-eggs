@@ -10,17 +10,17 @@ Minimum RAM requirement of 512MB, with 1GB+ being recommended
 
 Automobilista 2 required at least 2GiB.
 
-## Server Ports
+## 服务器端口
 
 Automobilista 2 requires three ports to run. Hostport is always the default Allocation Port!
 
-| Port        | default |
+| 端口 | default |
 |-------------|---------|
 | SteamPort   | 8766   |
 | Hostport(Default Allocation Port)    | 27015   |
 | queryPort   | 27016   |
 
 
-### Notes
+### 备注
 
 All Ports can be changed

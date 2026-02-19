@@ -4,9 +4,9 @@ A brutal exploration and survival game for 1-10 players, set in a procedurally-g
 
 <https://store.steampowered.com/app/892970/Valheim/>
 
-## Server Ports
+## 服务器端口
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 2456    |
-| Query | 2457    |
+| 游戏 | 2456    |
+| 查询 | 2457    |

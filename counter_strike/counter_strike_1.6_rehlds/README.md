@@ -8,22 +8,22 @@ This egg offers everything you need to set up a Counter-Strike 1.6 server using 
 
 
 
-## System Requirements
+## 系统要求
 
-| Component    | Minimum             | Recommended        |
+| Component    | Minimum             | 推荐 |
 |--------------|---------------------|--------------------|
-| Processor    | -                   | -                  |
-| RAM          | 1 GB                | 2 GB               |
-| Storage      | 2 GB                | 5 GB               |
+| 处理器 | -                   | -                  |
+| 内存 | 1 GB                | 2 GB               |
+| 存储 | 2 GB                | 5 GB               |
 
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 27015   |
+| 游戏 | 27015   |
 | Source TV | 27020 |
 | Client  | 27005   |
 | Steam   | 26900   |
@@ -43,7 +43,7 @@ The only required port is the Game port, server can run perfectly fine without o
 - **Reunion**: A Metamod plugin that allows protocol 47 and 48 non-steam clients to connect to ReHLDS servers
 
 
-## Notes
+## 备注
 
 - The server installation includes default configuration files such as `server.cfg`, `listip.cfg`, and `banned.cfg`.
 

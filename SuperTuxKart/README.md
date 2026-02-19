@@ -10,19 +10,19 @@ Essentially this is a standard build of the regular SuperTuxKart client but with
 
 First install will take a while because the games source code and assets will be downloaded and the games executable will have to be compiled.
 
-## Installation/System Requirements
-|  | Bare Minimum | Recommended |
+## 安装/系统要求
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| RAM | 1GiB | 1GiB |
-| Storage | 3GiB | 5GiB |
+| 内存 | 1GiB | 1GiB |
+| 存储 | 3GiB | 5GiB |
 
-## Server Ports
+## 服务器端口
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 2759   |
+| 游戏 | 2759   |
 
-### Notes
+### 备注
 
 To change server settings, stop the server then edit the 'config.xml' file in the root of the container. When done save the file and start the server.
 

@@ -8,13 +8,13 @@ Minimum RAM: 12-16 GiB
 Minimum Disk: 15GiB
 
 
-## Server Ports
+## 服务器端口
 
 The server requires an allocation for primary port +2
 Users will connect to primary +2
 
-| Port            | Default |
+| 端口 | 默认值 |
 | --------------- | ------- |
-| Game            | 7777    |
+| 游戏 | 7777    |
 | Game +2         | 7779    |
-| Query           | 27015   |
+| 查询 | 27015   |

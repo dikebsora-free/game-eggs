@@ -21,15 +21,15 @@ Minimum required memory to run the server.
 Minimum required storage to run the server.
 600Mib is recommended. 2GB+ is preferred
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 36963   |
+| 游戏 | 36963   |
 
-### Notes
+### 备注
 
 <!--Notes about the server ports.-->
 36963 is the default port, but any port can be used.

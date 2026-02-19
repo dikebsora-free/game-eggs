@@ -8,8 +8,8 @@ This project implements proximity voice chat in Among Us. Everyone in an Among U
 
 Ports required to run the server in a table format.
 
-| Port    | default (HTTPS enabled) | default (HTTPS disabled) |
+| 端口 | default (HTTPS enabled) | default (HTTPS disabled) |
 |---------|---------|---------|
-| Game    | 443    | 9736    |
+| 游戏 | 443    | 9736    |
 
 Default port is 443 if HTTPS is enabled, and 9736 if not. But you can change to any port or domain/ip in the egg

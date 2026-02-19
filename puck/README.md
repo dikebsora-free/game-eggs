@@ -1,5 +1,5 @@
 # Puck
-### Game Description
+### 游戏简介
 
 Hop on your skates and jump into a physics based hockey game. No rules, no timeouts, just get the puck in the goal. May the best team win!
 
@@ -13,17 +13,17 @@ Hop on your skates and jump into a physics based hockey game. No rules, no timeo
 |   Red-Banana-Official  | https://github.com/Red-Banana-Official | / |
 |   Rai68   | https://github.com/rai68 | https://ko-fi.com/rai68 |
 
-### Server Ports
+### 服务器端口
 
 By default Puck requires 2 ports.
 
-| Port    | default       |
+| 端口 | default       |
 |---------|---------------|
-|Game    |     7777     |
-|Query   |     7778     |
+| 游戏 |     7777     |
+| 查询 |     7778     |
 
 
-## Configuration
+## 配置
 
 ### **Where is the Server Configuration Stored?**
 The Puck dedicated server configuration is stored in `server_configuration.json`.
@@ -78,10 +78,10 @@ On first startup, the server will generate the following structure:
 }
 ```
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|           | Recommended  | Extra info  |
+|           | 推荐 | Extra info  |
 |-----------|--------------|-------------|
-| Processor | Recent x86/64 (AMD/Intel) processor. | You need min 1 Core for the Server. |
-| RAM       |  512 MB     |
-| Storage   |  1 GB  | 
+| 处理器 | Recent x86/64 (AMD/Intel) processor. | You need min 1 Core for the Server. |
+| 内存 |  512 MB     |
+| 存储 |  1 GB  | 

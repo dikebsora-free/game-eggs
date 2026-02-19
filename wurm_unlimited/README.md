@@ -9,22 +9,22 @@
 <!--Make a note if the user needs to get any keys or other items to run/use the server-->
 On first install the backup command will error as nothing was created yet. This can safly be ignored
 
-## Installation/System Requirements
+## 安装/系统要求
 <!--Make changes to reflect the server minimum/recommended hardware specs-->
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | *Any AMD64 will work* | ** |
-| RAM | *2 GiB* | *4 GiB* |
-| Storage | *2 GiB* | *3 GiB* |
-| Network | *Anything will work* | ** |
-| Game Ownership | *not needed* | ** |
+| 处理器 | *Any AMD64 will work* | ** |
+| 内存 | *2 GiB* | *4 GiB* |
+| 存储 | *2 GiB* | *3 GiB* |
+| 网络 | *Anything will work* | ** |
+| 游戏所有权 | *not needed* | ** |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 3724 TCP   |
-| Query    | 27016-27030 UDP   |
+| 游戏 | 3724 TCP   |
+| 查询 | 27016-27030 UDP   |
 

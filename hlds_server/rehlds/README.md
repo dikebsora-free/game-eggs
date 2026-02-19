@@ -8,11 +8,11 @@ ReHLDS is a reverse engineered build of the original HLDS (build 6152/6153), and
 
 Github: https://github.com/dreamstalker/rehlds
 
-## Server Ports
+## 服务器端口
 
 HLDS servers require up to 6 ports
 
-| Port      | default |
+| 端口 | default |
 |-----------|---------|
 | Game/rcon | 27015   |
 | HLTV      | 27020   |

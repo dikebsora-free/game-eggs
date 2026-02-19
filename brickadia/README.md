@@ -9,8 +9,8 @@ Brickadia is a next-generation sandbox game with immense flexibility. Every crea
 | GameUserSettings.ini | General server configuration | /home/container/.config/Epic/Brickadia/Saved/Config/LinuxServer/GameUserSettings.ini |
 | RoleSetup2.json | Server user role permissions | /home/container/.config/Epic/Brickadia/Saved/Server/RoleSetup2.json |
 
-## Server Ports
+## 服务器端口
 
-| Name    | Default       |
+| Name    | 默认值 |
 |---------|---------------|
-| Game    | 7777 |
+| 游戏 | 7777 |

@@ -8,13 +8,13 @@ This Server is NOT compatible with ServerMod2 or MultiAdmin
 
 Minimum required memory to run the server: 3096 MB
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 7777   |
+| 游戏 | 7777   |
 
 ### Mods/Plugins may require additional ports to be added to the server
 

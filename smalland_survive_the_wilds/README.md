@@ -4,8 +4,8 @@ Experience a big adventure on a tiny scale! Enjoy multiplayer survival in a vast
 
 Steam page: [link](https://store.steampowered.com/app/768200/Smalland_Survive_the_Wilds/)
 
-### Server Ports
+### 服务器端口
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 7777   |
+| 游戏 | 7777   |

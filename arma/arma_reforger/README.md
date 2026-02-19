@@ -3,7 +3,7 @@
 ***Server version currently marked as early access by the Arma developers! Check back often for egg updates as more features are added to the server software.***
 ___
 
-## Authors / Contributors
+## 作者 / 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -30,13 +30,13 @@ ___
 
 ___
 
-### Game Description
+### 游戏简介
 
 From Bohemia Interactive's [Website](https://reforger.armaplatform.com/):
 > Experience authentic Cold War combat and join friends in the struggle for a sprawling, 51 km² mid-Atlantic island — or take on the role of Game Master and create your very own scenarios for others to enjoy.
 ___
 
-### Egg Capabilities
+### Egg 功能
 
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
 - Able to download and load Arma Reforger Workshop mods on startup (requires manual editing of the `config.json` file).
@@ -47,25 +47,25 @@ ___
 
 ___
 
-### Server Ports
+### 服务器端口
 
-| Port | Default | Protocol | Required | Notes |
+| 端口 | 默认值 | 协议 | 必需 | 备注 |
 |---------|---------|---------|---------|---------|
-| **Game** | 2001 | UDP | **Yes** | Primary port in Panel |
-| A2S | 17777 | UDP | No | Steam Query / Requires additional configuration in `config.json` |
-| RCON | 19999 | UDP | No | Requires additional configuration in `config.json` |
+| **游戏** | 2001 | UDP | **是** | Primary port in Panel |
+| A2S | 17777 | UDP | 否 | Steam Query / Requires additional configuration in `config.json` |
+| RCON | 19999 | UDP | 否 | Requires additional configuration in `config.json` |
 
 ___
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Recent x86/64 (AMD/Intel) processor. No ARM support. | Can use up to 300-600% CPU under load with uncapped FPS (set Max FPS to prevent). |
-| RAM | 3328 MiB | 6144-8192 MiB |
-| Storage | 5 GB | 7-10 GB (or more, depending on number of mods downloaded) |
-| Network | If node is behind a NAT, will require Egg Modification (\*see [Define Host Registered Bind Address](#define-host-registered-bind-address) | Wings Node is not behind a NAT |
-| Game Ownership | Not required to start or download mods. | ---- |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. No ARM support. | Can use up to 300-600% CPU under load with uncapped FPS (set Max FPS to prevent). |
+| 内存 | 3328 MiB | 6144-8192 MiB |
+| 存储 | 5 GB | 7-10 GB (or more, depending on number of mods downloaded) |
+| 网络 | If node is behind a NAT, will require Egg Modification (\*see [Define Host Registered Bind Address](#define-host-registered-bind-address) | Wings Node is not behind a NAT |
+| 游戏所有权 | Not required to start or download mods. | ---- |
 
 ___
 

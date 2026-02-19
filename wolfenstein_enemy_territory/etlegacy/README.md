@@ -11,12 +11,12 @@ Enemy Territory: Legacy is an open source project based on the code of Wolfenste
 
 Make sure to checkout their [Home Page](https://www.etlegacy.com/).
 
-## Server Ports
+## 服务器端口
 
 ET: Legacy requires a single port
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 27960   |
+| 游戏 | 27960   |
 |---------|---------|
 | Server  | 27950   |

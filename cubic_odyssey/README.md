@@ -13,6 +13,6 @@ You must have a Steam account that owns the [Cubic Odyssey Dedicated Server](htt
 Cubic Odyssey requires one port.
 You can use any available port.
 
-| Port        | Default (example) |
+| 端口 | Default (example) |
 | ----------- | ----------------- |
 | Server Port | 27015             |

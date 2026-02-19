@@ -5,10 +5,10 @@ No plugins, no logs. The server is fully clear. It only able keep a lot of playe
 
 [NanoLimbo Github](https://github.com/Nan1t/NanoLimbo)
 
-## Server Ports
+## 服务器端口
 
 The nanolimbo server requires a single port for access (default 25565).
 
-| Port  | default |
+| 端口 | default |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

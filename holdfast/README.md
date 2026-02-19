@@ -6,12 +6,12 @@ Fight on multiple fronts in Holdfast: Nations At War - A competitive multiplayer
 
 ![image](https://steamcdn-a.akamaihd.net/steam/apps/589290/capsule_616x353.jpg?t=1600279941)
 
-## Server Ports
+## 服务器端口
 
 These are the servers required ports
 
-| Port           | default |
+| 端口 | default |
 |----------------|---------|
-| Game           | 20100   |
-| Query          | 27000   |
+| 游戏 | 20100   |
+| 查询 | 27000   |
 | Communications | 8700    |

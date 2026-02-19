@@ -13,10 +13,10 @@ Find yourself in a ruined world reclaimed by nature and permeated by unnerving t
 Relive the advent of human civilization, or take your own path.
 New to the game? Make sure to checkout their [starter page](https://wiki.vintagestory.at/index.php?title=Main_Page).
 
-## Server Ports
+## 服务器端口
 
 Vintage Story requires a single port
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 42420   |
+| 游戏 | 42420   |

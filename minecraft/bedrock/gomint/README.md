@@ -2,10 +2,10 @@
 
 Easy-to-use, highly configurable Minecraft Bedrock Edition  server software with the ability to sustain in a low-resource environment.
 
-### Server Ports
+### 服务器端口
 
 Bedrock server require a single port (default 19132)
 
-| Port    | default  |
+| 端口 | default  |
 |---------|----------|
-| Game    | 19132    |
+| 游戏 | 19132    |

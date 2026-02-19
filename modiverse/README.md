@@ -6,9 +6,9 @@ Modiverse provides a sandbox environment with the ability to create and play mod
 
 Default ServerConfiguration.json is provided to start the server, you must modify it with your own mods to customize the server. The game is currently in beta and as such the console is filled with debug spam, developers have noted that this will be removed when the game releases.
 
-## Server Ports
+## 服务器端口
 
-| Port        | default |
+| 端口 | default |
 |-------------|---------|
-| Game        | 7777    |
-| Query       | 27015   |
+| 游戏 | 7777    |
+| 查询 | 27015   |

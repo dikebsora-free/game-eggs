@@ -32,13 +32,13 @@ Put in Steam ID line by line of users to be admins or to be banned.
 > [!CAUTION]
 > **Remember** to change the `WORLD_GUID` variable, if you upload a new world to your server! Otherwise the server will crash upon launching it.
 
-## Installation/System Requirements
+## 安装/系统要求
 <!--Make changes to reflect the server minimum/recommended hardware specs-->
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Game Ownership | *Server can start without it* | *Game is needed for creating custom maps* |
-| RAM | 4 GB+ | 8 GB+ |
-| Storage | 5 GB+ | 20 GB+ |
+| 游戏所有权 | *Server can start without it* | *Game is needed for creating custom maps* |
+| 内存 | 4 GB+ | 8 GB+ |
+| 存储 | 5 GB+ | 20 GB+ |
 | CPU | 2 cores with high single-core performance (≥3.0 GHz, modern architecture)| 4 cores with high IPC and boost clocks (≥3.5–4.5 GHz; modern architecture preferred) |
 
 > [!Important]
@@ -46,11 +46,11 @@ Put in Steam ID line by line of users to be admins or to be banned.
 > CPU clock speed and IPC matter far more than total core count.  
 > The server simulation (world, physics, AI) runs largely on one primary thread  
 > Additional cores provide limited benefit   
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | Default |
+| 端口 | 默认值 |
 |---------|---------|
 | Game Port | 25000 |
 

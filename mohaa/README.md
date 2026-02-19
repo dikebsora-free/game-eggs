@@ -2,11 +2,11 @@
 
 Medal of Honor: Allied Assault is a first-person shooter video game developed by 2015, Inc.
 
-### Server Ports
+### 服务器端口
 
-| Port | default |
+| 端口 | default |
 | ---- | ------- |
-| Game | 12203   |
+| 游戏 | 12203   |
 
 This egg uses the Unofficial MoH:AA 1.12 Patch that addes several features and security updates to allow a fair multiplayer experience.
 

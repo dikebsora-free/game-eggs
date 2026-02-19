@@ -7,26 +7,26 @@
 ## [Documentation]https://www.notion.so/qisoftware/Server-Setup-Guide-d17e5a3f73e34164b6a4d2b37e54da78)
 
 
-## Installation/System Requirements
+## 安装/系统要求
 <!--Make changes to reflect the server minimum/recommended hardware specs-->
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | *AMD64 Only 300%* | *-* |
-| RAM | 18GiB* | *22GiB* |
-| Storage | *8GiB* | 10GiB* |
-| Network | *any* | *-* |
-| Game Ownership | *Not needed* | *-* |
+| 处理器 | *AMD64 Only 300%* | *-* |
+| 内存 | 18GiB* | *22GiB* |
+| 存储 | *8GiB* | 10GiB* |
+| 网络 | *any* | *-* |
+| 游戏所有权 | *Not needed* | *-* |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | default |
 |---------|---------|
-| Game    | 7001    |
-| Query    | 7002   |
+| 游戏 | 7001    |
+| 查询 | 7002   |
 
-### Notes
+### 备注
 
 <!--Notes about the server ports.-->
 7001 is the default port, but any port can be used.
