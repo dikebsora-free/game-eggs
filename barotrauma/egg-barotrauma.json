@@ -42,7 +42,7 @@
         },
         {
             "name": "自动更新",
-            "description": "1 = on; 0 = off",
+            "description": "1 = 开启；0 = 关闭",
             "env_variable": "AUTO_UPDATE",
             "default_value": "1",
             "user_viewable": true,

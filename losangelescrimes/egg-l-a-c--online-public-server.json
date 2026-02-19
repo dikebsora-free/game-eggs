@@ -7,13 +7,13 @@
     "exported_at": "2024-04-01T11:35:42+02:00",
     "name": "LAC-Online Public Server",
     "author": "jastinlt16@gmail.com",
-    "description": "To make the Los Angeles Crimes public server. Los Angeles Crimes lets you play, create, and discover a variety of immersive worlds created by a global community!",
+    "description": "创建洛杉矶犯罪公共服务器。洛杉矶犯罪让您可以玩、创建和发现由全球社区创建的各种沉浸式世界！",
     "features": null,
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/yolks:debian": "ghcr.io\/ptero-eggs\/yolks:debian"
+        "ghcr.io/ptero-eggs/yolks:debian": "ghcr.io/ptero-eggs/yolks:debian"
     },
     "file_denylist": [],
-    "startup": ".\/LAC_Linux_v{{VER}}.x86_64",
+    "startup": "./LAC_Linux_v{{VER}}.x86_64",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"Done!\"\r\n}",
@@ -22,15 +22,15 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\ncd \/mnt\/server\r\n\r\n# delete the previous file (if it is in the file manager)\r\nrm -f LAC_Linux_v${VER}.x86_64 && rm -rf LAC_Linux_v${VER}_Data\r\n\r\n# Using another version still under development!\r\n#echo \"checking the given version file and download it... v${VER}.\"\r\n#wget https:\/\/dl.lacrimesonline.com\/builds\/LAC_v${VER}\/LAC_Linux_Server_v${VER}.zip -O LAC_Linux_Server_v${VER}.zip || echo \"VERSION v${VER} IS NOT FOUND! Use v1.6 instead...\" && exit 1\r\n\r\nwget https:\/\/dl.lacrimesonline.com\/builds\/LAC_Linux_v${VER}.zip -O LAC_Linux_Server_v${VER}.zip\r\necho \"successfully downloaded v${VER} files.!\" &&\r\n\r\n# Extracting & remove the zip file\r\nunzip .\/LAC_Linux_Server_v${VER}.zip\r\nrm -f .\/LAC_Linux_Server_v${VER}.zip\r\n\r\n# Make the main file executable....\r\nchmod +x LAC_Linux_v${VER}.x86_64\r\n\r\necho \"INSTALATION COMPLETE!\"",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "script": "#!/bin/bash\r\ncd /mnt/server\r\n\r\n# delete the previous file (if it is in the file manager)\r\nrm -f LAC_Linux_v${VER}.x86_64 && rm -rf LAC_Linux_v${VER}_Data\r\n\r\n# Using another version still under development!\r\n#echo \"checking the given version file and download it... v${VER}.\"\r\n#wget https://dl.lacrimesonline.com/builds/LAC_v${VER}/LAC_Linux_Server_v${VER}.zip -O LAC_Linux_Server_v${VER}.zip || echo \"VERSION v${VER} IS NOT FOUND! Use v1.6 instead...\" && exit 1\r\n\r\nwget https://dl.lacrimesonline.com/builds/LAC_Linux_v${VER}.zip -O LAC_Linux_Server_v${VER}.zip\r\necho \"successfully downloaded v${VER} files.!\" &&\r\n\r\n# Extracting & remove the zip file\r\nunzip ./LAC_Linux_Server_v${VER}.zip\r\nrm -f ./LAC_Linux_Server_v${VER}.zip\r\n\r\n# Make the main file executable....\r\nchmod +x LAC_Linux_v${VER}.x86_64\r\n\r\necho \"INSTALATION COMPLETE!\"",
+            "container": "ghcr.io/ptero-eggs/installers:debian",
             "entrypoint": "bash"
         }
     },
     "variables": [
         {
             "name": "Version",
-            "description": "The build version is available at https:\/\/dl.lacrimesonline.com\/builds\/. Just write a numeric version like 1.6, don't use any other characters than numbers and periods. If the entered version is incorrect\/non-existent it will use version 1.6 (for now). After replacing it, then reinstall this server. [ THIS FEATURE IS STILL IN DEVELOPMENT ]",
+            "description": "构建版本可在 https://dl.lacrimesonline.com/builds/ 获取。只需输入数字版本（如 1.6），不要使用除数字和句点以外的任何其他字符。如果输入的版本不正确/不存在，它将使用版本 1.6（目前）。替换后，重新安装此服务器。[此功能仍在开发中]",
             "env_variable": "VER",
             "default_value": "1.6.2",
             "user_viewable": true,

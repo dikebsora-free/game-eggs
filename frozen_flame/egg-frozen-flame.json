@@ -7,7 +7,7 @@
     "exported_at": "2023-05-07T19:05:11+02:00",
     "name": "Frozen Flame",
     "author": "theblitzbat@gmail.com",
-    "description": "Frozen Flame Dedicated Server",
+    "description": "冰封之焰专用服务器",
     "features": null,
     "docker_images": {
         "ghcr.io/ptero-eggs/steamcmd:debian": "ghcr.io/ptero-eggs/steamcmd:debian"
@@ -30,7 +30,7 @@
     "variables": [
         {
             "name": "应用ID",
-            "description": "Frozen Flame steam app id for auto updates. Leave blank to avoid auto update.",
+            "description": "用于自动更新的冰封之焰 Steam 应用 ID。留空可避免自动更新。",
             "env_variable": "SRCDS_APPID",
             "default_value": "1348640",
             "user_viewable": false,
@@ -40,7 +40,7 @@
         },
         {
             "name": "最大玩家数",
-            "description": "Maximum player count",
+            "description": "最大玩家数",
             "env_variable": "MAX_PLAYERS",
             "default_value": "10",
             "user_viewable": true,

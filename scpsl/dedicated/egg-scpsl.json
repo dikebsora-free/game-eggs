@@ -7,7 +7,7 @@
     "exported_at": "2023-11-18T14:02:28+01:00",
     "name": "SCP:SL",
     "author": "eggs@goover.dev",
-    "description": "Egg for SCP: Secret Laboratory Dedicated Linux Server",
+    "description": "SCP：秘密实验室专用 Linux 服务器的 Egg",
     "features": [
         "steam_disk_space"
     ],
@@ -42,7 +42,7 @@
         },
         {
             "name": "Dotnet Bundle",
-            "description": "Only used for EXILED Framework Updater.",
+            "description": "仅用于 EXILED 框架更新器。",
             "env_variable": "DOTNET_BUNDLE_EXTRACT_BASE_DIR",
             "default_value": "./dotnet-bundle",
             "user_viewable": false,
