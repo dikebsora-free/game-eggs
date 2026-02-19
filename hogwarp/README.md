@@ -10,7 +10,7 @@ This Mod requires a API key only obtainable through their Discord, see the Start
 |---------|---------|
 | 游戏 | 11778   |
 
-## Hardware 要求
+## 硬件要求
 | 存储 | 内存 | CPU |
 |---------|---------|-----|
 | 1.5GiB  | 250MiB  | 🥔  |

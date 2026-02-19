@@ -1,7 +1,7 @@
 # ATSPtero - A Egg For Setting Up ATS Dedicated Server
 
 
-Ports below are the 默认值 ports that are associated with the ATS dedicated server. 
+Ports below are 默认端口s that are associated with the ATS dedicated server. 
 
 | 端口 | 默认值       |
 |----------|---------------|

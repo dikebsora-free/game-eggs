@@ -58,7 +58,7 @@ ___
 ### Egg 功能
 
 - Able to download server updates on startup
-- Able to download, update, and load Steam Workshop mods on startup (\*see [安装/System 要求: Game Ownership](#game-ownership))
+- Able to download, update, and load Steam Workshop mods on startup (\*see [安装/系统要求: Game Ownership](#game-ownership))
   - Also accepts server-side only mods.
   - Checks for mod updates against their Steam Workshop page's last update for quick and efficient update checks.
   - Automatically moves mod `.bikey`'s to the `/keys/` directory.

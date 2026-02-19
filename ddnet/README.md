@@ -11,7 +11,7 @@ For all added edits, these are found under **ddnet/data/autoexec_server.cfg**
 |---------|---------|
 | 游戏 | 8303    |
 
-## Hardware 要求
+## 硬件要求
 | 存储 | 内存 | CPU |
 |---------|---------|-----|
 | 2.0GiB  | 250MiB  | 🥔  |

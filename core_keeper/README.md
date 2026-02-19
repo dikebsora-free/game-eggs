@@ -33,7 +33,7 @@ Example:\
 Server Port = 4711\
 Make sure you open UDP ports 4711-4712 in your firewall and bind the allocations to the Core Keeper Server.
 
-## 要求 of RAM and storage
+## 要求： RAM and storage
 
 | Req | Minimum | Recommend |
 |---------|---------|---------|

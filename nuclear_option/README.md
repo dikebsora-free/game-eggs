@@ -13,7 +13,7 @@ Ports required to run the server, they can be changed.
 | 游戏 | 27015   |
 | 查询 | 7777    |
 
-## 要求 of RAM and storage on a empty server.
+## 要求： RAM and storage on a empty server.
 
 | Req | Minimum | Recommend |
 |---------|---------|---------|

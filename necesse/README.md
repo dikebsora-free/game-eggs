@@ -14,7 +14,7 @@ Server Wiki Page: [link](https://necessewiki.com/Multiplayer) (Linux specifics c
 |-----------|---------|
 | 游戏 | 14159   |
 
-### 配置 files
+### 配置文件
 
 |   File    |   Path  |
 |-----------|---------|

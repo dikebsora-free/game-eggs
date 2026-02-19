@@ -26,4 +26,4 @@ Ports required to run the server in a table format.
 
 ### 备注
 
-25565 is the 默认值 port, but any port can be used.
+25565 is 默认端口, but any port can be used.

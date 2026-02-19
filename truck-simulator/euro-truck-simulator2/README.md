@@ -1,7 +1,7 @@
 # ETS2 Ptero - A Egg For Setting Up ETS2 Dedicated Server
 
 
-Ports below are the 默认值 ports that are associated with the ETS2 dedicated server.
+Ports below are 默认端口s that are associated with the ETS2 dedicated server.
 
 | 端口 | 默认值       |
 |----------|---------------|

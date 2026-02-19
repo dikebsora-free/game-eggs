@@ -24,7 +24,7 @@ Ports required to run the server in a table format.
 ### 备注
 
 <!--Notes about the server ports.-->
-7777 is the 默认值 port, but any port can be used.
+7777 is 默认端口, but any port can be used.
 
 The egg created a 默认值 server on install based on the `Server Name` variable at `/home/container/Servers/<server_name>` and sets the port and max players in the config file. 
 

@@ -27,7 +27,7 @@ Astroneer requires a single port to run.
 
 ### 备注
 
-27000 is the 默认值 port, but any port can be used.
+27000 is 默认端口, but any port can be used.
 
 
 ## Client 配置

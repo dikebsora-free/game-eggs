@@ -2,7 +2,7 @@
 
 Brickadia is a next-generation sandbox game with immense flexibility. Every creative tool - building, scripting, and more - is used right in the game, in real-time multiplayer. Build massive worlds, intricate physics contraptions, and entirely new game modes together with your friends without ever leaving the action.
 
-### 配置 files
+### 配置文件
 
 |   File    |  Purpose  |   Path  |
 |-----------|---------|---------|

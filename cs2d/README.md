@@ -32,4 +32,4 @@ Ports required to run the server in a table format.
 ### 备注
 
 <!--Notes about the server ports.-->
-36963 is the 默认值 port, but any port can be used.
+36963 is 默认端口, but any port can be used.

@@ -14,7 +14,7 @@ Asseto Corsa requires two ports, game port is UDP and WEB HTTP port is TCP.
 ### 备注
 
 <!--Notes about the server ports.-->
-9600 is the 默认值 port, but any port can be used.
+9600 is 默认端口, but any port can be used.
 
 ## Freeroam + AI
 This egg uses: [GitHub](https://github.com/compujuckel/AssettoServer) [Website](https://assettoserver.org/)

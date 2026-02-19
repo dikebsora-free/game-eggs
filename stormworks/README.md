@@ -14,7 +14,7 @@ Other configuration options not set during installation, such as `player_damage`
 
 ## 服务器端口
 
-Stormworks requires 2 consecutive ports in order to run. The 默认值 ports are shown below. Using non-默认值 ports is possible; however, they must remain consecutive.
+Stormworks requires 2 consecutive ports in order to run. 默认端口s are shown below. Using non-默认值 ports is possible; however, they must remain consecutive.
 
 The `server_config.xml` only sets the **first** port, the game automatically assumes the second port is the next consecutive number (`port + 1`).
 

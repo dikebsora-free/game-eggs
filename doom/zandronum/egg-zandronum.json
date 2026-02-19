@@ -7,7 +7,7 @@
     "exported_at": "2025-07-19T22:21:54+02:00",
     "name": "Zandronum",
     "author": "sup@libtar.de",
-    "description": "Zandronum is a multiplayer oriented port, based off Skulltag, for Doom and Doom II by id Software.\r\n\r\nThis egg uses the Freedoom WAD by 默认值.",
+    "description": "Zandronum is a multiplayer oriented port, based off Skulltag, for Doom and Doom II by id Software.\r\n\r\nThis egg uses the Freedoom WAD 默认使用.",
     "features": null,
     "docker_images": {
         "Ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:ubuntu"

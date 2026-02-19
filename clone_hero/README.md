@@ -27,5 +27,5 @@ Ports required to run the server.
 ### 备注
 
 <!--Notes about the server ports.-->
-14242 is the 默认值 port, but any port can be used.
+14242 is 默认端口, but any port can be used.
 

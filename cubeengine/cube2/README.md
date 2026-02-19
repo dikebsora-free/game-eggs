@@ -20,5 +20,5 @@ The second port is only used for the server master list to be able to update the
 ### 备注
 
 <!--Notes about the server ports.-->
-28785 & 28786 is the 默认值 ports, but any port can be used.
+28785 & 28786 is 默认端口s, but any port can be used.
 Port 28784 must be available for pinging servers over a LAN to work.

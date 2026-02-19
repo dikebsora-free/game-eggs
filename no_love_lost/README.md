@@ -10,7 +10,7 @@ But watch out, you're not the only one roaming this planet!
 | 游戏 | 7777    |
 | 查询 | 27015   |
 
-## Hardware 要求
+## 硬件要求
 | 存储 | 内存 |
 |---------|---------|
 | 6.0GB   | 6.0GB   |

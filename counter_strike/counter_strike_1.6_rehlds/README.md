@@ -29,7 +29,7 @@ Ports required to run the server in a table format.
 | Steam   | 26900   |
 
 
-27015 is the 默认值 port, but any port can be used.
+27015 is 默认端口, but any port can be used.
 The only required port is the Game port, server can run perfectly fine without other allocations.
 
 

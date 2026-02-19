@@ -27,7 +27,7 @@ Ports required to run the server in a table format.
 
 ### 备注
 
-`7777` is the 默认值 port, but any port can be used.
+`7777` is 默认端口, but any port can be used.
 You need to assign to network port `7779` if you want to use RCON
 Also you need to open port `7778` and `7781` for the query, so it can appear on the server list.
 `7780` is Stats port.
