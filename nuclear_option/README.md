@@ -8,12 +8,12 @@ Fly near-future aircraft with immersive physics on intense battlefields, facing 
 
 Ports required to run the server, they can be changed.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |
 | 查询 | 7777    |
 
-## Requirements of RAM and storage on a empty server.
+## 要求 of RAM and storage on a empty server.
 
 | Req | Minimum | Recommend |
 |---------|---------|---------|

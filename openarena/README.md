@@ -8,7 +8,7 @@ There are many game types supported including Free For All, Capture The Flag, Do
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27960   |
 

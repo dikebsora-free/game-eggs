@@ -20,7 +20,7 @@ Play the world's number 1 online action game. Engage in an incredibly realistic 
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |
 | Source TV | 27020 |
@@ -29,5 +29,5 @@ Ports required to run the server in a table format.
 
 ### 备注
 
-27015 is the default port, but any port can be used.
+27015 is the 默认值 port, but any port can be used.
 The only required port is the Game port, server can run perfectly fine without other allocations.

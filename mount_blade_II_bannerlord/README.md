@@ -17,7 +17,7 @@
 
 Ports required to run the server
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 7210 (UDP)   |
 

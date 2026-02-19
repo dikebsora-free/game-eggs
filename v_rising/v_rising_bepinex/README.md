@@ -64,7 +64,7 @@ From Stunlock Studios's [Website](https://playvrising.com/):
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
 - All `ServerHostSettings.json` settings can be automatically configured via Startup variables.
   - This includes: Server name, game settings preset, password, max players, auto save settings, and more...
-- RCON ready (\*requires extra port – see [Server Ports](#server-ports)). See the RCON section under [Manual Configuration Topics](#manual-configuration-topics) for more info.
+- RCON ready (\*requires extra port – see [Server Ports](#server-ports)). See the RCON section under [Manual 配置 Topics](#manual-configuration-topics) for more info.
 - Load BepInEx so you can install mod on your server
 
 ---
@@ -95,7 +95,7 @@ From Stunlock Studios's [Website](https://playvrising.com/):
 
 ---
 
-### Manual Configuration Topics
+### Manual 配置 Topics
 
 The following are various topics covering manual configuration procedures the egg does not handle automatically that may be useful to server owners:
 

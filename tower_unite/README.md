@@ -10,7 +10,7 @@ Every aspect of Tower Unite allows for online multiplayer interaction. It is a l
 
 Tower Unite requires a single port to be opened
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 7778    |
 | 查询 | 27016   |

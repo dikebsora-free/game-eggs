@@ -22,7 +22,7 @@ To install the SIT client:
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |----------------------|---------|
 | 游戏 | 6969    |
 | SIT Mod Websocket    | 6970    |
@@ -30,7 +30,7 @@ Ports required to run the server in a table format.
 
 ## Server components
 
-Installation script based on [SIT.Docker](https://github.com/stayintarkov/SIT.Docker).
+安装 script based on [SIT.Docker](https://github.com/stayintarkov/SIT.Docker).
 
 [SPT-AKI Server](https://dev.sp-tarkov.com/SPT-AKI/Server) 
 

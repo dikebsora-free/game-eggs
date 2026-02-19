@@ -9,6 +9,6 @@ IOSoccer is a free non-commercial competitive third-person online multiplayer so
 
 These are the servers required ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |

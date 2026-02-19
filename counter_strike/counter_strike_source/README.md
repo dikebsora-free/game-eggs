@@ -29,7 +29,7 @@ To get a persistent server (server that appears on the server list), you need to
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |
 | Source TV | 27020 |
@@ -38,5 +38,5 @@ Ports required to run the server in a table format.
 
 ### 备注
 
-27015 is the default port, but any port can be used.
+27015 is the 默认值 port, but any port can be used.
 The only required port is the Game port, server can run perfectly fine without other allocations.

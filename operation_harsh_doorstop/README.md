@@ -8,7 +8,7 @@ Operation: Harsh Doorstop is an Unreal Engine powered shooter sandbox similar to
 
 Operation Harsh Doorstop servers require 3 ports to be open
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | 游戏 | 7777    |
 | 查询 | 27005   |

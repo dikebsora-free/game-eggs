@@ -92,7 +92,7 @@ The number is in reference to RAM/Memory usage.
 
 ### Minimum RAM
 
-This server requires about 11GB of RAM to run with no players on a default map.
+This server requires about 11GB of RAM to run with no players on a 默认值 map.
 
 See the following - <https://ark.wiki.gg/wiki/Dedicated_server_setup#RAM>
 

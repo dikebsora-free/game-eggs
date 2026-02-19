@@ -6,7 +6,7 @@ Post Scriptum is a WW2-themed first-person tactical shooter that provides an aut
 
 Post Scriptum requires Game and Query port to function, while RCON port is only required if you want to use RCON.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------------|---------|
 | 游戏 | 10027   |
 | 查询 | 10037   |

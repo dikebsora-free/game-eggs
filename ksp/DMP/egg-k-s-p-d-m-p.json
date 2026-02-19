@@ -80,7 +80,7 @@
         },
         {
             "name": "服务器名称",
-            "description": "Name of the server.",
+            "description": "服务器的名称。",
             "env_variable": "SERVERNAME",
             "default_value": "DMP Server",
             "user_viewable": true,

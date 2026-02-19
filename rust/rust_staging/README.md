@@ -19,7 +19,7 @@ Wulf (Community Admin on Oxidemod/uMod):
 
 Ports required to run the server.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | Game and Query | 28015 UDP |
 | RCON | 28016 TCP |

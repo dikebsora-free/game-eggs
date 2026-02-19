@@ -5,7 +5,7 @@ The Isle is an open beta with an open-world survival game where players choose f
 ### 服务器端口
 The Isle requires 3 ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 7777    |
 | Rcon  | 9999    |

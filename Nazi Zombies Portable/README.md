@@ -5,7 +5,7 @@ It is based on the FTEQW engine and this egg can be used as a plain FTEQW egg if
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------------------------|---------|
 | Game WS/TCP (for Web Clients) |  27500  |
 | Game UDP (for Native Clients) |  27500  |

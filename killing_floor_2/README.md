@@ -8,7 +8,7 @@ In KILLING FLOOR 2, players descend into continental Europe after it has been ov
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |------------|---------|
 | Game Port  | 7777    |
 | Query Port | 27015   |

@@ -20,12 +20,12 @@ Example: 100MiB is recommended. 2GiB+ is preferred
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 1212 (TCP+ UDP)   |
 
 ### 备注
 
 <!--Notes about the server ports.-->
-1212 is the default port, but any port can be used.
+1212 is the 默认值 port, but any port can be used.
 

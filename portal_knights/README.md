@@ -20,7 +20,7 @@ This server will at least needs 12GB of storage allocated to be able to start
 
 Portal Knights requires 1 port
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 16365   |
 

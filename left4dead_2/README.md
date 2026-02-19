@@ -8,7 +8,7 @@ Set in the zombie apocalypse, Left 4 Dead 2 (L4D2) is the highly anticipated seq
 
 L4D 2 servers require 1 port to be open. The port can be safely changed to any other.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | Game/rcon | 27015   |
 

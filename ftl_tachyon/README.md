@@ -6,7 +6,7 @@ Tachyon is a multiplayer FTL server and client.
 
 The Tachyon server requires a single port for access.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 30303   |
 

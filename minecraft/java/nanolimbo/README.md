@@ -7,8 +7,8 @@ No plugins, no logs. The server is fully clear. It only able keep a lot of playe
 
 ## 服务器端口
 
-The nanolimbo server requires a single port for access (default 25565).
+The nanolimbo server requires a single port for access (默认值 25565).
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 25565   |

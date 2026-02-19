@@ -32,7 +32,7 @@
     "variables": [
         {
             "name": "服务器名称",
-            "description": "Name that appears in server browser.",
+            "description": "在服务器浏览器中显示的名称。",
             "env_variable": "SERVER_NAME",
             "default_value": "My Server",
             "user_viewable": true,
@@ -42,7 +42,7 @@
         },
         {
             "name": "服务器密码",
-            "description": "Server password.",
+            "description": "服务器密码。",
             "env_variable": "PASSWORD",
             "default_value": "secret",
             "user_viewable": true,
@@ -52,7 +52,7 @@
         },
         {
             "name": "World Name",
-            "description": "Name to load if switching between multiple saved worlds.",
+            "description": "在多个保存的世界之间切换时要加载的名称。",
             "env_variable": "WORLD",
             "default_value": "Dedicated",
             "user_viewable": true,

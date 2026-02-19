@@ -14,7 +14,7 @@ Make sure to checkout their [Home Page](https://openra.net).
 
 OpenRA requires a single port
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 5500    |
 

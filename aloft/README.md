@@ -14,4 +14,4 @@ The official word from the developers is they have discussed this and have no in
 
 
 ### 服务器端口
-Aloft requires one port. They do not specify a default port.
+Aloft requires one port. They do not specify a 默认值 port.

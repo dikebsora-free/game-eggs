@@ -6,7 +6,7 @@ Welcome to PixARK, a vast, wild world filled with vicious dinosaurs, magical cre
 
 PixARK requires 4 ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 27015   |
 | 查询 | 27016   |

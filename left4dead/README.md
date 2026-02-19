@@ -8,7 +8,7 @@ Set in the immediate aftermath of the zombie apocalypse, L4D's survival co-op mo
 
 L4D servers require 1 port to be open. The port can be safely changed to any other.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | Game/rcon | 27015   |
 

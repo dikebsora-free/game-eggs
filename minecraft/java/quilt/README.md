@@ -20,10 +20,10 @@ The Quilt project is an open-source, community-driven modding toolchain designed
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 25565   |
 
 ### 备注
 
-25565 is the default port, but any port can be used.
+25565 is the 默认值 port, but any port can be used.

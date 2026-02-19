@@ -15,9 +15,9 @@ Hop on your skates and jump into a physics based hockey game. No rules, no timeo
 
 ### 服务器端口
 
-By default Puck requires 2 ports.
+By 默认值 Puck requires 2 ports.
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 |     7777     |
 | 查询 |     7778     |
@@ -25,7 +25,7 @@ By default Puck requires 2 ports.
 
 ## 配置
 
-### **Where is the Server Configuration Stored?**
+### **Where is the Server 配置 Stored?**
 The Puck dedicated server configuration is stored in `server_configuration.json`.
 
 Instead of manually editing this file, **you can set most key values directly in the Pterodactyl Panel** using environment variables.
@@ -34,7 +34,7 @@ Name, game phases, mods and admin lists must be edited manually.
 
 ---
 
-### **Default Configuration File (`server_configuration.json`)**
+### **Default 配置 File (`server_configuration.json`)**
 On first startup, the server will generate the following structure:
 
 ```json

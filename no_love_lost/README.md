@@ -5,12 +5,12 @@ In this PvPvE extraction game for 1-10 players, compete against enemy crews to h
 But watch out, you're not the only one roaming this planet!
 
 ## Server Port
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 7777    |
 | 查询 | 27015   |
 
-## Hardware Requirements
+## Hardware 要求
 | 存储 | 内存 |
 |---------|---------|
 | 6.0GB   | 6.0GB   |

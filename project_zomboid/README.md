@@ -19,7 +19,7 @@ Project Zomboid requires one port for game data and one port for Steam.
 > Clients should use 16261 port for connections.
 ```
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | DefaultPort | 16261   |
 | UDPPort     | 16262   |

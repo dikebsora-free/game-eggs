@@ -6,7 +6,7 @@ Assetto Corsa is a sim racing video game developed by the Italian video game dev
 
 Asseto Corsa requires two ports, game port is UDP and WEB HTTP port is TCP.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | 游戏 | 9600    |
 | HTTP        | 8081    |
@@ -14,7 +14,7 @@ Asseto Corsa requires two ports, game port is UDP and WEB HTTP port is TCP.
 ### 备注
 
 <!--Notes about the server ports.-->
-9600 is the default port, but any port can be used.
+9600 is the 默认值 port, but any port can be used.
 
 ## Freeroam + AI
 This egg uses: [GitHub](https://github.com/compujuckel/AssettoServer) [Website](https://assettoserver.org/)

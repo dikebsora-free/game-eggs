@@ -8,6 +8,6 @@ The ultimate space sandbox. Participate in epic fleet battles, form alliances, s
 
 Ports required to run the server
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 4242    |

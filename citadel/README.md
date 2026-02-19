@@ -4,7 +4,7 @@ Citadel: Forged With Fire is a massive online sandbox RPG set in the mystical wo
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 7777    |
 | 查询 | 27015   |

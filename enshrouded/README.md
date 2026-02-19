@@ -23,15 +23,15 @@ Ignite the Ancient power of the Flame, and piece together the fragments of a sto
 
 ### 服务器端口
 
-By default Enshrouded requires 1 port.
+By 默认值 Enshrouded requires 1 port.
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 |Game/Query   |     15637     |
 
 ## 配置
 
-### **Where is the Server Configuration Stored?**
+### **Where is the Server 配置 Stored?**
 The Enshrouded dedicated server configuration is stored in `enshrouded_server.json`, which is automatically managed by this egg.
 
 Instead of manually editing this file, **you can set most key values directly in the Pterodactyl Panel** using environment variables.
@@ -53,7 +53,7 @@ Other settings, such as **game settings, IP binding, and log locations**, are st
 
 ---
 
-### **Default Configuration File (`enshrouded_server.json`)**
+### **Default 配置 File (`enshrouded_server.json`)**
 On first startup, the server will generate the following structure:
 
 ```json

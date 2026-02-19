@@ -7,7 +7,7 @@ Set in a brutally unforgiving post-apocalyptic world overrun by the undead, 7 Da
 
 7 Days to Die requires up to 6 ports
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 | 26900 - 26902 |
 | RCON    | 8080 - 8081   |
@@ -15,7 +15,7 @@ Set in a brutally unforgiving post-apocalyptic world overrun by the undead, 7 Da
 
 ## Sample ignore file for backups 
 
-By default the backup includes a lot of files that can be reacquired by pulling the image. Using the following file limits backups to the files that are unique to your server: your config files, logs, saves and generated worlds.
+By 默认值 the backup includes a lot of files that can be reacquired by pulling the image. Using the following file limits backups to the files that are unique to your server: your config files, logs, saves and generated worlds.
 
 ```
 # Ignore all

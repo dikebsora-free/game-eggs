@@ -18,7 +18,7 @@ Steam: https://store.steampowered.com/app/2646460/Soulmask/
 
 Soulmask requires up to 3 ports. You can choose every port you want.
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |--------- |---------------|
 | 游戏 |     7777      |
 | 查询 |     27015     |

@@ -6,9 +6,9 @@ This is an alpha release server from the mojang team.
 
 ### 服务器端口
 
-Bedrock requires a single port (default 19132)
+Bedrock requires a single port (默认值 19132)
 
-| 端口 | default  |
+| 端口 | 默认值  |
 |---------|----------|
 | 游戏 | 19132    |
 

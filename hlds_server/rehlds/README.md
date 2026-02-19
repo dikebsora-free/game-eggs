@@ -1,6 +1,6 @@
 # HLDS Servers
 
-This is for older games like CS 1.6 (default game) and other servers that still run on the older HLDS server under id 90
+This is for older games like CS 1.6 (默认值 game) and other servers that still run on the older HLDS server under id 90
 
 # ReHLDS
 
@@ -12,7 +12,7 @@ Github: https://github.com/dreamstalker/rehlds
 
 HLDS servers require up to 6 ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | Game/rcon | 27015   |
 | HLTV      | 27020   |

@@ -21,7 +21,7 @@ New to the game? Make sure to checkout their [starter page](https://factorio.com
 
 Factorio requires a single port
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 34197   |
 

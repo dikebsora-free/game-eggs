@@ -10,8 +10,8 @@ If you've set up Spigot, Paper or some other server with BungeeCord's IP forward
 
 ## 服务器端口
 
-The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
+The minecraft server requires a single port for access (默认值 25565) but plugins may require extra ports to enabled for the server.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 25565   |

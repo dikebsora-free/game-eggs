@@ -14,4 +14,4 @@ At the time of writing, there were two ports configurable in the server's config
 
 A GSLT (Game Server Login Token) is required for the server to authenticate with the network.
 The token needed for authentication is requested here https://steamcommunity.com/dev/managegameservers
-For the Aska game (App ID: 1898300)
+For the Aska game (应用 ID: 1898300)

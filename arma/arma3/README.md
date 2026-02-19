@@ -59,7 +59,7 @@ ___
 - Configurable to run 32 or 64-bit versions of the server
 - Max Players is configurable and able to be host enforced (\*see [Recommended Egg Modifications](#recommended-egg-modifications))
 - Able to download server updates on startup
-- Able to download, update, and load Steam Workshop mods on startup (\*see [Installation Requirements](#installation-requirements))
+- Able to download, update, and load Steam Workshop mods on startup (\*see [安装 要求](#installation-requirements))
   - Accepts uploaded HTML modlist files exported from the Arma 3 Launcher to define mods to load on the server.
   - Also accepts manually listed mods, CDLCs, and server-side only mods.
   - Checks for mod updates against their Steam Workshop page's last update for quick and efficient update checks.
@@ -74,7 +74,7 @@ ___
 
 ### 安装要求
 
-- A valid, **real** Steam account, with **Steam Guard turned off**, is required to install the server (default "anonymous" login cannot be used). This account *does not* need to own Arma 3. For security reasons it is [recommended by Valve](https://developer.valvesoftware.com/wiki/SteamCMD#With_a_Steam_account) that you create a new Steam account just for your dedicated servers.
+- A valid, **real** Steam account, with **Steam Guard turned off**, is required to install the server (默认值 "anonymous" login cannot be used). This account *does not* need to own Arma 3. For security reasons it is [recommended by Valve](https://developer.valvesoftware.com/wiki/SteamCMD#With_a_Steam_account) that you create a new Steam account just for your dedicated servers.
 - For automatic Steam Workshop mod downloading to work, the Steam account *does* need to own Arma 3. However, this is optional functionality, and mods can be manually uploaded to the server if desired. Hosts may feel free to change the "Disable Mod Downloads/Updates" variable to `1` if they would not like to offer it's functionality to clients.
 
 ___
@@ -130,11 +130,11 @@ The following are highly recommended variable modifications you can make to the 
 
 #### Default Steam Username & Password
 
-- To make deploying servers easy (**or if you are using WHMCS**), it is recommended to edit the default values of "Steam Username" and "Steam Password" to your Steam account dedicated for hosting. This will make all newly installed servers use these credentials. **DO NOT** make these fields visible to the end user so that they can use their own Steam accounts; the panel will save their Steam credentials in **plain text**, which is a BIG NO NO for security and privacy.
+- To make deploying servers easy (**or if you are using WHMCS**), it is recommended to edit the 默认值 values of "Steam Username" and "Steam Password" to your Steam account dedicated for hosting. This will make all newly installed servers use these credentials. **DO NOT** make these fields visible to the end user so that they can use their own Steam accounts; the panel will save their Steam credentials in **plain text**, which is a BIG NO NO for security and privacy.
 
 #### Restrict Max Players
 
-- If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's default value can also be changed, or the value can be changed on a server-by-server basis as desired.
+- If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's 默认值 value can also be changed, or the value can be changed on a server-by-server basis as desired.
 ___
 
 ### How to Update Egg

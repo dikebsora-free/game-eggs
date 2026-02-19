@@ -12,9 +12,9 @@ Automobilista 2 required at least 2GiB.
 
 ## 服务器端口
 
-Automobilista 2 requires three ports to run. Hostport is always the default Allocation Port!
+Automobilista 2 requires three ports to run. Hostport is always the 默认值 Allocation Port!
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | SteamPort   | 8766   |
 | Hostport(Default Allocation Port)    | 27015   |

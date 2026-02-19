@@ -11,7 +11,7 @@ The console output does not work properly with the new server. THIS IS NOT AN ER
 
 Stationeers requires up to 2 ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | 游戏 | 27500   |
 | Steam Query | 27015   |

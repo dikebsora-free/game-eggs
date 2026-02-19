@@ -8,7 +8,7 @@ This project implements proximity voice chat in Among Us. Everyone in an Among U
 
 Ports required to run the server in a table format.
 
-| 端口 | default (HTTPS enabled) | default (HTTPS disabled) |
+| 端口 | 默认值 (HTTPS enabled) | 默认值 (HTTPS disabled) |
 |---------|---------|---------|
 | 游戏 | 443    | 9736    |
 

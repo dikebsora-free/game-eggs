@@ -10,7 +10,7 @@ Due to rate limiting the console on the panel cannot keep up with the game conso
 
 These are the servers required ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 12871   |
 | 查询 | 13871   |

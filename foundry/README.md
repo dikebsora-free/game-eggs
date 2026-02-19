@@ -20,7 +20,7 @@ More server info: https://dedicated.foundry-game.com/
 
 Foundry requires up to 2 ports. You can choose every port you want.
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 |     3724     |
 | 查询 |     27015     |

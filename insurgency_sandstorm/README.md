@@ -23,7 +23,7 @@ This server requires about 1024M to run with no players.
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 27102   |
 | 查询 | 27131   |

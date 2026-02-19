@@ -29,7 +29,7 @@ The `DOWNLOAD_URL` only needs to be used if they turn on ddos protection. The va
 
 ## txAdmin
 
-txAdmin is now supported and disabled by default. You set `TXADMIN_ENABLED` to `1` to enable it.
+txAdmin is now supported and disabled by 默认值. You set `TXADMIN_ENABLED` to `1` to enable it.
 
 The last update to the egg changes the server to use txadmin to run. On first startup it will print a key to use to sign into the txadmin panel.
 
@@ -39,7 +39,7 @@ The last update to the egg changes the server to use txadmin to run. On first st
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 30110   |
 | Game+1  | 30120   |

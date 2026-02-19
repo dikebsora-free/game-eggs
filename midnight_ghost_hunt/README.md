@@ -5,7 +5,7 @@ The chaotic multiplayer hide-and-seek game. Possess seemingly harmless objects a
 ## 服务器端口
 
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | 游戏 | 7777    |
 | 查询 | 27015   |

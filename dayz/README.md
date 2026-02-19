@@ -58,7 +58,7 @@ ___
 ### Egg 功能
 
 - Able to download server updates on startup
-- Able to download, update, and load Steam Workshop mods on startup (\*see [Installation/System Requirements: Game Ownership](#game-ownership))
+- Able to download, update, and load Steam Workshop mods on startup (\*see [安装/System 要求: Game Ownership](#game-ownership))
   - Also accepts server-side only mods.
   - Checks for mod updates against their Steam Workshop page's last update for quick and efficient update checks.
   - Automatically moves mod `.bikey`'s to the `/keys/` directory.
@@ -66,7 +66,7 @@ ___
 - Multiple basic settings found within the `serverDZ.cfg` file can be easily set from the server's Startup tab
   - Server name, passwords, disable third person, persistent time, and more...
 - Max Players is configurable and able to be host enforced (\*see [Recommended Egg Modifications](#recommended-egg-modifications))
-- Additional [DayZ startup parameters](https://community.bistudio.com/wiki/DayZ:Server_Configuration#Launch_Parameters) can be added to fine-tune performance
+- Additional [DayZ startup parameters](https://community.bistudio.com/wiki/DayZ:Server_配置#Launch_Parameters) can be added to fine-tune performance
 - [WHMCS](https://www.whmcs.com/) compatible (\*see [Recommended Egg Modifications](#recommended-egg-modifications))
 
 ___
@@ -116,11 +116,11 @@ The following are highly recommended variable modifications you can make to the 
 
 #### Default Steam Username & Password
 
-- To make deploying servers easy (**or if you are using WHMCS**), it is recommended to edit the default values of "Steam Username" and "Steam Password" to your Steam account dedicated for hosting. This will make all newly installed servers use these credentials. **DO NOT** make these fields visible to the end user so that they can use their own Steam accounts; the panel will save their Steam credentials in **plain text**, which is a BIG NO NO for security and privacy.
+- To make deploying servers easy (**or if you are using WHMCS**), it is recommended to edit the 默认值 values of "Steam Username" and "Steam Password" to your Steam account dedicated for hosting. This will make all newly installed servers use these credentials. **DO NOT** make these fields visible to the end user so that they can use their own Steam accounts; the panel will save their Steam credentials in **plain text**, which is a BIG NO NO for security and privacy.
 
 #### Restrict Max Players
 
-- If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's default value can also be changed, or the value can be changed on a server-by-server basis as desired.
+- If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's 默认值 value can also be changed, or the value can be changed on a server-by-server basis as desired.
 
 ___
 

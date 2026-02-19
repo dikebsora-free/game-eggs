@@ -2,7 +2,7 @@
 
 Build, quest, and conquer across an infinite procedurally generated world. Play alone or with friends as you establish a settlement and explore deep dungeons, fight monsters and bosses, mine rare ores, craft magical equipment, recruit specialists for your colony, and more!
 
-## Server Configuration
+## Server 配置
 
 Steam page: [link](https://store.steampowered.com/app/1169040/Necesse/)
 Official Wiki: [link](https://necessewiki.com)
@@ -10,11 +10,11 @@ Server Wiki Page: [link](https://necessewiki.com/Multiplayer) (Linux specifics c
 
 ### 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | 游戏 | 14159   |
 
-### Configuration files
+### 配置 files
 
 |   File    |   Path  |
 |-----------|---------|

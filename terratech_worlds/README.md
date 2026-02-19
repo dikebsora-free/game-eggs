@@ -8,7 +8,7 @@ TerraTech Worlds is an open-world, PvE survival game set on an uncharted alien p
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 7777    |
 

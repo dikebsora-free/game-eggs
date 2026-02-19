@@ -18,7 +18,7 @@ Urban Terror can be described as a Hollywood tactical shooter; somewhat realism 
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27960   |
 

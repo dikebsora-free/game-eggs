@@ -7,6 +7,6 @@ In Starbound, you create your own story - there’s no wrong way to play! You ma
 
 Starbound requires a single port to be oepened
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 |  21025  |

@@ -42,7 +42,7 @@ ___
 - All [formally recognized](https://github.com/StunlockStudios/vrising-dedicated-server-instructions/blob/master/1.0.x/INSTRUCTIONS.md#server-host-settings) `ServerHostSettings.json` settings can be automatically configured via Startup variables.
   - This includes: Server name, game settings preset, password, max players, auto save settings, and more...
   - This does not include some obscure settings (ie. Enable API, Disable Save File Compression, etc.), but these can still be modified with a custom `ServerHostSettings.json` file created in `~/save-data/Settings/`.
-- RCON ready (\*requires extra port – see [Server Ports](#server-ports)). See the RCON section under [Manual Configuration Topics](#manual-configuration-topics) for more info.
+- RCON ready (\*requires extra port – see [Server Ports](#server-ports)). See the RCON section under [Manual 配置 Topics](#manual-configuration-topics) for more info.
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 ___
 
-### Manual Configuration Topics
+### Manual 配置 Topics
 
 The following are various topics covering manual configuration procedures the egg does not handle automatically that may be useful to server owners:
 

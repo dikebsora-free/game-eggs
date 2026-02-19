@@ -1,9 +1,9 @@
 # ETS2 Ptero - A Egg For Setting Up ETS2 Dedicated Server
 
 
-Ports below are the default ports that are associated with the ETS2 dedicated server.
+Ports below are the 默认值 ports that are associated with the ETS2 dedicated server.
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |----------|---------------|
 | Dedicated| 27015         |
 | 查询 | 27016         |
@@ -28,7 +28,7 @@ Once those files have been uploaded and configured you are free to start up your
 
  --**A steam server Token is required**--
  
-Adding a server token received from registering your server at https://steamcommunity.com/dev/managegameservers be sure to use the correct App ID or your server will crash upon startup.
+Adding a server token received from registering your server at https://steamcommunity.com/dev/managegameservers be sure to use the correct 应用 ID or your server will crash upon startup.
 
 Euro Truck Sim 2 = 227300
 

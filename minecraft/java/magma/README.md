@@ -6,12 +6,12 @@ Magma is most powerful Forge server providing you with Forge mods and Bukkit Plu
 
 ## 服务器端口
 
-The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
+The minecraft server requires a single port for access (默认值 25565) but plugins may require extra ports to enabled for the server.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 25565   |
 
 ## 备注
-Providing a Minecraft version of ``latest`` or an empty value will default to 1.18.2 as this is the latest version that Magma supports at this time.
+Providing a Minecraft version of ``latest`` or an empty value will 默认值 to 1.18.2 as this is the latest version that Magma supports at this time.
 There is no API to query to find the true latest supported version.

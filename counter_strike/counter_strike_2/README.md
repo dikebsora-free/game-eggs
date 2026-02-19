@@ -19,7 +19,7 @@ For CS2 Valve has decided to merge the game and server files. There will not be 
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |
 | Source TV (Optional) | 27020 |

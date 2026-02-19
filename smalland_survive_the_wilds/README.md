@@ -6,6 +6,6 @@ Steam page: [link](https://store.steampowered.com/app/768200/Smalland_Survive_th
 
 ### 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 7777   |

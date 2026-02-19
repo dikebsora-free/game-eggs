@@ -8,7 +8,7 @@ Multiplayer based, first person enabled, action packed and skill demanding shoot
 
 FOF servers require 1 port to be open, the SourceTV port can also be opened for spectators.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | Game/rcon | 27015   |
 | SourceTV  | 27020   |

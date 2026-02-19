@@ -7,6 +7,6 @@ Dark Multiplayer is an up-to-date mod adding the long awaited multiplayer featur
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 6702    |

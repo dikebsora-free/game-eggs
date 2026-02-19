@@ -50,7 +50,7 @@
         },
         {
             "name": "[STEAM] Steam App ID",
-            "description": "Steam App ID",
+            "description": "Steam 应用 ID",
             "env_variable": "SRCDS_APPID",
             "default_value": "3481440",
             "user_viewable": false,

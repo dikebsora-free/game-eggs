@@ -16,7 +16,7 @@ Steam: https://store.steampowered.com/app/2285150/The_Front/
 ## 服务器端口
 The Server needs 4 Ports. You can choose every Port you want
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 27015    |
 | Beacon | 27016    |

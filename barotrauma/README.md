@@ -8,7 +8,7 @@ Barotrauma is a 2D co-op survival horror submarine simulator, inspired by games 
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |------------|---------|
 | Game Port  | 27015   |
 | Query Port | 27016   |

@@ -16,7 +16,7 @@ Sunkenland is a Waterworld-themed survival game. Explore sunken cities, build yo
 
 To launch properly, the Sunkenland dedicated server software requires a map. However, the software does not generate the map itself.
 
-This egg includes a default map created through the game. If the user desires a different map, they must create it through Sunkenland and import it to the server manually.
+This egg includes a 默认值 map created through the game. If the user desires a different map, they must create it through Sunkenland and import it to the server manually.
 
 To locate your save files on Windows, go to the following directory:
 `%USERPROFILE%\AppData\LocalLow\Vector3 Studio\Sunkenland\Worlds`

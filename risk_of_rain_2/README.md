@@ -18,7 +18,7 @@ Escape a chaotic alien planet by fighting through hordes of frenzied monsters �
 
 The Risk of Rain 2 server requires a single port for access. Steam Query ports are optional for server listing, which might not always function properly, and as such direct IP connection might be required.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 27015   |
 | 查询 | 27016   |

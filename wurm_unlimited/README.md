@@ -23,7 +23,7 @@ On first install the backup command will error as nothing was created yet. This 
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 3724 TCP   |
 | 查询 | 27016-27030 UDP   |

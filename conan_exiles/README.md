@@ -12,7 +12,7 @@ This server requires about 4096m to run properly.
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 7777    |
 | Game +1 | 7778    |

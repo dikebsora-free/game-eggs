@@ -33,7 +33,7 @@ ___
 
 ### Egg 功能
 
-- Configuration of the Server Query port.
+- 配置 of the Server Query port.
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
 - Mods have not been explored at this time (see [Modding](#modding) for more info)
 
@@ -59,26 +59,26 @@ ___
 | 内存 | 550 MiB | 1024-4096 MiB |
 | 存储 | 5632 MiB | 7168 MiB |
 | 网络 | 3 MiB/s | 7 MiB/s |
-| 游戏所有权 | Not required to start. | Recommended to fully configure server (see [Server Configuration](#server-configuration) below) |
+| 游戏所有权 | Not required to start. | Recommended to fully configure server (see [Server 配置](#server-configuration) below) |
 
 ___
 
-### Server Configuration
+### Server 配置
 
 **NOTE: Server Name and Max Players will be overwritten by your Pterodactyl Startup settings every time the server is started.**
 
-#### In-Game Setup (Recommended):
+#### In-Game 设置 (Recommended):
 
 Configuring all aspects of the server (MOTD, game rules, map list, admins, etc.) is, by far, the easiest (and safest) to do in-game via the built in admin menu. Perform the following steps to do so:
 
 1. Start the server.
-2. Navigate to `/home/container/GroundBranch/ServerConfig` within Pterodactyl's file browser and open `AdminSetupPassword.txt`.
+2. Navigate to `/home/container/GroundBranch/ServerConfig` within Pterodactyl's file browser and open `Admin设置Password.txt`.
 3. Copy the code and start your personal Ground Branch game client.
 4. Log into your server via the server browser by searching for it by the name you set in the Startup tab of the server.
 5. Open the console by pressing `` ` `` and run the following command: `admin setup <your_setup_password>`. This will add you as a SuperAdmin.
 6. Running the command `admin` will open the Admin Menu where you can configure everything about the server.
 
-#### Manual Setup (Advanced):
+#### Manual 设置 (Advanced):
 
 All configuration files for the server can be found here: `/home/container/GroundBranch/ServerConfig`
 

@@ -4,7 +4,7 @@
 
 ## From their [Github](https://github.com/QI-Software/deadmatterpublic)
 
-## [Documentation]https://www.notion.so/qisoftware/Server-Setup-Guide-d17e5a3f73e34164b6a4d2b37e54da78)
+## [Documentation]https://www.notion.so/qisoftware/Server-设置-Guide-d17e5a3f73e34164b6a4d2b37e54da78)
 
 
 ## 安装/系统要求
@@ -21,7 +21,7 @@
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 7001    |
 | 查询 | 7002   |
@@ -29,4 +29,4 @@ Ports required to run the server in a table format.
 ### 备注
 
 <!--Notes about the server ports.-->
-7001 is the default port, but any port can be used.
+7001 is the 默认值 port, but any port can be used.

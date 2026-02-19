@@ -7,7 +7,7 @@
     "exported_at": "2025-04-03T09:14:57+00:00",
     "name": "Xonotic",
     "author": "parker@parkervcp.com",
-    "description": "This is for the default xonotic setup.",
+    "description": "This is for the 默认值 xonotic setup.",
     "features": null,
     "docker_images": {
         "SteamCMD (Debian)": "ghcr.io/ptero-eggs/steamcmd:debian"

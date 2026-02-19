@@ -8,6 +8,6 @@ Fast multiplayer action set in the Half-Life 2 universe! HL2's physics adds a ne
 Half-Life 2: Deathmatch requires 1 port
 
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 |  27015	      |

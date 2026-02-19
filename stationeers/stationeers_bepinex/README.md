@@ -25,7 +25,7 @@ BepInEx is currently one of the most popular modding tools for Unity on GitHub.
 
 Stationeers requires up to 2 ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | 游戏 | 27500   |
 | Steam Query | 27015   |

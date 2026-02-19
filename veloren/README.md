@@ -16,7 +16,7 @@ Veloren is fully open-source, licensed under GPL 3. It uses original graphics, m
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 14004   |
 | Metrics | 14005   |

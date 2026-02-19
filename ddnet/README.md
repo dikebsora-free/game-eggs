@@ -7,11 +7,11 @@ This game does not have a Anonymous Server Comp for the Server Files. To pull th
 For all added edits, these are found under **ddnet/data/autoexec_server.cfg**
 
 ## Server Port
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 8303    |
 
-## Hardware Requirements
+## Hardware 要求
 | 存储 | 内存 | CPU |
 |---------|---------|-----|
 | 2.0GiB  | 250MiB  | 🥔  |

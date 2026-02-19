@@ -12,7 +12,7 @@ RedM, for Red Dead Redemption 2 on PC. Launching now, based on the CitizenFX fra
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 30120   |
 | ServerListing  | 30110   |

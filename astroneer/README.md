@@ -21,16 +21,16 @@ Astroneer required at least 3GiB. The size may increase with larger save file.
 
 Astroneer requires a single port to run.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | 游戏 | 27000   |
 
 ### 备注
 
-27000 is the default port, but any port can be used.
+27000 is the 默认值 port, but any port can be used.
 
 
-## Client Configuration
+## Client 配置
 
 To be able to connect to the server you need to edit Engine.ini (located at %LocalAppData%\Astro\Saved\Config\WindowsNoEditor\Engine.ini) on every player's computer by adding the following :
 

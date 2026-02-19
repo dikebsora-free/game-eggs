@@ -3,7 +3,7 @@ Survive a brutal open world alone or with friends. Explore a procedural wastelan
 
 
 ## 服务器端口
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 | 7777          |
 | Query Port |  27016 |

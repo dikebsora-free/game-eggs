@@ -17,6 +17,6 @@ Archean is a game in development focused on engineering and build.
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 8881    |

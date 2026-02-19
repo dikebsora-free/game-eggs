@@ -11,7 +11,7 @@ A link to the site describing the files you download.
 
 Contagion uses same ports as most Source Games
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 | 27015 |
 

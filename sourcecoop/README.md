@@ -27,13 +27,13 @@ From their [Github](https://github.com/ampreeT/SourceCoop):
 
 > [!IMPORTANT]
 >
-> This Egg ***only*** supports official Black Mesa maps, but it can easily be modified to support custom BM maps (see [Manual Configuration Topics](#manual-configuration-topics) for details).
+> This Egg ***only*** supports official Black Mesa maps, but it can easily be modified to support custom BM maps (see [Manual 配置 Topics](#manual-configuration-topics) for details).
 >
 > Support for other Source Engine games (eg. HL2) may be added in the future to SourceCoop and this Egg, but Black Mesa is currently the only formally supported game.
 
 ## Egg 功能
 
-- Configuration of basic server settings via Startup Variables. This includes:
+- 配置 of basic server settings via Startup Variables. This includes:
   - Server Name
   - Max Players
   - Server Password
@@ -63,7 +63,7 @@ From their [Github](https://github.com/ampreeT/SourceCoop):
 | 游戏 | 27015 | UDP |
 | RCON | (Same as Game) | TCP |
 
-## Manual Configuration Topics
+## Manual 配置 Topics
 
 The following are various topics covering manual configuration procedures the Egg does not handle automatically that may be useful to server owners:
 
@@ -71,7 +71,7 @@ The following are various topics covering manual configuration procedures the Eg
 
 This is best documented by their [Github](https://github.com/ampreeT/SourceCoop):
 
-- [Features & Configuration](https://github.com/ampreeT/SourceCoop/wiki/Features-&-Configuration)
+- [Features & 配置](https://github.com/ampreeT/SourceCoop/wiki/Features-&-配置)
 - [Workshop & Plugins](https://github.com/ampreeT/SourceCoop/wiki/Server-running-tips)
 
 ### Custom Maps

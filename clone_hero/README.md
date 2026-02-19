@@ -20,12 +20,12 @@ Minimum required storage to run the server.
 
 Ports required to run the server.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 14242   |
 
 ### 备注
 
 <!--Notes about the server ports.-->
-14242 is the default port, but any port can be used.
+14242 is the 默认值 port, but any port can be used.
 

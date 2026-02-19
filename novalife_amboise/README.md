@@ -17,16 +17,16 @@ Nova-Life: Amboise is a multiplayer role-play simulation video game. Create your
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 7777    |
 
 ### 备注
 
 <!--Notes about the server ports.-->
-7777 is the default port, but any port can be used.
+7777 is the 默认值 port, but any port can be used.
 
-The egg created a default server on install based on the `Server Name` variable at `/home/container/Servers/<server_name>` and sets the port and max players in the config file. 
+The egg created a 默认值 server on install based on the `Server Name` variable at `/home/container/Servers/<server_name>` and sets the port and max players in the config file. 
 
 Because the directory can change their is no way if you upload your own `life.db` and `/home/container/Servers/<server_name>/Config/server.json` that we can parse the port so then you will have to manualy set the game port to the allocated port or you change the server name, hit reinstall and then replace the `life.db` file from the one the client generated.
 

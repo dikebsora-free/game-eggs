@@ -18,7 +18,7 @@ First install will take a while because the games source code and assets will be
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 2759   |
 
@@ -26,7 +26,7 @@ First install will take a while because the games source code and assets will be
 
 To change server settings, stop the server then edit the 'config.xml' file in the root of the container. When done save the file and start the server.
 
-2759 is the default port, but any port can be used. You will have to manually change it in the config.xml file.
+2759 is the 默认值 port, but any port can be used. You will have to manually change it in the config.xml file.
 
 To update the server (only should have to be done when the games code or assets are updated) in panel as an admin go to Servers > SuperTuxKart Server > Manage > Reinstall. If you are a standard user go to SuperTuxKart Server > Settings > Reinstall Server. This will download the updated code/assets (should exclude anything that didn't change) and recompile the executable.
 

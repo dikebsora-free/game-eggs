@@ -6,6 +6,6 @@ The [GTAC](https://gtaconnected.com/) Grand Theft Auto Connected is a custom scr
 
 GTAC requires one port for both UDP/TCP
 
-| 端口 | default  |
+| 端口 | 默认值  |
 |---------|----------|
 | 游戏 | 22000    |

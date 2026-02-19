@@ -22,7 +22,7 @@ The only issue with this egg is that server name appears with a ] in the end, fo
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |
 | 查询 | 27016   |

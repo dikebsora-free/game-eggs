@@ -17,7 +17,7 @@
 
 Ports required to run the server
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 |  11888  |
 | 查询 |  12888  |

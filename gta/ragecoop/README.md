@@ -6,6 +6,6 @@ The [ragecoop](https://ragecoop.online/) Drive around the interstate with your b
 
 ragecoop requires one port for both UDP/TCP
 
-| 端口 | default  |
+| 端口 | 默认值  |
 |---------|----------|
 | 游戏 | 4499    |

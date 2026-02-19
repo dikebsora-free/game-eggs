@@ -6,9 +6,9 @@ Sven Co-op is a co-operative game originally based around Valve Software's Half-
 
 Sven co-op requires a single port to be opened
 
-game ports (default 27015 )
+game ports (默认值 27015 )
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 |  27015  |
 | VAC     |  26900  |

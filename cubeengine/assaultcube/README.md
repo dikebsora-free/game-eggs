@@ -15,7 +15,7 @@ On the correct settings, it can even run on old hardware (Pentium III and above)
 
 Ports required to run the server.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 28763   |
 | Game +1 | 28764   |
@@ -27,4 +27,4 @@ The second port is only used for the server master list to be able to update the
 ### 备注
 
 <!--Notes about the server ports.-->
-28763 & 28764 is the default ports, but any port can be used.
+28763 & 28764 is the 默认值 ports, but any port can be used.

@@ -4,7 +4,7 @@ Open-world fantasy survival role-playing game. Limitless distance-based difficul
 
 ### 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 27015   |
 | 查询 | 27016   |

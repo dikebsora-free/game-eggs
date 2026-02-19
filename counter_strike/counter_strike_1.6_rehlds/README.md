@@ -21,7 +21,7 @@ This egg offers everything you need to set up a Counter-Strike 1.6 server using 
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |
 | Source TV | 27020 |
@@ -29,7 +29,7 @@ Ports required to run the server in a table format.
 | Steam   | 26900   |
 
 
-27015 is the default port, but any port can be used.
+27015 is the 默认值 port, but any port can be used.
 The only required port is the Game port, server can run perfectly fine without other allocations.
 
 
@@ -45,6 +45,6 @@ The only required port is the Game port, server can run perfectly fine without o
 
 ## 备注
 
-- The server installation includes default configuration files such as `server.cfg`, `listip.cfg`, and `banned.cfg`.
+- The server installation includes 默认值 configuration files such as `server.cfg`, `listip.cfg`, and `banned.cfg`.
 
 For further configuration or plugin information, refer to the official [AMX Mod X documentation](https://amxmodx.org/) or the [ReHLDS GitHub repository](https://github.com/dreamstalker/rehlds).

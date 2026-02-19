@@ -20,7 +20,7 @@ Everything which is not defined in a variable could be edited directy in the con
 
 Default server ports are listed below, but the Main, STEAM and API port can be any port. 
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 27016   |
 | Steam | 8766    |

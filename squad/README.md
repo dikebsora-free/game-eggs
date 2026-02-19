@@ -6,7 +6,7 @@ Squad is an online multiplayer first-person shooter that aims to capture combat 
 
 Squad requires 5 ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |----------|---------|
 | 游戏 | 7787    |
 | game +1  | 7788    |

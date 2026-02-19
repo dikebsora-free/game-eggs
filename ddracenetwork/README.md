@@ -15,6 +15,6 @@ DDraceNetwork (DDNet) is an actively maintained version of DDRace, a Teeworlds m
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 8303    |

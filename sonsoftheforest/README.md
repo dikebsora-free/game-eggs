@@ -18,7 +18,7 @@ Steam: https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/
 
 Sons of the Forest requires up to 3 ports. You can choose every port you want.
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 |     8766     |
 | 查询 |     27016     |

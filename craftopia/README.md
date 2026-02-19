@@ -6,6 +6,6 @@ Craftopia is the brand new crafting game we made by combining excellent features
 
 Craftopia requires 1 port to run.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | 游戏 | 27015   |

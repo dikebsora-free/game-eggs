@@ -6,7 +6,7 @@ A procedural co-op space sandbox where players can build their own space ships o
 
 Avorion requires 4 ports to run.  Despite claiming to require 4 ports, the game port is the only one that appears to have a config option.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | 游戏 | 27000   |
 | 查询 | 27003   |
@@ -15,7 +15,7 @@ Avorion requires 4 ports to run.  Despite claiming to require 4 ports, the game 
 
 Additionally the server can be configured with an RCON port.  RCON will be disabled if a password is not specified.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------------|---------|
 | RCON        | 27015   |
 

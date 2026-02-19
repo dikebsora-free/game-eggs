@@ -5,11 +5,11 @@ Return to the Forgotten Realms in this bestselling Dungeons & Dragons roleplayin
 Be mindful that this is a very old 32-bit application. Documentation and support is limited.
 
 > [!IMPORTANT]
-> Due to a bug in the current Pterodactyl Wings daemon ([git issue here](https://github.com/pterodactyl/panel/issues/3830)) your Wings daemon **must** be configured to use UID `1000`` when running this server. If not, then the server will crash upon opening. TLDR; The game expects the current user to exist as it uses it to build working directory paths, and by default the user created for the container has a UID of 1000.
+> Due to a bug in the current Pterodactyl Wings daemon ([git issue here](https://github.com/pterodactyl/panel/issues/3830)) your Wings daemon **must** be configured to use UID `1000`` when running this server. If not, then the server will crash upon opening. TLDR; The game expects the current user to exist as it uses it to build working directory paths, and by 默认值 the user created for the container has a UID of 1000.
 
 ### 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 | ---- | ------- |
 | 游戏 | 5121 |
 | Script Debugger | 5122 |

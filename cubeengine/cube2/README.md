@@ -8,7 +8,7 @@ Much like the original Cube, the aim of this game is fun, old school deathmatch 
 
 Ports required to run the server.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 28785   |
 | Game +1 | 28786   |
@@ -20,5 +20,5 @@ The second port is only used for the server master list to be able to update the
 ### 备注
 
 <!--Notes about the server ports.-->
-28785 & 28786 is the default ports, but any port can be used.
+28785 & 28786 is the 默认值 ports, but any port can be used.
 Port 28784 must be available for pinging servers over a LAN to work.

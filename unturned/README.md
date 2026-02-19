@@ -17,7 +17,7 @@ Use Unturned's app ID 304930, and a memo to remind you which server the token is
 
 Unturned requires 2 ports to run properly.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27015   |
 | Game +1 | 27016   |

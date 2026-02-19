@@ -20,6 +20,6 @@ Post install you are required to set
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 | ---- | ------- |
 | 游戏 | 5119    |

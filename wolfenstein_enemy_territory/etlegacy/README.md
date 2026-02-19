@@ -15,7 +15,7 @@ Make sure to checkout their [Home Page](https://www.etlegacy.com/).
 
 ET: Legacy requires a single port
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27960   |
 |---------|---------|

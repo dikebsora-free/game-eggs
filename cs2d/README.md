@@ -25,11 +25,11 @@ Minimum required storage to run the server.
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 36963   |
 
 ### 备注
 
 <!--Notes about the server ports.-->
-36963 is the default port, but any port can be used.
+36963 is the 默认值 port, but any port can be used.

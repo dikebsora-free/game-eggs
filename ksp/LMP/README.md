@@ -19,7 +19,7 @@ This egg provides an easy way to deploy the **LunaMultiplayer dedicated server**
 >  
 >So the difficulty setting will be set as "Custom".
 > 
->In case you want to use the default setting values for the difficulty you have chosen.
+>In case you want to use the 默认值 setting values for the difficulty you have chosen.
 > 
 >Remove the GameplaySettings.xml file so it's recreated again."
 >

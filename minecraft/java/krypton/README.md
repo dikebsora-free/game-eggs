@@ -12,6 +12,6 @@ Krypton only requires a single port to run, just like vanilla, though plugins ma
 
 Please note that the server will not function correctly unless a pre-generated world is provided.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 | 25565   |

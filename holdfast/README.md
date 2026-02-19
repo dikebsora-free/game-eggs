@@ -10,7 +10,7 @@ Fight on multiple fronts in Holdfast: Nations At War - A competitive multiplayer
 
 These are the servers required ports
 
-| 端口 | default |
+| 端口 | 默认值 |
 |----------------|---------|
 | 游戏 | 20100   |
 | 查询 | 27000   |

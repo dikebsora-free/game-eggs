@@ -40,7 +40,7 @@ ___
 
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
 - Able to download and load Arma Reforger Workshop mods on startup (requires manual editing of the `config.json` file).
-- Configuration of multiple common settings in the `config.json` file via Startup Parameters:
+- 配置 of multiple common settings in the `config.json` file via Startup Parameters:
   - Server Name, Passwords, Scenario ID, Disable Third Person, Max FPS, and more...
 - Max Players is configurable and able to be host enforced (\*see [Recommended Egg Modifications](#restrict-max-players)).
 - [WHMCS](https://www.whmcs.com/) compatible.
@@ -112,8 +112,8 @@ The following are highly recommended variable modifications you can make to the 
 Due to a current behavior of the Panel, `SERVER_IP` will not return the node's public IP address if it is behind a NAT; it will return its private IP address. Unfortunately at this time, Arma Reforger **requires** the server's public IP address to be strictly defined within `config.json`. If you know your node is behind a NAT (or you are finding your node's private IP address being added to `config.json`), you will need to edit this egg after importing it by following these steps:
 
 1. As a panel admin, find and open the egg within your Nests tab.
-2. On the first tab "Configuration", find the "Configuration Files" box under the "Process Management" section.
-3. Carefully (as to not touch anything else), find `{{server.build.default.ip}}` and replace it with your node's public IP address. If done correctly, the line should now look something like this:
+2. On the first tab "配置", find the "配置 Files" box under the "Process Management" section.
+3. Carefully (as to not touch anything else), find `{{server.build.默认值.ip}}` and replace it with your node's public IP address. If done correctly, the line should now look something like this:
 
 ```json
 "publicAddress": "123.4.56.789",
@@ -121,4 +121,4 @@ Due to a current behavior of the Panel, `SERVER_IP` will not return the node's p
 
 #### Restrict Max Players
 
-If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's default value can also be changed, or the value can be changed on a server-by-server basis as desired.
+If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's 默认值 value can also be changed, or the value can be changed on a server-by-server basis as desired.

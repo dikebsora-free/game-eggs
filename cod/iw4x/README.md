@@ -12,7 +12,7 @@ See https://iw4x.io/
 
 IW4X requires up to 1 ports
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 | 28960         |
 

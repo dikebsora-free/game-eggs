@@ -29,7 +29,7 @@ For additional help, please see the following - [Dedicated Server Wiki](http://w
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |-------|---------|
 | 游戏 |  7777   |
 | 游戏 |  8177   |

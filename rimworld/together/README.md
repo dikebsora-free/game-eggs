@@ -10,7 +10,7 @@ A community driven multiplayer mod, for Rimworld.
 
 ## 服务器端口
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 25555   |
 

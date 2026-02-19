@@ -20,11 +20,11 @@ Requires a 64-bit processor and operating system
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |--------------|---------|
 | Game  Port   | 7777    |
 | Query Port   | 27015   |
 
 ### 备注
 
-7777 is the default port, but any port can be used.
+7777 is the 默认值 port, but any port can be used.

@@ -12,10 +12,10 @@ Eco is a community-based game; the players develop laws, government, and an econ
 
 Eco requires up to 2 ports
 
-game port (default 3000)
-web port (default 3001)
+game port (默认值 3000)
+web port (默认值 3001)
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 |     3000      |
 | Web     |     3001      |

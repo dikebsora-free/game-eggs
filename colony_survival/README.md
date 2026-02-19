@@ -17,7 +17,7 @@
 
 Ports required to run the server in a table format.
 
-| 端口 | default |
+| 端口 | 默认值 |
 |---------|---------|
 | 游戏 | 27004   |
 | Steam   | 27005   |

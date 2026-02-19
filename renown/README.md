@@ -13,7 +13,7 @@ Renown is an intense medieval multiplayer survival experience set in a vast, eve
 
 ## 服务器端口
 
-| 端口 | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 | 游戏 | 7777 |
 | Query Port    | 27015   |
