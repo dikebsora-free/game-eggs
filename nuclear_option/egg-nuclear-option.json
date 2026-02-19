@@ -7,7 +7,7 @@
     "exported_at": "2025-10-30T14:46:30+01:00",
     "name": "Nuclear Option",
     "author": "ptero@redbananaofficial.com",
-    "description": "Fly near-future aircraft with immersive physics on intense battlefields, facing land, air and sea threats. Wage war against AI or other players with an array of potent weapons. Wield tactical and strategic nuclear weapons, capable of annihilating anything in their path.",
+    "description": "在激烈的战场上驾驶具有沉浸式物理的近未来飞机，面对陆地、空中和海上威胁。使用强大武器对抗 AI 或其他玩家。使用战术和战略核武器，能够摧毁路径上的一切。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"
