@@ -10,7 +10,7 @@
     "description": "Trackmania combines easy-to-learn, hard-to-master gameplay with a wide diversity of tracks and skin customization, in addition to regular seasons & live events.",
     "features": null,
     "docker_images": {
-        "ghcr.io/ptero-eggs/yolks:debian": "ghcr.io/ptero-eggs/yolks:debian"
+        "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:debian"
     },
     "file_denylist": [],
     "startup": "./TrackmaniaServer /dedicated_cfg=dedicated_cfg.txt /game_settings={{GAME_CONFIG}} /noDaemon",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "cd /mnt/server || exit 1\r\n\r\necho \"Downloading Trackmania Server.\"\r\nwget http://files.v04.maniaplanet.com/server/TrackmaniaServer_Latest.zip -O TrackmaniaServer.zip\r\n\r\necho \"Extracting Trackmania Server.\"\r\nunzip -o TrackmaniaServer.zip\r\nrm TrackmaniaServer.zip\r\n\r\necho \"Setting file permissions.\"\r\nchmod 755 TrackmaniaServer\r\n\r\necho \"Setting up config.\"\r\nif [ ! -f UserData/Config/dedicated_cfg.txt ] ; then\r\n    echo \"Creating default config file.\"\r\n    cp UserData/Config/dedicated_cfg.default.txt UserData/Config/dedicated_cfg.txt\r\nfi\r\n\r\nif [ ! -f MatchSettings/example.txt ] ; then\r\n    echo \"Creating default match settings file\"\r\n    mkdir -p MatchSettings\r\n    cp UserData/Maps/MatchSettings/example.txt MatchSettings/example.txt\r\nfi",
-            "container": "ghcr.io/ptero-eggs/installers:debian",
+            "container": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/installers:debian",
             "entrypoint": "bash"
         }
     },
