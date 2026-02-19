@@ -7,7 +7,7 @@
     "exported_at": "2026-02-01T03:39:39+00:00",
     "name": "LeviLamina",
     "author": "eggs@purpleflaghosting.com",
-    "description": "LeviLamina is an unofficial mod loader designed to offer indispensable API support for Minecraft Bedrock Edition. It boasts a comprehensive API, an array of utility interfaces, a robust event system, and comprehensive support for basic interfaces. LeviLamina provides an expansive API, a powerful event system, and a wealth of encapsulated development infrastructure interfaces, forming a solid foundation for augmenting the Minecraft Bedrock Edition with additional gameplay features and functionalities. By leveraging mods, the process of extending Bedrock functionality becomes effortless, with a user-friendly development process and an adaptable approach.",
+    "description": "LeviLamina 是 Minecraft 基岩版的服务器软件。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest"

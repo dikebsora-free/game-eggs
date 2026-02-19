@@ -7,7 +7,7 @@
     "exported_at": "2023-06-18T11:34:24+02:00",
     "name": "alt:V",
     "author": "parker@parkervcp.com",
-    "description": "alt:V Multiplayer a third-party multiplayer modification for Grand Theft Auto: V",
+    "description": "alt:V 是 GTA V 的高性能多人模组平台。",
     "features": null,
     "docker_images": {
         "ALT:V": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:altv"

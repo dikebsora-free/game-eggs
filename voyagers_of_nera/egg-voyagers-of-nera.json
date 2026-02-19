@@ -7,7 +7,7 @@
     "exported_at": "2025-09-25T11:15:09+00:00",
     "name": "Voyagers of Nera",
     "author": "eggs@purpleflaghosting.com",
-    "description": "Voyagers of Nera is a cooperative survival-crafting game for up to 10 players set in a vast ocean full of ancient ruins and diverse biomes. Nera is a magical ocean world full of beauty, magic, and danger. You are an Echo, descendants of the long-extinct protectors of this world.",
+    "description": "Voyagers of Nera 是一款合作生存游戏，在外星球上建立基地。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest"

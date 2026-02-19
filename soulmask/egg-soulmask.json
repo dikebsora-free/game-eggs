@@ -7,7 +7,7 @@
     "exported_at": "2025-07-04T16:45:10+02:00",
     "name": "Soulmask",
     "author": "josdekurk@gmail.com",
-    "description": "Escaping a deadly sacrificial ritual, you find an ancient mystical mask on your journey. This mask holds potent knowledge, changing the world you knew. Face the harsh challenges of nature, survive, rally followers, and build your own tribe. Explore and unveil the truths behind the enigmatic mask.",
+    "description": "Soulmask 是一款沙盒生存游戏，建立部落、制作装备并探索神秘世界。",
     "features": null,
     "docker_images": {
         "SteamCMD": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

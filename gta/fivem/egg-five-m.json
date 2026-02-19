@@ -7,7 +7,7 @@
     "exported_at": "2023-02-19T12:54:36+01:00",
     "name": "FiveM",
     "author": "parker@parkervcp.com",
-    "description": "A new FiveM egg for the latest builds due to recent changes in FiveM",
+    "description": "FiveM 是 GTA V 的多人模组平台，可以创建自定义服务器和游戏模式。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

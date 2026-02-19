@@ -7,7 +7,7 @@
     "exported_at": "2024-05-15T10:32:11+00:00",
     "name": "Squad",
     "author": "brycea@terrahost.cloud",
-    "description": "Squad is a 50 vs 50 multiplayer first-person shooter that aims to capture combat realism through communication and teamplay. Major features include vehicle-based combined arms gameplay, large scale environments, base building, and integrated positional VoIP for proximity talking & radio.",
+    "description": "Squad 是一款50v50的大型战术第一人称射击游戏，强调团队合作。",
     "features": [
         "steam_disk_space"
     ],

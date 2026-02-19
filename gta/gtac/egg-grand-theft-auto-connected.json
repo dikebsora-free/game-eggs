@@ -7,7 +7,7 @@
     "exported_at": "2024-04-01T11:32:04+02:00",
     "name": "Grand Theft Auto Connected",
     "author": "admin@softwarenoob.com",
-    "description": "Grand Theft Auto Connected is a custom scriptable multiplayer modification for multiple Grand Theft Auto games.",
+    "description": "GTA Connected 是支持多个 GTA 游戏的多人模组平台。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

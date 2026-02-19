@@ -7,7 +7,7 @@
     "exported_at": "2023-12-16T13:44:48+01:00",
     "name": "Custom ReHLDS Engine Game",
     "author": "shigbeard@ndlee.com",
-    "description": "This option allows modifying the startup arguments and other details to run a custom HLDS based game on the panel, substituting the official Valve engine binaries with the ReHLDS binaries.",
+    "description": "ReHLDS 是半条命专用服务器的优化重制版本。",
     "features": [
         "steam_disk_space"
     ],

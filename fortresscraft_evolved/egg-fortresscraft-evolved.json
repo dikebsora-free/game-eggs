@@ -7,7 +7,7 @@
     "exported_at": "2025-12-18T02:47:27+01:00",
     "name": "Fortresscraft Evolved",
     "author": "brainshead@gmail.com",
-    "description": "FortressCraft Evolved is a unique blend of Voxel Landscapes, Tower Defense, Crafting, Logistics, Exploration, Combat and Assembly lines. Players begin by crash-landing on a strange alien world, left with only a small handful of starting machines..",
+    "description": "FortressCraft Evolved 是一款体素建造和塔防游戏，结合了RTS元素。",
     "features": null,
     "docker_images": {
         "Debian STEAMCMD": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"
