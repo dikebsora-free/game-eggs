@@ -7,7 +7,7 @@
     "exported_at": "2024-12-13T16:14:15+00:00",
     "name": "Nazi Zombies: Portable",
     "author": "jordanadamsbusiness@outlook.com",
-    "description": "NZ:P (Nazi Zombies: Portable) is based off of the FTEQW (Fore Thought Engine Quake World). This egg is specifically made for use with NZ:P (just downloads assets and QuakeC from NZ:P repositories) but there is nothing stopping you from using it as a general FTEQW egg given the NZ:P fork of FTEQW only added fog to the client (and added SDL which caused issues with arguments being eaten preventing dedicated flag from being read) which is why upstream FTEQW is used.",
+    "description": "NZ:P（纳粹僵尸：便携版）基于 FTEQW（Fore Thought Engine Quake World）。此 egg 支持 NZ:P 的服务器和客户端。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:ubuntu"

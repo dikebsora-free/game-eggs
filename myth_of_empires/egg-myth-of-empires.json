@@ -7,7 +7,7 @@
     "exported_at": "2024-02-27T16:19:43+01:00",
     "name": "Myth of Empires",
     "author": "josdekurk@gmail.com",
-    "description": "Myth of Empires is a multiplayer war sandbox game featuring a high degree of freedom. Players must survive, craft, create, and lead troops in their quest to conquer territory and build their own empire.",
+    "description": "Myth of Empires 是一款具有高度自由度的多人战争沙盒游戏。玩家必须生存、制作、创造并率领部队征服领土，建立自己的帝国。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:proton": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:proton"

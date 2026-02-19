@@ -7,7 +7,7 @@
     "exported_at": "2025-04-24T20:44:10+00:00",
     "name": "Trackmania",
     "author": "eggs@purpleflaghosting.com",
-    "description": "Trackmania combines easy-to-learn, hard-to-master gameplay with a wide diversity of tracks and skin customization, in addition to regular seasons & live events.",
+    "description": "Trackmania 结合易学难精的玩法和各种赛道及皮肤设计，为所有玩家创造愉快体验。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

@@ -7,7 +7,7 @@
     "exported_at": "2023-06-03T13:33:19-04:00",
     "name": "NeosVR",
     "author": "espeon@espeon.dev",
-    "description": "Neos VR is a metaverse engineered for the unknown! It’s one of the most versatile and feature rich metaverses for virtual reality, designed so everybody can find something interesting or useful to do in a social setting.",
+    "description": "Neos VR 是为未知设计的元宇宙！它是最通用且功能最丰富的元宇宙平台和游戏引擎之一。",
     "features": null,
     "docker_images": {
         "Mono": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:mono_latest"

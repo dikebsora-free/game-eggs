@@ -7,7 +7,7 @@
     "exported_at": "2023-11-30T10:24:33+01:00",
     "name": "Clone Hero",
     "author": "josdekurk@gmail.com",
-    "description": "Clone Hero is a classic instrument based rhythm game for Windows, Mac, Linux, and Android. It's playable with any 5 or 6 fret guitar controller, any midi drum kit, any game controller and even your keyboard! Jam out with Drums, 5-fret Guitar, or 6-fret Guitar online or local!",
+    "description": "Clone Hero 是一款适用于 Windows、Mac、Linux 和 Android 的经典乐器节奏游戏。可以使用任何 5 或 6 品吉他控制器、MIDI 鼓组、游戏控制器甚至键盘来玩！",
     "features": null,
     "docker_images": {
         "Debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

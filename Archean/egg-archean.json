@@ -7,7 +7,7 @@
     "exported_at": "2025-05-27T09:12:18+00:00",
     "name": "Archean",
     "author": "willinghamnottell@gmail.com",
-    "description": "Archean invites you to unleash your creativity alone or with friends in a creative sandbox mode. Design and build vehicles, bases, rockets, space stations and much more using customizable modular blocks. Create unique configurations using components, program their behavior and explore an environment free of constraints.Test your builds, refine your designs and defy the laws of physics. Archean is a game in development focused on engineering and build.",
+    "description": "Archean 邀请您独自或与朋友在创意沙盒模式中释放创造力。在广阔的外星球上设计基地、部署车辆和收集资源。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:ubuntu"

@@ -7,7 +7,7 @@
     "exported_at": "2023-12-18T17:27:56+01:00",
     "name": "Colony Survival",
     "author": "josdekurk@gmail.com",
-    "description": "Colony Survival is a unique first-person strategy game developed by a two-man team. Build your own colony in a voxel world. Command guards, farmers, miners and other colonists. Defend your colony against the horde of monsters that attacks every night!",
+    "description": "Colony Survival 是由两人团队开发的独特第一人称策略游戏。在体素世界中建立殖民地，指挥守卫和殖民者，保护殖民地免受每晚攻击的怪物。",
     "features": null,
     "docker_images": {
         "SteamCMD": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

@@ -7,7 +7,7 @@
     "exported_at": "2024-12-18T13:37:17+00:00",
     "name": "Astro Colony",
     "author": "limmek@swedon.se",
-    "description": "Explore endless Universe and create the most efficient constellation of colonies. Build conveyor systems to automate production. Take care of Astronauts and their needs! Establish new colonies as part of intergalactic simulation.",
+    "description": "探索无尽宇宙，创建最高效的殖民星座。建立传送带系统自动化生产。照顾宇航员的需求！建立新殖民地，参与星际模拟。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

@@ -7,7 +7,7 @@
     "exported_at": "2024-02-16T13:34:36+01:00",
     "name": "Urban Terror",
     "author": "Juli199696@web.de",
-    "description": "Urban Terror started as a realism based \"total conversion\" mod for Quake III Arena. Nowadays, Urban Terror is played using the free, stand-alone, ioquake3 engine modified, which doesn't require Quake III Arena, in addition to being an add-on to id Software's Quake III Arena.",
+    "description": "Urban Terror 最初是 Quake III Arena 的基于现实主义的完全转换模组。如今是一款免费多人 FPS 游戏，可在任何 Quake III Arena 兼容引擎上运行。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

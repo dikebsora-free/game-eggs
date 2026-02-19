@@ -7,7 +7,7 @@
     "exported_at": "2024-04-02T11:43:32+02:00",
     "name": "Tower Unite",
     "author": "teamwuffy@gmail.com",
-    "description": "Tower Unite\r\n\r\nDefault Port: 7778\r\nDefault Query Port: 27016\r\n\r\nConfig Path: Tower/Saved/Config/TowerServer.ini",
+    "description": "Tower Unite 是一个由社区推动的、充满活力的进化世界。与朋友一起玩在线游戏或结识来自世界各地的新朋友！",
     "features": [
         "steam_disk_space"
     ],

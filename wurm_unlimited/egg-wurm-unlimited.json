@@ -7,7 +7,7 @@
     "exported_at": "2023-12-18T14:40:15+01:00",
     "name": "Wurm Unlimited",
     "author": "josdekurk@gmail.com",
-    "description": "Wurm Unlimited is the standalone version of the fantasy sandbox world Wurm Online, the MMORPG where the players are in charge! A pioneer in the ideas of player influence, crafting and adventure, it is now one of the most deep and feature packed true sandbox experiences available.",
+    "description": "Wurm Unlimited 是奇幻沙盒世界 Wurm Online 的独立版本，这是一款由玩家主宰的 MMORPG！作为玩家影响、制作和冒险理念的先驱，它现在是最深入且功能最丰富的真正沙盒体验之一。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

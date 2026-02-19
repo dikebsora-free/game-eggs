@@ -7,7 +7,7 @@
     "exported_at": "2023-11-13T18:26:59+01:00",
     "name": "Insurgency: Sandstorm",
     "author": "brycea@terrahost.cloud",
-    "description": "Insurgency: Sandstorm is a team-based, tactical FPS based on lethal close quarters combat and objective-oriented multiplayer gameplay. Experience the intensity of modern combat where skill is rewarded, and teamwork wins the fight.",
+    "description": "Insurgency: Sandstorm 是一款基于致命近距离战斗和目标导向多人游戏的团队战术 FPS 游戏。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:ubuntu"
