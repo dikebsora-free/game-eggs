@@ -7,7 +7,7 @@
     "exported_at": "2025-04-14T10:05:12+08:00",
     "name": "Path Of Titans",
     "author": "danielivanvladimir.revin@gmail.com",
-    "description": "Path of Titans is a multiplayer dinosaur survival video game. Survive as a dinosaur in a rich ecosystem filled with intelligent AI creatures and up to 200 other players.",
+    "description": "Path of Titans 是一款 MMO 恐龙生存游戏。扮演恐龙，探索、生存并与其他玩家互动。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

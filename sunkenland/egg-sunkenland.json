@@ -7,7 +7,7 @@
     "exported_at": "2025-08-06T01:23:58+02:00",
     "name": "Sunkenland",
     "author": "brainshead@gmail.com",
-    "description": "Get ready for a Waterworld-themed survival game with modular base building, sunken city scavenging, crafting, base defense, and invasions of NPC clans for resources and territory. Ready for the water apocalypse?",
+    "description": "Sunkenland 是一款后启示录水世界生存游戏。在淹没的世界中建造浮动基地。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest"

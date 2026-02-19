@@ -7,7 +7,7 @@
     "exported_at": "2023-08-01T16:53:44+02:00",
     "name": "mohaa",
     "author": "th3dilli@gmx.at",
-    "description": "Medal of Honor: Allied Assault",
+    "description": "Medal of Honor: Allied Assault 是一款经典的二战第一人称射击游戏。",
     "features": null,
     "docker_images": {
         "Mohaa": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:mohaa"

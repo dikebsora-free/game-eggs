@@ -7,7 +7,7 @@
     "exported_at": "2024-04-02T11:11:13+02:00",
     "name": "Cuberite",
     "author": "parker@parkervcp.com",
-    "description": "A lightweight, fast and extensible game server for Minecraft",
+    "description": "Cuberite 是一个轻量级、快速且可扩展的 Minecraft 服务器，用 C++ 编写。",
     "features": [
         "eula",
         "java_version",

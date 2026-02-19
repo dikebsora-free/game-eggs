@@ -7,7 +7,7 @@
     "exported_at": "2022-10-24T20:12:31+02:00",
     "name": "Solace Crafting",
     "author": "eggs@goover.dev",
-    "description": "Open-world fantasy survival RPG. Borderless distance-based difficulty with player built fast-travel, modular-building, and town management.",
+    "description": "Solace Crafting 是一款生存制作游戏，在开放世界中收集资源和建造。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:source": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:source"

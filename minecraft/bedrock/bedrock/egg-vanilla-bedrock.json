@@ -7,7 +7,7 @@
     "exported_at": "2025-06-15T07:15:38+00:00",
     "name": "Vanilla Bedrock",
     "author": "parker@parkervcp.com",
-    "description": "Bedrock Edition (also known as the Bedrock Version, Bedrock Codebase, Bedrock Engine or just Bedrock) refers to the multi-platform family of editions of Minecraft developed by Mojang AB, Microsoft Studios, 4J Studios, and SkyBox Labs. Prior to this term, as the engine originated with Pocket Edition, this entire product family was referred to as \"Pocket Edition\", \"MCPE\", or \"Pocket/Windows 10 Edition\".",
+    "description": "Minecraft 基岩版官方服务器，适用于移动设备和主机版本。",
     "features": [
         "pid_limit"
     ],

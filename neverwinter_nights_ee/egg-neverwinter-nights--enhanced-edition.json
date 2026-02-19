@@ -7,7 +7,7 @@
     "exported_at": "2024-01-30T23:02:22-08:00",
     "name": "Neverwinter Nights: Enhanced Edition",
     "author": "git@robsti.dev",
-    "description": "Return to the Forgotten Realms in this bestselling Dungeons & Dragons roleplaying game. Combines all the content of Neverwinter Nights Diamond Edition with all-new enhanced features. Includes 100+ hours of award-winning adventures and the tools to create your own!",
+    "description": "Neverwinter Nights: Enhanced Edition 是经典角色扮演游戏的重制版，支持多人游戏和自定义模组。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

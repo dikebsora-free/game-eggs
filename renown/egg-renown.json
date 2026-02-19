@@ -7,7 +7,7 @@
     "exported_at": "2025-10-06T22:43:39+02:00",
     "name": "Renown",
     "author": "info@emeraldhost.de",
-    "description": "Renown is an intense medieval multiplayer survival experience set in a vast, ever-evolving world. Whether alone or rallying allies, gather resources, build powerful strongholds, and engage in brutal battles for dominance.",
+    "description": "Renown 是一款中世纪王国管理和战略游戏。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

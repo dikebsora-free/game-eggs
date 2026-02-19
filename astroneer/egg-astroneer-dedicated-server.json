@@ -7,7 +7,7 @@
     "exported_at": "2023-02-20T09:47:43+01:00",
     "name": "Astroneer Dedicated Server",
     "author": "melethainiel.aerin@gmail.com",
-    "description": "A game of aerospace industry and interplanetary exploration.",
+    "description": "Astroneer 是一款太空探险游戏。探索和改造外星球，建立基地并揭开宇宙的秘密。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:proton": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:proton"

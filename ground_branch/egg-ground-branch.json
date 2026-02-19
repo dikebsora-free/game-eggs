@@ -7,7 +7,7 @@
     "exported_at": "2023-08-01T20:51:33+00:00",
     "name": "Ground Branch",
     "author": "red_thirten@yahoo.com",
-    "description": "From one of the developers behind the original Rainbow Six® and Ghost Recon® games, comes a thinking-man's first-person shooter featuring in-depth character and weapon customization. Take your time. Think ahead. Get the job done.",
+    "description": "Ground Branch 是一款战术第一人称射击游戏，强调真实主义和团队合作。",
     "features": null,
     "docker_images": {
         "Wine [Latest]": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest",

@@ -7,7 +7,7 @@
     "exported_at": "2024-04-01T12:17:05+02:00",
     "name": "Modiverse",
     "author": "admin@softwarenoob.com",
-    "description": "Modiverse provides a sandbox environment with the ability to create and play mods such as TTT, Deathrun, FortWars, RP, and more! Use the many sandbox tools to build complex worlds with props, lights, thrusters, wheels, and much much more!",
+    "description": "Modiverse 是一款支持用户创建内容和模组的多人游戏平台。",
     "features": [
         "steam_disk_space"
     ],

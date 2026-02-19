@@ -7,7 +7,7 @@
     "exported_at": "2024-02-26T18:43:46+01:00",
     "name": "HumanitZ",
     "author": "engels74@marx.ps",
-    "description": "HumanitZ is a co-op, isometric, open world survival game in a world ended by the zombie outbreak. As one of the few human survivors, try to last as long as “humanly” possible. The past can’t be changed, but you can make a difference today for the future of humanity.",
+    "description": "HumanitZ 是一款合作僵尸生存游戏，在开放世界中寻找资源和建造基地。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

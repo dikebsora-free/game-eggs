@@ -7,7 +7,7 @@
     "exported_at": "2023-03-11T19:59:13+01:00",
     "name": "Operation Harsh Doorstop",
     "author": "josdekurk@gmail.com",
-    "description": "Operation: Harsh Doorstop is an Unreal Engine powered shooter sandbox similar to mod-friendly games like Ravenfield and Garry's Mod but with roots in tactical shooters like Squad and Arma III. Our game is entirely donation funded, completely free, and has full Steam workshop support!",
+    "description": "Operation: Harsh Doorstop 是一款免费的开源军事模拟器，基于虚幻引擎4。",
     "features": [
         "steam_disk_space"
     ],

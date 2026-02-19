@@ -7,7 +7,7 @@
     "exported_at": "2024-02-02T22:25:49-05:00",
     "name": "Rust Autowipe",
     "author": "support@pterodactyl.io",
-    "description": "The only aim in Rust is to survive. To do this you will need to overcome struggles such as hunger, thirst and cold. Build a fire. Build a shelter. Kill animals for meat. Protect yourself from other players, and kill them for meat. Create alliances with other players and form a town. Do whatever it takes to survive.",
+    "description": "Rust 自动清档服务器。在这款多人生存游戏中收集资源、制作物品、建造基地并抵御威胁。",
     "features": [
         "steam_disk_space"
     ],

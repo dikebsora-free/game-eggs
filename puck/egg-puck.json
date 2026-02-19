@@ -7,7 +7,7 @@
     "exported_at": "2025-09-05T12:44:17+10:00",
     "name": "Puck",
     "author": "ptero@redbananaofficial.com",
-    "description": "Hop on your skates and jump into a physics based hockey game. No rules, no timeouts, just get the puck in the goal. May the best team win!",
+    "description": "Puck 是一款多人冰球游戏。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

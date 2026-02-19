@@ -7,7 +7,7 @@
     "exported_at": "2024-04-02T11:05:24+02:00",
     "name": "Mindustry",
     "author": "sir3lit@gmail.com",
-    "description": "Mindustry is a hybrid tower-defense sandbox factory game. Create elaborate supply chains of conveyor belts to feed ammo into your turrets, produce materials to use for building, and defend your structures from waves of enemies.",
+    "description": "Mindustry 是一款资源管理和塔防游戏，结合了工厂建设元素。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:java_11"

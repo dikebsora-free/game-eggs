@@ -7,7 +7,7 @@
     "exported_at": "2024-05-05T11:08:46+02:00",
     "name": "Assetto Corsa (Freeroam + AI)",
     "author": "josdekurk@gmail.com",
-    "description": "Custom Assetto Corsa server with focus on freeroam",
+    "description": "Assetto Corsa 自由漫游服务器，支持 AI 交通和开放世界驾驶。",
     "features": null,
     "docker_images": {
         "Dotnet_8": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:dotnet_8"
