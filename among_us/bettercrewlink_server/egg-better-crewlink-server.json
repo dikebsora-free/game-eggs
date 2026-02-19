@@ -10,7 +10,7 @@
     "description": "An egg designed to allow support for Proximity Chat in Among Us using BetterCrewLink Server",
     "features": null,
     "docker_images": {
-        "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:nodejs_16": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:nodejs_16"
+        "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_16": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:nodejs_16"
     },
     "file_denylist": [],
     "startup": "yarn start",

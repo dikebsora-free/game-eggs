@@ -10,7 +10,7 @@
     "description": "专用服务器 for Just Cause 3 Multiplayer (JC3:MP)  Using the Just Cause™ 3: Multiplayer Mod.",
     "features": null,
     "docker_images": {
-        "Ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/yolks:ubuntu"
+        "Ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:ubuntu"
     },
     "file_denylist": [],
     "startup": "./Server --maxPlayers={{MAX_PLAYER}} --password={{SERVER_PASSWORD}} --maxTickRate={{TICK_RATE}}",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "#!/bin/bash\r\n# SteamCMD Base Installation Script for JC3:MP\r\n\r\n## Set default Steam user if empty\r\nif [ \"${STEAM_USER}\" == \"\" ]; then\r\n    echo -e \"Steam user not set. Using anonymous.\"\r\n    STEAM_USER=anonymous\r\n    STEAM_PASS=\"\"\r\n    STEAM_AUTH=\"\"\r\nelse\r\n    echo -e \"Steam user: ${STEAM_USER}\"\r\nfi\r\n\r\n## Download and install SteamCMD\r\ncd /tmp\r\nmkdir -p /mnt/server/steamcmd\r\ncurl -sSL -o steamcmd_linux.tar.gz https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz\r\ntar -xzvf steamcmd_linux.tar.gz -C /mnt/server/steamcmd\r\ncd /mnt/server/steamcmd\r\n\r\nexport HOME=/mnt/server\r\n\r\n## Install JC3:MP server\r\n./steamcmd.sh +force_install_dir /mnt/server +login ${STEAM_USER} ${STEAM_PASS} ${STEAM_AUTH} +app_update 619960 validate +quit\r\n\r\n# Make server executable\r\nchmod +x /mnt/server/Server\r\n\r\n#Make config.json \r\necho \"Generating config.json ...\"\r\ncat > /mnt/server/config.json <<EOF\r\n{\r\n    \"announce\": true,\r\n    \"description\": \"${SERVER_DESCRIPTION}\",\r\n    \"host\": \"0.0.0.0\",\r\n    \"httpPort\": ${HTTP_PORT},\r\n    \"logLevel\": 7,\r\n    \"logo\": \"\",\r\n    \"maxPlayers\": ${MAX_PLAYER},\r\n    \"maxTickRate\": 60,\r\n    \"name\": \"${SERVER_NAME}\",\r\n    \"password\": \"${SERVER_PASSWORD}\",\r\n    \"port\": ${SERVER_PORT},\r\n    \"queryPort\": ${QUERY_PORT},\r\n    \"requiredDLC\": [],\r\n    \"steamPort\": ${STEAM_PORT}\r\n}\r\nEOF\r\n\r\necho \"-----------------------------------------\"\r\necho \"JC3:MP installation completed\"\r\necho \"-----------------------------------------\"",
-            "container": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/installers:debian",
+            "container": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/installers:debian",
             "entrypoint": "bash"
         }
     },
