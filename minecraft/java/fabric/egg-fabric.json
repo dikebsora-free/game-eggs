@@ -7,7 +7,7 @@
     "exported_at": "2025-11-04T04:34:52+00:00",
     "name": "Fabric",
     "author": "accounts@bofanodes.io",
-    "description": "Fabric is a modular modding toolchain targeting Minecraft 1.14 and above, including snapshots.",
+    "description": "Fabric 是 Minecraft 的模块化轻量级模组加载器。",
     "features": [
         "eula",
         "java_version",

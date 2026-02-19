@@ -4,7 +4,7 @@
 
 Banana Shooter is a fast-paced, meme-filled FPS where you battle online or with friends. Collect bananas, play classic and chaotic game modes, and enjoy hilarious shooter action.
 
-## Requirements
+## 要求
 
 - You must have a Steam account that owns Banana Shooter to run the server.
 
@@ -13,6 +13,6 @@ Banana Shooter is a fast-paced, meme-filled FPS where you battle online or with 
 Banana Shooter requires one port.  
 You can use any available port.
 
-| Port        | Default (example) |
+| 端口 | Default (example) |
 | ----------- | ----------------- |
 | Server Port | 27015             |

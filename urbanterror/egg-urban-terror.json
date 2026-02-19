@@ -7,10 +7,10 @@
     "exported_at": "2024-02-16T13:34:36+01:00",
     "name": "Urban Terror",
     "author": "Juli199696@web.de",
-    "description": "Urban Terror started as a realism based \"total conversion\" mod for Quake III Arena. Nowadays, Urban Terror is played using the free, stand-alone, ioquake3 engine modified, which doesn't require Quake III Arena, in addition to being an add-on to id Software's Quake III Arena.",
+    "description": "Urban Terror 最初是 Quake III Arena 的基于现实主义的完全转换模组。如今是一款免费多人 FPS 游戏，可在任何 Quake III Arena 兼容引擎上运行。",
     "features": null,
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/yolks:debian": "ghcr.io\/ptero-eggs\/yolks:debian"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian"
     },
     "file_denylist": [],
     "startup": ".\/Quake3-UrT-Ded.{{EXE}} +exec \"server.cfg\" +set fs_game \"q3ut4\" +set fs_basepath \"\/home\/container\" +set fs_homepath \"\/home\/container\" +set dedicated \"2\" +set com_hunkmegs \"{{HUNKMEGS}}\" +set net_port \"{{SERVER_PORT}}\"",
@@ -22,8 +22,8 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server\r\n\r\napt update\r\napt -y install libxml2-utils sed #Install needed dependencies for the official Urban Terror Updater (Not for the Gameserver itself)\r\n\r\necho \"Downloading Urban Terror\"\r\ncurl -sSL -o UrTUpdater-Ded.sh https:\/\/github.com\/FrozenSand\/UrTUpdater\/releases\/download\/v4.0.3-RC1\/UrTUpdater-v4.0.3-Ded.sh \r\n#Download from Github because the Webpage does not allow \"direct Downloads\"\r\n\r\necho \"Updating Urban Terror\" #Accept the EULA and input the needed variables to download the latest version of the Serverfiles (4.3.4 for now)\r\nbash \/mnt\/server\/UrTUpdater-Ded.sh << EOF\r\ny\r\n1\r\n1\r\n1\r\nn\r\ny\r\nn\r\nEOF\r\n\r\n# Set up default configs\r\nmv \/mnt\/server\/q3ut4\/server_example.cfg \/mnt\/server\/q3ut4\/server.cfg\r\nmv \/mnt\/server\/q3ut4\/mapcycle_example.txt \/mnt\/server\/q3ut4\/mapcycle.txt\r\n\r\nchmod +x \/mnt\/server\/Quake3-UrT-Ded.x86_64\r\nchmod +x \/mnt\/server\/Quake3-UrT-Ded.i386\r\n\r\n# Use sed to insert extra config options as many people ask for Bots ingame\r\nsed -i '\/\\\/\\\/pb_sv_enable\/a\\set  bot_enable 1\\nset  bot_minplayers 0' \/mnt\/server\/q3ut4\/server.cfg\r\n\r\n## install end\r\necho \"-----------------------------------------\"\r\necho \"Installation completed...\"\r\necho \"-----------------------------------------\"",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "script": "#!\/bin\/bash\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server\r\n\r\napt update\r\napt -y install libxml2-utils sed #Install needed dependencies for the official Urban Terror Updater (Not for the Gameserver itself)\r\n\r\necho \"Downloading Urban Terror\"\r\ncurl -sSL -o UrTUpdater-Ded.sh https:\/\/ghfast.top\/https:\/\/ghfast.top\/https:\/\/github.com\/FrozenSand\/UrTUpdater\/releases\/download\/v4.0.3-RC1\/UrTUpdater-v4.0.3-Ded.sh \r\n#Download from Github because the Webpage does not allow \"direct Downloads\"\r\n\r\necho \"Updating Urban Terror\" #Accept the EULA and input the needed variables to download the latest version of the Serverfiles (4.3.4 for now)\r\nbash \/mnt\/server\/UrTUpdater-Ded.sh << EOF\r\ny\r\n1\r\n1\r\n1\r\nn\r\ny\r\nn\r\nEOF\r\n\r\n# Set up default configs\r\nmv \/mnt\/server\/q3ut4\/server_example.cfg \/mnt\/server\/q3ut4\/server.cfg\r\nmv \/mnt\/server\/q3ut4\/mapcycle_example.txt \/mnt\/server\/q3ut4\/mapcycle.txt\r\n\r\nchmod +x \/mnt\/server\/Quake3-UrT-Ded.x86_64\r\nchmod +x \/mnt\/server\/Quake3-UrT-Ded.i386\r\n\r\n# Use sed to insert extra config options as many people ask for Bots ingame\r\nsed -i '\/\\\/\\\/pb_sv_enable\/a\\set  bot_enable 1\\nset  bot_minplayers 0' \/mnt\/server\/q3ut4\/server.cfg\r\n\r\n## install end\r\necho \"-----------------------------------------\"\r\necho \"Installation completed...\"\r\necho \"-----------------------------------------\"",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian",
             "entrypoint": "bash"
         }
     },
@@ -69,7 +69,7 @@
             "field_type": "text"
         },
         {
-            "name": "Max Players",
+            "name": "最大玩家数",
             "description": "Maximum players that can connect to the server.",
             "env_variable": "SERVER_MAXCLIENTS",
             "default_value": "16",
@@ -89,7 +89,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Password",
+            "name": "服务器密码",
             "description": "If you want to set a password to connect on the server set this here.",
             "env_variable": "SERVER_PASSWORD",
             "default_value": "",

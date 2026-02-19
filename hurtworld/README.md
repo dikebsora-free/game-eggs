@@ -6,13 +6,13 @@
 
 Due to rate limiting the console on the panel cannot keep up with the game console and the build will complete before the panel console may show it. Reloading the console will load it to the latest part of the log.
 
-## Server Ports
+## 服务器端口
 
 These are the servers required ports
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 12871   |
-| Query   | 13871   |
+| 游戏 | 12871   |
+| 查询 | 13871   |
 
 ### Mods/Plugins may require ports to be added to the server

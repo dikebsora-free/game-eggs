@@ -20,20 +20,20 @@
 
 ---
 
-## Server Description
+## 服务器描述
 
 From their [Github](https://github.com/ampreeT/SourceCoop):
 > SourceCoop is a cooperative server-side-only mod for multi-player Source Engine games (like Black Mesa), that enables players to play together on single-player campaigns or maps.
 
 > [!IMPORTANT]
 >
-> This Egg ***only*** supports official Black Mesa maps, but it can easily be modified to support custom BM maps (see [Manual Configuration Topics](#manual-configuration-topics) for details).
+> This Egg ***only*** supports official Black Mesa maps, but it can easily be modified to support custom BM maps (see [Manual 配置 Topics](#manual-configuration-topics) for details).
 >
 > Support for other Source Engine games (eg. HL2) may be added in the future to SourceCoop and this Egg, but Black Mesa is currently the only formally supported game.
 
-## Egg Capabilities
+## Egg 功能
 
-- Configuration of basic server settings via Startup Variables. This includes:
+- 配置 of basic server settings via Startup Variables. This includes:
   - Server Name
   - Max Players
   - Server Password
@@ -44,26 +44,26 @@ From their [Github](https://github.com/ampreeT/SourceCoop):
   - See SourceCoop [issue #121](https://github.com/ampreeT/SourceCoop/issues/121) for details.
 - Fine-tune configuration of which versions/builds to download of SourceCoop and its dependencies (helpful in the event of SourceCoop updating).
 
-## Installation/System Requirements
+## 安装/系统要求
 
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Recent x86/64 (AMD/Intel) processor. No ARM support. | ---- |
-| RAM | 512 MiB | 2048-4096 MiB |
-| Storage | 29696 MiB | 32768 MiB |
-| Game Ownership | Not required at all. | ---- |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. No ARM support. | ---- |
+| 内存 | 512 MiB | 2048-4096 MiB |
+| 存储 | 29696 MiB | 32768 MiB |
+| 游戏所有权 | Not required at all. | ---- |
 
-## Server Ports
+## 服务器端口
 
 - Default server ports are listed below, but they can be changed freely.
 - RCON will share the Game port and is only required if the server owner enables/uses RCON.
 
-| Port | Default | Protocol |
+| 端口 | 默认值 | 协议 |
 |---------|---------|---------|
-| Game | 27015 | UDP |
+| 游戏 | 27015 | UDP |
 | RCON | (Same as Game) | TCP |
 
-## Manual Configuration Topics
+## Manual 配置 Topics
 
 The following are various topics covering manual configuration procedures the Egg does not handle automatically that may be useful to server owners:
 
@@ -71,7 +71,7 @@ The following are various topics covering manual configuration procedures the Eg
 
 This is best documented by their [Github](https://github.com/ampreeT/SourceCoop):
 
-- [Features & Configuration](https://github.com/ampreeT/SourceCoop/wiki/Features-&-Configuration)
+- [Features & 配置](https://github.com/ampreeT/SourceCoop/wiki/Features-&-配置)
 - [Workshop & Plugins](https://github.com/ampreeT/SourceCoop/wiki/Server-running-tips)
 
 ### Custom Maps

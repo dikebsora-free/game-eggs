@@ -3,9 +3,9 @@ The only survival crafting game set in the Fourth Age of Middle-earth™. Embark
 
 
 
-### Server Ports
+### 服务器端口
 Return to Moria requires 1 port.
 
-| Port  | Default | Notes                                 |
+| 端口 | 默认值 | 备注 |
 | ----- | ------- | ------------------------------------- |
-| Game  | 7777   |
+| 游戏 | 7777   |

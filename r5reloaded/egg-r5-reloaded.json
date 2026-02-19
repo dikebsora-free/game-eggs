@@ -7,7 +7,7 @@
     "exported_at": "2026-02-01T03:48:16+00:00",
     "name": "R5Reloaded",
     "author": "eggs@purpleflaghosting.com",
-    "description": "R5Reloaded - Modded Apex Legends server",
+    "description": "R5 Reloaded 是 Apex Legends 的社区服务器项目。",
     "features": [],
     "docker_images": {
         "ghcr.io\/ptero-eggs\/yolks:wine_latest": "ghcr.io\/ptero-eggs\/yolks:wine_latest"

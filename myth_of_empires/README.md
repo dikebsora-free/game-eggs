@@ -3,23 +3,23 @@
 ## [Steam](https://store.steampowered.com/app/1371580/Myth_of_Empires/)
 
 
-## Installation/System Requirements
+## 安装/系统要求
 <!--Make changes to reflect the server minimum/recommended hardware specs-->
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | *AMD64 only* | *-* |
-| RAM | *9 GiB* | *12 GiB* |
-| Storage | *10 GiB* | *15 GiB* |
-| Network | *-* | *-* |
-| Game Ownership | *Not needed* | *-* |
+| 处理器 | *AMD64 only* | *-* |
+| 内存 | *9 GiB* | *12 GiB* |
+| 存储 | *10 GiB* | *15 GiB* |
+| 网络 | *-* | *-* |
+| 游戏所有权 | *Not needed* | *-* |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    |  11888  |
-| Query   |  12888  |
+| 游戏 |  11888  |
+| 查询 |  12888  |
 | RCON    |  13888  |
 

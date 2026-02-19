@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T13:33:04+00:00",
     "name": "Folia",
     "author": "Hosting@NeverStopGaming.net",
-    "description": "Fork of Paper which adds regionised multithreading to the dedicated server.",
+    "description": "Folia 是 Paper 的实验性分支，专注于多线程区域处理以提高大型服务器性能。",
     "features": [
         "eula",
         "java_version",

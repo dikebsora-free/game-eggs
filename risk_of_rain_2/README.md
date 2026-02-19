@@ -14,12 +14,12 @@ Escape a chaotic alien planet by fighting through hordes of frenzied monsters �
 - At least 1GB RAM
 - Minimum 4GB hard disk space
 
-## Server Ports
+## 服务器端口
 
 The Risk of Rain 2 server requires a single port for access. Steam Query ports are optional for server listing, which might not always function properly, and as such direct IP connection might be required.
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 27015   |
-| Query | 27016   |
+| 游戏 | 27015   |
+| 查询 | 27016   |
 | Steam | 27017  (must be queryport +1) |

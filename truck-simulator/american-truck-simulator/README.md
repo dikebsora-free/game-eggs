@@ -1,12 +1,12 @@
 # ATSPtero - A Egg For Setting Up ATS Dedicated Server
 
 
-Ports below are the default ports that are associated with the ATS dedicated server. 
+Ports below are 默认端口s that are associated with the ATS dedicated server. 
 
-| Port     | default       |
+| 端口 | 默认值       |
 |----------|---------------|
 | Dedicated| 27015         |
-| Query    | 27016          |
+| 查询 | 27016          |
 
 
 # Adding moderators
@@ -27,7 +27,7 @@ Once those files have been uploaded and configured you are free to start up your
 # Steam Server Token
  --**A steam server Token is required**--
 
-Adding a server token received from registering your server at https://steamcommunity.com/dev/managegameservers be sure to use the correct App ID or your server will crash upon startup.
+Adding a server token received from registering your server at https://steamcommunity.com/dev/managegameservers be sure to use the correct 应用 ID or your server will crash upon startup.
 
 American Truck Sim = 270880
 

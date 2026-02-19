@@ -6,12 +6,12 @@ This Mod requires a API key only obtainable through their Discord, see the Start
 - Some features of the mod (Public servers / higher player counts) require a Patreon level. See their Patreon here: https://www.patreon.com/tiltedphoques
 
 ## Server Port
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 11778   |
+| 游戏 | 11778   |
 
-## Hardware Requirements
-| Storage | RAM     | CPU |
+## 硬件要求
+| 存储 | 内存 | CPU |
 |---------|---------|-----|
 | 1.5GiB  | 250MiB  | 🥔  |
 

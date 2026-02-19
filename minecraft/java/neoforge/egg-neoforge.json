@@ -7,7 +7,7 @@
     "exported_at": "2025-10-28T17:57:19+01:00",
     "name": "NeoForge",
     "author": "glorantv@icloud.com",
-    "description": "NeoForge Server. NeoForge is a modding API (Application Programming Interface), which makes it easier to create mods, and also make sure mods are compatible with each other. NeoForge is a fork of Minecraft Forge.",
+    "description": "NeoForge 是 Minecraft Forge 的社区驱动分支，提供模组加载功能。",
     "features": [
         "eula",
         "java_version",

@@ -3,21 +3,21 @@
 ## [Documentation](https://colonysurvival.fandom.com/wiki/Dedicated_Server)
 
 
-## Installation/System Requirements
+## 安装/系统要求
 <!--Make changes to reflect the server minimum/recommended hardware specs-->
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | *Any AMD64 will work* | ** |
-| RAM | *2 GiB* | *4 GiB* |
-| Storage | *2 GiB* | *3 GiB* |
-| Network | *Anything will work* | ** |
-| Game Ownership | *not needed* | *Needed for mods but the egg does not support it* |
+| 处理器 | *Any AMD64 will work* | ** |
+| 内存 | *2 GiB* | *4 GiB* |
+| 存储 | *2 GiB* | *3 GiB* |
+| 网络 | *Anything will work* | ** |
+| 游戏所有权 | *not needed* | *Needed for mods but the egg does not support it* |
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 27004   |
+| 游戏 | 27004   |
 | Steam   | 27005   |

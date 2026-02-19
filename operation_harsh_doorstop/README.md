@@ -4,12 +4,12 @@
 
 Operation: Harsh Doorstop is an Unreal Engine powered shooter sandbox similar to mod-friendly games like Ravenfield and Garry's Mod but with roots in tactical shooters like Squad and Arma III. Our game is entirely donation funded, completely free, and has full Steam workshop support! 
 
-## Server Ports
+## 服务器端口
 
 Operation Harsh Doorstop servers require 3 ports to be open
 
-| Port      | default |
+| 端口 | 默认值 |
 |-----------|---------|
-| Game      | 7777    |
-| Query     | 27005   |
+| 游戏 | 7777    |
+| 查询 | 27005   |
 | RCON      | 7779    |

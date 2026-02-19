@@ -10,9 +10,9 @@ You can get it from [Steam](https://store.steampowered.com/app/1127400)
 
 Mindustry requires a single port
 
-| Port    | Default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 6567    |
+| 游戏 | 6567    |
 
 ## Note
 You can't use hostname/alias to connect your mindustry server. IPv4 must be used to connect.

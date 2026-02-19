@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T13:33:33+00:00",
     "name": "Modrinth Generic",
     "author": "contact@chromozone.dev",
-    "description": "A generic egg for a Modrinth modpack.",
+    "description": "Modrinth 通用服务器，支持从 Modrinth 平台下载和运行模组包。",
     "features": [
         "eula",
         "java_version",

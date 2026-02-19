@@ -15,14 +15,14 @@ The windows version of the server running in Wine.
 This supports some mods that do not work with the linux version of the server.
 Uses more resources for the server than the linux version.
 
-## Server Ports
+## 服务器端口
 
 Mordhau requires 3 ports
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
-| Game    | 7777          |
-| Query   | 27015         |
+| 游戏 | 7777          |
+| 查询 | 27015         |
 | Beacon  | 15000         |
 
 ## Map Rotation / Change Config
@@ -32,7 +32,7 @@ You'll need to run the server once before the Mordhau/Saved/Config/LinuxServer  
 
 ## Default Map Variable
 
-By default the game always starts the same game map and mode.  Change this variable to start the server wth your choice of map and mode. For example , Grad/HRD_Grad OR TaigaMap/FL_Taiga
+By 默认值 the game always starts the same game map and mode.  Change this variable to start the server wth your choice of map and mode. For example , Grad/HRD_Grad OR TaigaMap/FL_Taiga
 
 Map Types
 HRD = Hoard

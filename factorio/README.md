@@ -17,13 +17,13 @@ Factorio has been in development since the spring of 2012. So far over 1,400,000
 
 New to the game? Make sure to checkout their [starter page](https://factorio.com/starter-page).
 
-## Server Ports
+## 服务器端口
 
 Factorio requires a single port
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 34197   |
+| 游戏 | 34197   |
 
 ## ARM64
 There is a factorio egg for ARM64 machines that uses the box64 emulator.

@@ -7,7 +7,7 @@
     "exported_at": "2023-05-17T23:20:29+01:00",
     "name": "Limbo",
     "author": "xEfinax@protonmail.com",
-    "description": "Standalone server program Limbo.",
+    "description": "Limbo 是一个极其轻量级的 Minecraft 代理服务器，通常用于占位或转发。",
     "features": null,
     "docker_images": {
         "ghcr.io\/pterodactyl\/yolks:java_17": "ghcr.io\/pterodactyl\/yolks:java_17"

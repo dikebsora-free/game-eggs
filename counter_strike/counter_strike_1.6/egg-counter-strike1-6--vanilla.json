@@ -7,7 +7,7 @@
     "exported_at": "2025-02-04T15:41:42+01:00",
     "name": "Counter Strike 1.6 - Vanilla",
     "author": "ptero@redbananaofficial.com",
-    "description": "Counter Strike 1.6 - Vanilla\r\n\r\nCounter-Strike: 1.6 is a multiplayer first-person shooter video game developed by Valve Corporation.",
+    "description": "Counter-Strike 1.6 原版专用服务器。",
     "features": null,
     "docker_images": {
         "ghcr.io\/ptero-eggs\/games:source": "ghcr.io\/ptero-eggs\/games:source"

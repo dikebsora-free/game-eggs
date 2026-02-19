@@ -7,12 +7,12 @@
     "exported_at": "2025-04-02T17:59:04+02:00",
     "name": "Satisfactory",
     "author": "red_thirten@yahoo.com",
-    "description": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+    "description": "Satisfactory 是一款第一人称开放世界工厂建设游戏，探索外星球，建造多层工厂。",
     "features": [
         "steam_disk_space"
     ],
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/steamcmd:debian": "ghcr.io\/ptero-eggs\/steamcmd:debian"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-images\/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-images\/steamcmd:debian"
     },
     "file_denylist": [],
     "startup": ".\/Engine\/Binaries\/Linux\/*-Linux-Shipping FactoryGame -Port={{SERVER_PORT}} -ReliablePort={{RELIABLE_PORT}}",
@@ -25,14 +25,14 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\n# File: Pterodactyl Satisfactory Egg - egg-satisfactory.json\r\n# Authors: Red-Thirten, Kubi, matthewp, Software-Noob, and Zarklord\r\n# Date: 2024\/09\/10\r\n# License: MIT License\r\n\r\n## Download and install SteamCMD\r\ncd \/tmp\r\ncurl -sSL -o steamcmd.tar.gz https:\/\/steamcdn-a.akamaihd.net\/client\/installer\/steamcmd_linux.tar.gz\r\nmkdir -p \/mnt\/server\/steamcmd\r\ntar -xzvf steamcmd.tar.gz -C \/mnt\/server\/steamcmd\r\ncd \/mnt\/server\/steamcmd\r\n\r\n# SteamCMD fails otherwise for some reason, even running as root.\r\nchown -R root:root \/mnt\r\nexport HOME=\/mnt\/server\r\n\r\n# Install game server using SteamCMD\r\n.\/steamcmd.sh +force_install_dir \/mnt\/server +login anonymous +app_update ${SRCDS_APPID} $( [[ -z ${SRCDS_BETAID} ]] || printf %s \"-beta ${SRCDS_BETAID}\" ) $( [[ -z ${SRCDS_BETAPASS} ]] || printf %s \"-betapassword ${SRCDS_BETAPASS}\" ) validate +exit\r\n\r\n# Set up 32 and 64 bit libraries\r\nmkdir -p \/mnt\/server\/.steam\/sdk{32,64}\r\ncp -v linux32\/steamclient.so \/mnt\/server\/.steam\/sdk32\/steamclient.so\r\ncp -v linux64\/steamclient.so \/mnt\/server\/.steam\/sdk64\/steamclient.so\r\n\r\n## Satisfactory setup\r\n# Check for successful installation and make the server binary executable.\r\n# Use `find` to see if a valid server binary exists using a wildcard, because\r\n# the binary name may change in the future.\r\n# (eg. it changed when the engine was updated from UE4 to UE5)\r\ncd \/mnt\/server\/Engine\/Binaries\/Linux\r\ncount=$(find . -maxdepth 1 -name '*-Linux-Shipping' -type f -executable | wc -l)\r\nif [[ $count -eq 0 ]]; then\r\n    echo -e \"\\n\\nSteamCMD failed to install the Satisfactory Dedicated Server!\"\r\n    echo -e \"\\tTry reinstalling the server again.\\n\"\r\n    exit 1\r\nelse\r\n    chmod +x *-Linux-Shipping\r\nfi\r\n\r\necho -e \"\\nSatisfactory Dedicated Server successfully installed!\\n\"",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian",
             "entrypoint": "\/bin\/bash"
         }
     },
     "variables": [
         {
-            "name": "Automatic Updates",
-            "description": "Quickly checks for any server updates on startup, and updates if necessary. (1 Enable | 0 Disable)",
+            "name": "自动更新",
+            "description": "启动时快速检查服务器更新，如有必要则更新。(1 启用 | 0 禁用)",
             "env_variable": "AUTO_UPDATE",
             "default_value": "1",
             "user_viewable": true,
@@ -41,8 +41,8 @@
             "field_type": "text"
         },
         {
-            "name": "[Repair] Validate Server Files",
-            "description": "Leave empty (no value) for OFF or type \"true\" or \"1\" for ON. Validates all server files when Automatic Updates is enabled. Note: This will significantly increase server startup times, so it is recommended to only enable this when needed.",
+            "name": "[修复] 验证服务器文件",
+            "description": "留空（无值）表示关闭，输入 \"true\" 或 \"1\" 表示开启。启用自动更新时验证所有服务器文件。注意：这将显著增加服务器启动时间，因此建议仅在需要时启用。",
             "env_variable": "VALIDATE",
             "default_value": "",
             "user_viewable": true,
@@ -51,8 +51,8 @@
             "field_type": "text"
         },
         {
-            "name": "Number of Rotating Autosaves",
-            "description": "Number of session auto-saves for the server to keep before the oldest save is deleted and the others are moved down the list.",
+            "name": "循环自动存档数量",
+            "description": "服务器保留的会话自动存档数量，超过此数量后将删除最旧的存档，其他存档依次后移。",
             "env_variable": "NUM_AUTOSAVES",
             "default_value": "3",
             "user_viewable": true,
@@ -61,8 +61,8 @@
             "field_type": "text"
         },
         {
-            "name": "[Experimental] Max Players",
-            "description": "The server and client are currently not optimized to support more than 4 players. However, you can override this value here at your own risk of poor performance.",
+            "name": "[实验性] 最大玩家数",
+            "description": "服务器和客户端目前未优化以支持超过 4 名玩家。但是，您可以自行承担性能不佳的风险来覆盖此值。",
             "env_variable": "MAX_PLAYERS",
             "default_value": "4",
             "user_viewable": true,
@@ -71,8 +71,8 @@
             "field_type": "text"
         },
         {
-            "name": "[Advanced] Client Initial Connection Timeout",
-            "description": "Time in seconds to wait for a new client connection to be established before destroying the connection.",
+            "name": "[高级] 客户端初始连接超时",
+            "description": "在销毁连接之前等待建立新客户端连接的时间（秒）。",
             "env_variable": "INIT_CONNECT_TIMEOUT",
             "default_value": "30",
             "user_viewable": true,

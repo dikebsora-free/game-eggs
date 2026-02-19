@@ -7,11 +7,11 @@ Construct and manage your own space station either by yourself in singleplayer o
 
 The console output does not work properly with the new server. THIS IS NOT AN ERROR IN THIS EGG !!!!
 
-## Server Ports
+## 服务器端口
 
 Stationeers requires up to 2 ports
 
-| Port        | default |
+| 端口 | 默认值 |
 |-------------|---------|
-| Game        | 27500   |
+| 游戏 | 27500   |
 | Steam Query | 27015   |

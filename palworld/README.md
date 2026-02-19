@@ -1,9 +1,9 @@
 # Palworld
 
-### Steam Description
-Fight, farm, build and work alongside mysterious creatures called "Pals" in this completely new multiplayer, open world survival and crafting game!
+### Steam 简介
+在这款全新的多人开放世界生存和建造游戏中，与被称为"伙伴"的神秘生物一起战斗、耕种、建造和工作！
 
-### Authors / Contributors
+### 作者 / 贡献者
 <table>
     <tr>
         <td align="center">
@@ -59,75 +59,75 @@ Fight, farm, build and work alongside mysterious creatures called "Pals" in this
     </tr>
 </table>
 
-## Known Issues / FAQ
+## 已知问题 / 常见问题
 
-1) The server won't show up in the Community-Server tab.<br>
--> This is a known problem and the devs will hopefully fix that asap. Best choice is to connect by IP and Password.
+1) 服务器不会显示在社区服务器标签中。<br>
+-> 这是一个已知问题，开发人员希望尽快修复。最佳选择是通过 IP 和密码连接。
 
-2) The server has a memory leak.<br>
--> This is also an issue that they are aware of.<br>
--> The `bEnableInvaderEnemy` option seems to have a huge impact on the current RAM usage. Disabling it might be choice.<br>
--> Tip: Schedule a server restart every 6h. You might adjust the value according to your system!<br>
+2) 服务器存在内存泄漏。<br>
+-> 这也是他们已知的问题。<br>
+-> `bEnableInvaderEnemy` 选项似乎对当前内存使用有很大影响。禁用它可能是个选择。<br>
+-> 提示：安排服务器每 6 小时重启一次。您可以根据系统情况调整该值！<br>
 
-3) The server does not show up in the steam server list.<br>
--> This is currently and might never be supported.
+3) 服务器不会显示在 Steam 服务器列表中。<br>
+-> 目前不支持，可能永远不会支持。
 
-4) The config file gets deleted / reset on server restart.<br>
--> Before editing the config file always make sure to fully stop the server first. Otherwise all changes wont be saved.
+4) 配置文件在服务器重启时被删除/重置。<br>
+-> 在编辑配置文件之前，务必先完全停止服务器。否则所有更改都不会被保存。
 
-## Recommended server settings
+## 推荐服务器配置
 
-### RAM
+### 内存
 
-Due to at least one memory leak the server requires about 16-32GB RAM.<br>
-Referring to the [official documentation](https://tech.palworldgame.com/dedicated-server-guide) you can start the server with 8GB but you will run out of memory very quickly.<br>
-The minimum should be 16GB but 32GB are fairly recommended for now.<br>
+由于至少存在一个内存泄漏，服务器需要大约 16-32GB 内存。<br>
+参考[官方文档](https://tech.palworldgame.com/dedicated-server-guide)，您可以用 8GB 启动服务器，但很快就会耗尽内存。<br>
+最低应为 16GB，但目前相当推荐 32GB。<br>
 
 ### CPU
 
-Intel / AMD processor with at least 4 cores.
+至少 4 核的 Intel / AMD 处理器。
 
-### Storage
+### 存储
 
-As of January 19th 2024 the server requires about 5GB of storage capacity. This might extend with further content/updates.
+截至 2024 年 1 月 19 日，服务器需要大约 5GB 的存储容量。这可能会随着进一步的内容/更新而扩展。
 
-## Server Ports
+## 服务器端口
 
-| Port            | Default |
+| 端口            | 默认值 |
 | --------------- | ------- |
-| Game            | 8211    |
-| RCON (optional) | 25575   |
+| 游戏            | 8211    |
+| RCON (可选) | 25575   |
 
-The RCON port does not need to be allocated.
+RCON 端口不需要分配。
 
-### Updating
+### 更新
 
-1. Update your egg
-2. Update the startup of all already made servers to the one that now comes with the egg
-3. Then hit reinstall because the parser application has to be downloaded
-4. Because the Palworld devs forgot with the v0.1.5.0 to add the new `bShowPlayerList` key to the config you will need to add it yourself. This maybe fixt in the future. Its default value is False
+1. 更新您的 egg
+2. 将所有已创建服务器的启动项更新为 egg 中现在附带的启动项
+3. 然后点击重新安装，因为需要下载解析器应用程序
+4. 由于 Palworld 开发人员在 v0.1.5.0 中忘记在配置中添加新的 `bShowPlayerList` 键，您需要自己添加它。这可能在未来修复。其默认值为 False
 
-Example of the end of the config: `bUseAuth=True,bShowPlayerList=False,BanListURL="https://api.palworldgame.com/api/banlist.txt")`
+配置结尾示例：`bUseAuth=True,bShowPlayerList=False,BanListURL="https://api.palworldgame.com/api/banlist.txt")`
 
-### Variable Parsing
+### 变量解析
 
-The parser application that is currently being shipped is capable of editing all variables that are present in the Palworld configuration file as of February 1, 2024.
+目前附带的解析器应用程序能够编辑截至 2024 年 2 月 1 日 Palworld 配置文件中存在的所有变量。
 
-However, only the most basic and necessary variables are present in the egg.
-Those who need more variables will have to add them themselves.
+但是，egg 中仅存在最基本和必要的变量。
+需要更多变量的人必须自己添加它们。
 
-See a list of what key matches with what variable [Here](https://github.com/QuintenQVD0/Palword-server-config-parser?tab=readme-ov-file#key-with-variables)
+在[此处](https://github.com/QuintenQVD0/Palword-server-config-parser?tab=readme-ov-file#key-with-variables)查看键与变量的匹配列表
 
-**Variables that do not exist will automatically be skipped parsing so you do not have to worry about it emptying your config file**
+**不存在的变量将自动跳过解析，因此您不必担心它会清空您的配置文件**
 
 ### Proton
 
-There is a special egg that uses proton instad of the native linux version what shipes with `winmm.dll` and `RE-UE4SS` so for they who want to run mods then that is possible.
+有一个特殊的 egg 使用 proton 而不是原生 Linux 版本，附带 `winmm.dll` 和 `RE-UE4SS`，因此想要运行模组的人可以使用它。
 
-Keep in mind this eggs console output is broken (thanks proton / wine) so you will only see the parser output. The RCON console does still work.
+请记住，这个 egg 的控制台输出已损坏（感谢 proton / wine），所以您只会看到解析器输出。RCON 控制台仍然有效。
 
 
-### Config
+### 配置
 
-The config is found at the following path: `Pal/Saved/Config/LinuxServer/PalWorldSettings.ini` or if you are running the proton egg `Pal/Saved/Config/WindowsServer/PalWorldSettings.ini`
+配置文件位于以下路径：`Pal/Saved/Config/LinuxServer/PalWorldSettings.ini` 或者如果您正在运行 proton egg `Pal/Saved/Config/WindowsServer/PalWorldSettings.ini`
 

@@ -4,12 +4,12 @@
 
 You may want to assign a minimum of 1GB of RAM to a server.
 
-## Server Ports
+## 服务器端口
 
-The default is 6000 can be changed in SettingsServer.xml
+默认为 6000 can be changed in SettingsServer.xml
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 6000    |
+| 游戏 | 6000    |
 
 ### Plugins may require ports to be added to the server

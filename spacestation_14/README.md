@@ -16,16 +16,16 @@ Minimum required storage to run the server.
 Example: 100MiB is recommended. 2GiB+ is preferred
 
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 1212 (TCP+ UDP)   |
+| 游戏 | 1212 (TCP+ UDP)   |
 
-### Notes
+### 备注
 
 <!--Notes about the server ports.-->
-1212 is the default port, but any port can be used.
+1212 is 默认端口, but any port can be used.
 

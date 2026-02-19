@@ -7,7 +7,7 @@
     "exported_at": "2025-05-02T12:50:37+00:00",
     "name": "Foundry VTT",
     "author": "pterodactyl@demi.cloud",
-    "description": "Foundry VTT is a standalone application built for experiencing multiplayer tabletop RPGs using a feature-rich and modern self-hosted application where your players connect directly through the browser.",
+    "description": "Foundry VTT 是一款虚拟桌面游戏平台，用于跑团和桌游。",
     "features": null,
     "docker_images": {
         "ghcr.io\/ptero-eggs\/yolks:nodejs_22": "ghcr.io\/ptero-eggs\/yolks:nodejs_22"

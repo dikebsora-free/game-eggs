@@ -1,6 +1,6 @@
 # Sons of the Forest
 
-### Game Description
+### 游戏简介
 
 Sons of the Forest is a horror survival game and sequel to The Forest by Endnight Games, Ltd.. Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends.
 
@@ -14,14 +14,14 @@ Steam: https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/
 |   gOOvER   | https://github.com/gOOvER | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B351D0Q) |
 
 
-### Server Ports
+### 服务器端口
 
 Sons of the Forest requires up to 3 ports. You can choose every port you want.
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
-| Game    |     8766     |
-| Query     |     27016     |
+| 游戏 |     8766     |
+| 查询 |     27016     |
 | BlobSyncPort | 9700       |
 
 ## Special Note

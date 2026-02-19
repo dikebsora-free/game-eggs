@@ -3,7 +3,7 @@
 ***Server version currently marked as early access by the Arma developers! Check back often for egg updates as more features are added to the server software.***
 ___
 
-## Authors / Contributors
+## 作者 / 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -30,42 +30,42 @@ ___
 
 ___
 
-### Game Description
+### 游戏简介
 
 From Bohemia Interactive's [Website](https://reforger.armaplatform.com/):
 > Experience authentic Cold War combat and join friends in the struggle for a sprawling, 51 km² mid-Atlantic island — or take on the role of Game Master and create your very own scenarios for others to enjoy.
 ___
 
-### Egg Capabilities
+### Egg 功能
 
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
 - Able to download and load Arma Reforger Workshop mods on startup (requires manual editing of the `config.json` file).
-- Configuration of multiple common settings in the `config.json` file via Startup Parameters:
+- 配置 of multiple common settings in the `config.json` file via Startup Parameters:
   - Server Name, Passwords, Scenario ID, Disable Third Person, Max FPS, and more...
 - Max Players is configurable and able to be host enforced (\*see [Recommended Egg Modifications](#restrict-max-players)).
 - [WHMCS](https://www.whmcs.com/) compatible.
 
 ___
 
-### Server Ports
+### 服务器端口
 
-| Port | Default | Protocol | Required | Notes |
+| 端口 | 默认值 | 协议 | 必需 | 备注 |
 |---------|---------|---------|---------|---------|
-| **Game** | 2001 | UDP | **Yes** | Primary port in Panel |
-| A2S | 17777 | UDP | No | Steam Query / Requires additional configuration in `config.json` |
-| RCON | 19999 | UDP | No | Requires additional configuration in `config.json` |
+| **游戏** | 2001 | UDP | **是** | Primary port in Panel |
+| A2S | 17777 | UDP | 否 | Steam Query / Requires additional configuration in `config.json` |
+| RCON | 19999 | UDP | 否 | Requires additional configuration in `config.json` |
 
 ___
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Recent x86/64 (AMD/Intel) processor. No ARM support. | Can use up to 300-600% CPU under load with uncapped FPS (set Max FPS to prevent). |
-| RAM | 3328 MiB | 6144-8192 MiB |
-| Storage | 5 GB | 7-10 GB (or more, depending on number of mods downloaded) |
-| Network | If node is behind a NAT, will require Egg Modification (\*see [Define Host Registered Bind Address](#define-host-registered-bind-address) | Wings Node is not behind a NAT |
-| Game Ownership | Not required to start or download mods. | ---- |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. No ARM support. | Can use up to 300-600% CPU under load with uncapped FPS (set Max FPS to prevent). |
+| 内存 | 3328 MiB | 6144-8192 MiB |
+| 存储 | 5 GB | 7-10 GB (or more, depending on number of mods downloaded) |
+| 网络 | If node is behind a NAT, will require Egg Modification (\*see [Define Host Registered Bind Address](#define-host-registered-bind-address) | Wings Node is not behind a NAT |
+| 游戏所有权 | Not required to start or download mods. | ---- |
 
 ___
 
@@ -112,8 +112,8 @@ The following are highly recommended variable modifications you can make to the 
 Due to a current behavior of the Panel, `SERVER_IP` will not return the node's public IP address if it is behind a NAT; it will return its private IP address. Unfortunately at this time, Arma Reforger **requires** the server's public IP address to be strictly defined within `config.json`. If you know your node is behind a NAT (or you are finding your node's private IP address being added to `config.json`), you will need to edit this egg after importing it by following these steps:
 
 1. As a panel admin, find and open the egg within your Nests tab.
-2. On the first tab "Configuration", find the "Configuration Files" box under the "Process Management" section.
-3. Carefully (as to not touch anything else), find `{{server.build.default.ip}}` and replace it with your node's public IP address. If done correctly, the line should now look something like this:
+2. On the first tab "配置", find the "配置 Files" box under the "Process Management" section.
+3. Carefully (as to not touch anything else), find `{{server.build.默认值.ip}}` and replace it with your node's public IP address. If done correctly, the line should now look something like this:
 
 ```json
 "publicAddress": "123.4.56.789",
@@ -121,4 +121,4 @@ Due to a current behavior of the Panel, `SERVER_IP` will not return the node's p
 
 #### Restrict Max Players
 
-If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's default value can also be changed, or the value can be changed on a server-by-server basis as desired.
+If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's 默认值 value can also be changed, or the value can be changed on a server-by-server basis as desired.

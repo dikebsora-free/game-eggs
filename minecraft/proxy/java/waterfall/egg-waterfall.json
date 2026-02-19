@@ -7,7 +7,7 @@
     "exported_at": "2025-01-11T09:35:02+00:00",
     "name": "Waterfall",
     "author": "hostmaster@waterfallgaming.net",
-    "description": "Waterfall is a fork of the well-known BungeeCord server teleportation suite.",
+    "description": "Waterfall 是 BungeeCord 的改进版本，提供更好的性能和稳定性。",
     "features": [
         "eula",
         "java_version",

@@ -7,7 +7,7 @@
     "exported_at": "2025-05-14T02:34:06+02:00",
     "name": "ET Legacy",
     "author": "parker@parkervcp.com",
-    "description": "Welcome to Enemy Territory: Legacy, an open source project that aims to create a fully compatible client and server for the popular online FPS game Wolfenstein: Enemy Territory - whose gameplay is still considered unmatched by many, despite its great age.",
+    "description": "ET: Legacy 是德军总部：敌后防线的社区维护版本。",
     "features": null,
     "docker_images": {
         "ghcr.io\/ptero-eggs\/steamcmd:debian": "ghcr.io\/ptero-eggs\/steamcmd:debian"

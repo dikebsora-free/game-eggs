@@ -7,14 +7,14 @@
     "exported_at": "2024-06-01T19:39:49+00:00",
     "name": "Blightfall",
     "author": "aevum@decess.us",
-    "description": "Blightfall is a combination modpack and adventure map about surviving on an alien planet. It uses magic mods and tech mods to create a novel gameplay experience. Can you survive on a world completely covered by Thaumcraft taint?\r\n\r\nhttps://www.technicpack.net/modpack/blightfall.592618",
+    "description": "Blightfall 是一个以故事为导向的 Minecraft 模组包。",
     "features": [
         "eula",
         "java_version",
         "pid_limit"
     ],
     "docker_images": {
-        "ghcr.io/ptero-eggs/yolks:java_8": "ghcr.io/ptero-eggs/yolks:java_8"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:java_8": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:java_8"
     },
     "file_denylist": [],
     "startup": "java -Xms128M -Xmx{{SERVER_MEMORY}}M -jar Blightfall.jar",
@@ -26,9 +26,9 @@
     },
     "scripts": {
         "installation": {
-            "container": "ghcr.io/ptero-eggs/installers:alpine",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:alpine",
             "entrypoint": "ash",
-            "script": "#!/bin/ash\r\n# Forge Installation Script\r\n#\r\n# Server Files: /mnt/server\r\n\r\ncd /mnt/server\r\n\r\ncurl -sS https://servers.technicpack.net/Technic/servers/blightfall/Blightfall_Server_$MODPACK_VERSION.zip -o Blightfall_$MODPACK_VERSION.zip\r\n\r\nunzip Blightfall_$MODPACK_VERSION.zip\r\n\r\nrm -rf Blightfall_$MODPACK_VERSION.zip\r\n\r\n\r\n## install end\r\necho \"-----------------------------------------\"\r\necho \"Installation completed...\"\r\necho \"-----------------------------------------\""
+            "script": "#!\/bin\/ash\r\n# Forge Installation Script\r\n#\r\n# Server Files: \/mnt\/server\r\n\r\ncd \/mnt\/server\r\n\r\ncurl -sS https:\/\/servers.technicpack.net\/Technic\/servers\/blightfall\/Blightfall_Server_$MODPACK_VERSION.zip -o Blightfall_$MODPACK_VERSION.zip\r\n\r\nunzip Blightfall_$MODPACK_VERSION.zip\r\n\r\nrm -rf Blightfall_$MODPACK_VERSION.zip\r\n\r\n\r\n## install end\r\necho \"-----------------------------------------\"\r\necho \"Installation completed...\"\r\necho \"-----------------------------------------\""
         }
     },
     "variables": [

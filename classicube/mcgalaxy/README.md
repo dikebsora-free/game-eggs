@@ -4,8 +4,8 @@
 
 MCGalaxy is a fully featured and customisable ClassiCube Server Software based on MCForge/MCLawl.
 
-## Server Ports
+## 服务器端口
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 25565   |
+| 游戏 | 25565   |

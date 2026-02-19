@@ -16,10 +16,10 @@ This will only work if you receive Steamguard codes via mail. The Authenticator 
 
 NitroxMod version >=1.5.0.0 is required for this egg
 
-## Server Ports
+## 服务器端口
 
-The nitrox server requires only the default Server port.
+The nitrox server requires only the 默认值 Server port.
 
-| Port   | default |
+| 端口 | 默认值 |
 |--------|---------|
 | Server |   any   |

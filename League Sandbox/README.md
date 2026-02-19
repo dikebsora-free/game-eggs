@@ -16,10 +16,10 @@ Post install you are required to set
 - `/home/container/Settings/GameInfo.json` `CONTENT_PATH` to just `Content`
 - `/home/container/Settings/GameServerSettings.json` `autoStartClient` to `false`
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port | default |
+| 端口 | 默认值 |
 | ---- | ------- |
-| Game | 5119    |
+| 游戏 | 5119    |

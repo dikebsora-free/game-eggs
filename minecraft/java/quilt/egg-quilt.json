@@ -7,7 +7,7 @@
     "exported_at": "2025-04-20T21:46:27+00:00",
     "name": "Quilt",
     "author": "diedyesterdaywashere@gmail.com",
-    "description": "The Quilt project is an open-source, community-driven modding toolchain designed primarily for Minecraft. By focusing on speed, ease of use and modularity, Quilt aims to provide a sleek and modern modding toolchain with an open ecosystem.",
+    "description": "Quilt 是一款模块化的 Minecraft 模组加载器，专注于可扩展性和现代化。",
     "features": null,
     "docker_images": {
         "Java 8": "ghcr.io\/ptero-eggs\/yolks:java_8",

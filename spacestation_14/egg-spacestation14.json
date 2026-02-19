@@ -7,10 +7,10 @@
     "exported_at": "2025-04-18T22:29:49+01:00",
     "name": "Spacestation 14",
     "author": "josdekurk@gmail.com",
-    "description": "Space Station 14 tells the story of an ordinary shift on a space station gone wrong. Immerse yourself into your role, tinker with detailed systems, and survive the chaos in this round-based multiplayer role playing game.",
+    "description": "Space Station 14 是一款关于偏执和混乱的多人游戏，发生在轨道空间站上。",
     "features": null,
     "docker_images": {
-        "Dotnet 9": "ghcr.io\/ptero-eggs\/yolks:dotnet_9"
+        "Dotnet 9": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:dotnet_9"
     },
     "file_denylist": [],
     "startup": ".\/Robust.Server",
@@ -23,13 +23,13 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\nURL=\"https:\/\/wizards.cdn.spacestation14.com\/fork\/wizards\"\r\n\r\nV=$(curl -s \"$URL\" | grep -m1 -oP '<span[^>]*class=\"[^\"]*\\bversionNumber\\b[^\"]*\"[^>]*>\\K[^<]+')\r\n\r\nARCH=$([[ \"$(uname -m)\" == \"x86_64\" ]] && echo \"linux-x64\" || echo \"linux-arm64\")\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server\r\n\r\necho \"Running: curl -sSL -o server_linux.zip ${URL}\/version\/${V}\/file\/SS14.Server_${ARCH}.zip\"\r\ncurl -sSL -o server_linux.zip \"${URL}\/version\/${V}\/file\/SS14.Server_${ARCH}.zip\"\r\nunzip -o server_linux.zip\r\nrm server_linux.zip\r\n\r\nchmod +x Robust.Server\r\n\r\n## install end\r\necho \"-----------------------------------------\"\r\necho \"Installation completed...\"\r\necho \"-----------------------------------------\"",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian",
             "entrypoint": "bash"
         }
     },
     "variables": [
         {
-            "name": "Server name",
+            "name": "服务器名称",
             "description": "The server hostname",
             "env_variable": "SERVER_NAME",
             "default_value": "MyServer",
@@ -49,7 +49,7 @@
             "field_type": "text"
         },
         {
-            "name": "Max players",
+            "name": "最大玩家数",
             "description": "",
             "env_variable": "SERVER_MAX_PLAYERS",
             "default_value": "256",

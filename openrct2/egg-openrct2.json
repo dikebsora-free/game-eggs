@@ -7,10 +7,10 @@
     "exported_at": "2025-10-29T14:32:30+01:00",
     "name": "OpenRCT2",
     "author": "red_thirten@yahoo.com",
-    "description": "OpenRCT2 is an open-source re-implementation of RollerCoaster Tycoon 2 (RCT2), expanding the game with new features, fixing bugs and raising game limits.",
+    "description": "OpenRCT2 是经典游戏 RollerCoaster Tycoon 2 的开源重制版和扩展。",
     "features": null,
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/yolks:debian": "ghcr.io\/ptero-eggs\/yolks:debian"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian"
     },
     "file_denylist": [],
     "startup": ".\/OpenRCT2\/openrct2-cli --version && .\/OpenRCT2\/openrct2-cli host $(if {{LOAD_AUTOSAVE}} && [ -d ServerData\/save\/autosave\/ ]; then find ServerData\/save\/autosave\/ | sort -r | head -1; else echo \"{{SAVE_URI}}\"; fi) --port {{SERVER_PORT}} --user-data-path \/home\/container\/ServerData\/",
@@ -69,7 +69,7 @@
             "field_type": "text"
         },
         {
-            "name": "Max Players",
+            "name": "最大玩家数",
             "description": "Maximum players allowed to connect to the server.",
             "env_variable": "MAX_PLAYERS",
             "default_value": "16",
@@ -79,7 +79,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Password",
+            "name": "服务器密码",
             "description": "Password requested by the server for clients to connect. Admins do not have to enter password to join. Leave empty for no password.",
             "env_variable": "SERVER_PASSWORD",
             "default_value": "",
@@ -109,7 +109,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Name",
+            "name": "服务器名称",
             "description": "Name of the server that appears in the server list.",
             "env_variable": "SERVER_NAME",
             "default_value": "",
@@ -119,7 +119,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Description",
+            "name": "服务器描述",
             "description": "Description of the server that appears when hovering over the server in the server list.",
             "env_variable": "SERVER_DESCRIPTION",
             "default_value": "",

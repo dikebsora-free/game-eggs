@@ -13,5 +13,5 @@ A steam account that owns the game is required to install this server.
 The official word from the developers is they have discussed this and have no intention to change this.
 
 
-### Server Ports
-Aloft requires one port. They do not specify a default port.
+### 服务器端口
+Aloft requires one port. They do not specify a 默认值 port.

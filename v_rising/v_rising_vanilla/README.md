@@ -1,6 +1,6 @@
 # V Rising
 
-### Authors / Contributors
+### 作者 / 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -28,51 +28,51 @@
 
 ___
 
-### Game Description
+### 游戏简介
 
 From Stunlock Studios's [Website](https://playvrising.com/):
 > Awaken as a vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing open world full of mystery. Gain allies online and conquer the land of the living.
 
 ___
 
-### Egg Capabilities
+### Egg 功能
 
 - Currently runs the Windows build of the server via Wine. This egg will be updated once a proper, native Linux server binary is released.
 - Configurable to automatically check for server updates on start via SteamCMD. Forcing validation is also configurable.
 - All [formally recognized](https://github.com/StunlockStudios/vrising-dedicated-server-instructions/blob/master/1.0.x/INSTRUCTIONS.md#server-host-settings) `ServerHostSettings.json` settings can be automatically configured via Startup variables.
   - This includes: Server name, game settings preset, password, max players, auto save settings, and more...
   - This does not include some obscure settings (ie. Enable API, Disable Save File Compression, etc.), but these can still be modified with a custom `ServerHostSettings.json` file created in `~/save-data/Settings/`.
-- RCON ready (\*requires extra port – see [Server Ports](#server-ports)). See the RCON section under [Manual Configuration Topics](#manual-configuration-topics) for more info.
+- RCON ready (\*requires extra port – see [Server Ports](#server-ports)). See the RCON section under [Manual 配置 Topics](#manual-configuration-topics) for more info.
 
 ___
 
-### Server Ports
+### 服务器端口
 
 - Default server ports are listed below, but all three ports can be changed freely.
 - The only *required* port is the Game port, but the Query port is needed for the server to appear in the server list (Direct connect is still possible without the Query port). There have also been reports that servers only appear in the server list if they are popular, so consider this when troubleshooting.
 - Clients connect via the Game port.
 - The RCON port is optional and only required if the server owner enables/uses RCON.
 
-| Port | Default | Protocol |
+| 端口 | 默认值 | 协议 |
 |---------|---------|---------|
 | **Game (Primary Port in Pterodactyl)** | 9876 | UDP |
-| Query | 9877 | UDP |
+| 查询 | 9877 | UDP |
 | RCON | 25575 | TCP |
 
 ___
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Recent x86/64 (AMD/Intel) processor. No 32 bit or ARM support. | Unsubstantiated reports say that RCON uses significantly more CPU when enabled, but I have not been able to replicate myself. |
-| RAM | 3072 MiB | 4096-6144 MiB |
-| Storage | 3.5 GB | 5-10 GB (or more, depending on save size or frequency) |
-| Game Ownership | Not required at all. | ---- |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. No 32 bit or ARM support. | Unsubstantiated reports say that RCON uses significantly more CPU when enabled, but I have not been able to replicate myself. |
+| 内存 | 3072 MiB | 4096-6144 MiB |
+| 存储 | 3.5 GB | 5-10 GB (or more, depending on save size or frequency) |
+| 游戏所有权 | Not required at all. | ---- |
 
 ___
 
-### Manual Configuration Topics
+### Manual 配置 Topics
 
 The following are various topics covering manual configuration procedures the egg does not handle automatically that may be useful to server owners:
 

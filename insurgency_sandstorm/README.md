@@ -11,7 +11,7 @@ To start your server with GSLT authentication add -GSLTToken=xxxxxxxxxxxxxxx to 
 
 See the following for additional configurations - <https://support.newworldinteractive.com/support/solutions/articles/47001115510-server-admin-guide>
 
-## Recommended server settings
+## 推荐服务器配置
 
 ### Minimum Storage
 
@@ -21,9 +21,9 @@ This server requires about 5632M to install.
 
 This server requires about 1024M to run with no players.
 
-## Server Ports
+## 服务器端口
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 27102   |
-| Query | 27131   |
+| 游戏 | 27102   |
+| 查询 | 27131   |

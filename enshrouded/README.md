@@ -1,6 +1,6 @@
 # Enshrouded
 
-### Game Description
+### 游戏简介
 
 Enshrouded is a game of survival, crafting, and Action RPG combat, set within a sprawling voxel-based continent. As you journey across the mountains and deserts of an open world, you are free to choose your path and shape your destiny.
 
@@ -21,17 +21,17 @@ Ignite the Ancient power of the Flame, and piece together the fragments of a sto
 |   QuintenQVD0   | https://github.com/QuintenQVD0 | / |
 |   gOOvER   | https://github.com/gOOvER | https://ko-fi.com/B0B351D0Q  |
 
-### Server Ports
+### 服务器端口
 
-By default Enshrouded requires 1 port.
+By 默认值 Enshrouded requires 1 port.
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
 |Game/Query   |     15637     |
 
-## Configuration
+## 配置
 
-### **Where is the Server Configuration Stored?**
+### **Where is the Server 配置 Stored?**
 The Enshrouded dedicated server configuration is stored in `enshrouded_server.json`, which is automatically managed by this egg.
 
 Instead of manually editing this file, **you can set most key values directly in the Pterodactyl Panel** using environment variables.
@@ -53,7 +53,7 @@ Other settings, such as **game settings, IP binding, and log locations**, are st
 
 ---
 
-### **Default Configuration File (`enshrouded_server.json`)**
+### **Default 配置 File (`enshrouded_server.json`)**
 On first startup, the server will generate the following structure:
 
 ```json
@@ -154,13 +154,13 @@ On first startup, the server will generate the following structure:
 }
 ```
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|           | Recommended  | Extra info  |
+|           | 推荐 | Extra info  |
 |-----------|--------------|-------------|
-| Processor | Recent x86/64 (AMD/Intel) processor. | You need min 4 Cores for the Server. |
-| RAM       |  4-6 GB     |
-| Storage   |  30 GB (or more, depending on save size or frequency) |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. | You need min 4 Cores for the Server. |
+| 内存 |  4-6 GB     |
+| 存储 |  30 GB (or more, depending on save size or frequency) |
 
 ### Server not showing in Serverlist?
 

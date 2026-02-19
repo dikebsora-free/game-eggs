@@ -7,7 +7,7 @@
     "exported_at": "2026-01-05T18:02:31+00:00",
     "name": "Paper",
     "author": "parker@pterodactyl.io",
-    "description": "High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.",
+    "description": "Paper 是一款高性能的 Minecraft 服务器，专注于优化和稳定性，同时保持与 Spigot 插件的兼容性。",
     "features": [
         "eula",
         "java_version",

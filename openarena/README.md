@@ -6,10 +6,10 @@ OpenArena is a community-produced deathmatch FPS based on GPL idTech3 technology
 
 There are many game types supported including Free For All, Capture The Flag, Domination, Overload, Harvester, and more.
 
-## Server Ports
+## 服务器端口
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 27960   |
+| 游戏 | 27960   |
 
 ### Mods/Plugins may require ports to be added to the server

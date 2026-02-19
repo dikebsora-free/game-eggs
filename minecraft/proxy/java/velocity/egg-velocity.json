@@ -7,7 +7,7 @@
     "exported_at": "2025-01-11T09:35:02+00:00",
     "name": "Velocity",
     "author": "parker@parkervcp.com",
-    "description": "Velocity is a Minecraft server proxy with unparalleled server support, scalability, and flexibility.",
+    "description": "Velocity 是一款现代化的 Minecraft 代理服务器，提供高性能和插件支持。",
     "features": [
         "eula",
         "java_version",

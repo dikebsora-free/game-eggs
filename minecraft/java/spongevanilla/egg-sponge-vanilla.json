@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T13:33:52+00:00",
     "name": "SpongeVanilla",
     "author": "parker@parkervcp.com",
-    "description": "SpongeVanilla is the implementation of the Sponge API on top of Vanilla Minecraft.",
+    "description": "SpongeVanilla 是基于原版的 Sponge 插件 API 实现。",
     "features": [
         "eula",
         "java_version",

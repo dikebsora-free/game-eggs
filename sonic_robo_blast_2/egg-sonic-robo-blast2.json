@@ -7,10 +7,10 @@
     "exported_at": "2025-03-10T13:31:01+01:00",
     "name": "Sonic Robo Blast 2",
     "author": "ptero@redbananaofficial.com",
-    "description": "Sonic Robo Blast 2 Dedicated Server",
+    "description": "Sonic Robo Blast 2 是基于 Doom 引擎的 3D 开源索尼克粉丝游戏。",
     "features": null,
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/yolks:wine_latest": "ghcr.io\/ptero-eggs\/yolks:wine_latest"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:wine_latest": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:wine_latest"
     },
     "file_denylist": [],
     "startup": "rm .\/latest-log.txt; wine .\/srb2win.exe -dedicated -port {{SERVER_PORT}} -room {{ROOM_NR}} & ENS_PID=$! ; tail -c0 -F .\/latest-log.txt --pid=$ENS_PID",
@@ -22,14 +22,14 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\n\r\n# SRB2_VERSION\r\nif [[ \"$SRB2_VERSION\" == \"latest\" ]]; then\r\n    echo \"Fetching latest SRB2 version from GitHub...\"\r\n    SRB2_VERSION=$(curl -s https:\/\/api.github.com\/repos\/STJr\/SRB2\/releases\/latest | jq -r '.tag_name' | sed 's\/SRB2_release_\/\/')\r\n    echo \"Latest SRB2 version is: $SRB2_VERSION\"\r\nfi\r\n\r\nSRB2_VERSION_NO_DOTS=\"${SRB2_VERSION\/\/.\/}\"\r\nSRB2_URL=\"https:\/\/github.com\/STJr\/SRB2\/releases\/download\/SRB2_release_${SRB2_VERSION}\/SRB2-v${SRB2_VERSION_NO_DOTS}-Full.zip\"\r\n\r\napt update && apt install -y unzip wget jq curl libsdl2-2.0-0 libpng16-16\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server || exit\r\n\r\nwget -O SRB2.zip \"$SRB2_URL\"\r\nunzip SRB2.zip\r\nrm SRB2.zip\r\n\r\nchmod +x .\/srb2win.exe\r\n\r\nCONFIG_FILE=\"\/mnt\/server\/adedserv.cfg\"\r\n\r\nif [[ -f \"$CONFIG_FILE\" ]]; then\r\n    echo \"Ensuring necessary settings exist in configuration...\"\r\n    sed -i \"s\/^servername.*\/servername ${SRV_NAME}\/\" \"$CONFIG_FILE\"\r\n    sed -i \"s\/^password.*\/password ${SRV_PW}\/\" \"$CONFIG_FILE\"\r\n    sed -i \"s\/^maxplayers.*\/maxplayers ${MAX_PLAYERS}\/\" \"$CONFIG_FILE\"\r\nelse\r\n    echo \"Configuration file missing! Creating a new one...\"\r\n    cat > \"$CONFIG_FILE\" <<EOL\r\nservername \"${SRV_NAME:-\"My SRB2 Server\"}\"\r\nwait 5\r\npassword ${SRV_PW:-\"ChangeMe\"}\r\nwait 5\r\nmaxplayers ${MAX_PLAYERS:-20}\r\nEOL\r\nfi\r\n\r\necho -e \"-------------------------------------------------\"\r\necho -e \"Installation completed for SRB2 $SRB2_VERSION\"\r\necho -e \"-------------------------------------------------\"",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "script": "#!\/bin\/bash\r\n\r\n# SRB2_VERSION\r\nif [[ \"$SRB2_VERSION\" == \"latest\" ]]; then\r\n    echo \"Fetching latest SRB2 version from GitHub...\"\r\n    SRB2_VERSION=$(curl -s https:\/\/api.github.com\/repos\/STJr\/SRB2\/releases\/latest | jq -r '.tag_name' | sed 's\/SRB2_release_\/\/')\r\n    echo \"Latest SRB2 version is: $SRB2_VERSION\"\r\nfi\r\n\r\nSRB2_VERSION_NO_DOTS=\"${SRB2_VERSION\/\/.\/}\"\r\nSRB2_URL=\"https:\/\/ghfast.top\/https:\/\/github.com\/STJr\/SRB2\/releases\/download\/SRB2_release_${SRB2_VERSION}\/SRB2-v${SRB2_VERSION_NO_DOTS}-Full.zip\"\r\n\r\napt update && apt install -y unzip wget jq curl libsdl2-2.0-0 libpng16-16\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server || exit\r\n\r\nwget -O SRB2.zip \"$SRB2_URL\"\r\nunzip SRB2.zip\r\nrm SRB2.zip\r\n\r\nchmod +x .\/srb2win.exe\r\n\r\nCONFIG_FILE=\"\/mnt\/server\/adedserv.cfg\"\r\n\r\nif [[ -f \"$CONFIG_FILE\" ]]; then\r\n    echo \"Ensuring necessary settings exist in configuration...\"\r\n    sed -i \"s\/^servername.*\/servername ${SRV_NAME}\/\" \"$CONFIG_FILE\"\r\n    sed -i \"s\/^password.*\/password ${SRV_PW}\/\" \"$CONFIG_FILE\"\r\n    sed -i \"s\/^maxplayers.*\/maxplayers ${MAX_PLAYERS}\/\" \"$CONFIG_FILE\"\r\nelse\r\n    echo \"Configuration file missing! Creating a new one...\"\r\n    cat > \"$CONFIG_FILE\" <<EOL\r\nservername \"${SRV_NAME:-\"My SRB2 Server\"}\"\r\nwait 5\r\npassword ${SRV_PW:-\"ChangeMe\"}\r\nwait 5\r\nmaxplayers ${MAX_PLAYERS:-20}\r\nEOL\r\nfi\r\n\r\necho -e \"-------------------------------------------------\"\r\necho -e \"Installation completed for SRB2 $SRB2_VERSION\"\r\necho -e \"-------------------------------------------------\"",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian",
             "entrypoint": "bash"
         }
     },
     "variables": [
         {
-            "name": "Server name",
+            "name": "服务器名称",
             "description": "The name of your server (this will show in the master list)",
             "env_variable": "SRV_NAME",
             "default_value": "Default Name",
@@ -49,7 +49,7 @@
             "field_type": "text"
         },
         {
-            "name": "Max Players",
+            "name": "最大玩家数",
             "description": "The amount of players that can join your server at once\r\nMaximum amount of players: 32",
             "env_variable": "MAX_PLAYERS",
             "default_value": "32",

@@ -7,10 +7,10 @@
     "exported_at": "2025-04-24T20:44:10+00:00",
     "name": "Trackmania",
     "author": "eggs@purpleflaghosting.com",
-    "description": "Trackmania combines easy-to-learn, hard-to-master gameplay with a wide diversity of tracks and skin customization, in addition to regular seasons & live events.",
+    "description": "Trackmania 结合易学难精的玩法和各种赛道及皮肤设计，为所有玩家创造愉快体验。",
     "features": null,
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/yolks:debian": "ghcr.io\/ptero-eggs\/yolks:debian"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian"
     },
     "file_denylist": [],
     "startup": ".\/TrackmaniaServer \/dedicated_cfg=dedicated_cfg.txt \/game_settings={{GAME_CONFIG}} \/noDaemon",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "cd \/mnt\/server || exit 1\r\n\r\necho \"Downloading Trackmania Server.\"\r\nwget http:\/\/files.v04.maniaplanet.com\/server\/TrackmaniaServer_Latest.zip -O TrackmaniaServer.zip\r\n\r\necho \"Extracting Trackmania Server.\"\r\nunzip -o TrackmaniaServer.zip\r\nrm TrackmaniaServer.zip\r\n\r\necho \"Setting file permissions.\"\r\nchmod 755 TrackmaniaServer\r\n\r\necho \"Setting up config.\"\r\nif [ ! -f UserData\/Config\/dedicated_cfg.txt ] ; then\r\n    echo \"Creating default config file.\"\r\n    cp UserData\/Config\/dedicated_cfg.default.txt UserData\/Config\/dedicated_cfg.txt\r\nfi\r\n\r\nif [ ! -f MatchSettings\/example.txt ] ; then\r\n    echo \"Creating default match settings file\"\r\n    mkdir -p MatchSettings\r\n    cp UserData\/Maps\/MatchSettings\/example.txt MatchSettings\/example.txt\r\nfi",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian",
             "entrypoint": "bash"
         }
     },
@@ -59,7 +59,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Name",
+            "name": "服务器名称",
             "description": "",
             "env_variable": "SERVER_NAME",
             "default_value": "A Pterodactyl Hosted Server",
@@ -79,7 +79,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Password",
+            "name": "服务器密码",
             "description": "",
             "env_variable": "SERVER_PASSWORD",
             "default_value": "",

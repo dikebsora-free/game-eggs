@@ -7,7 +7,7 @@
     "exported_at": "2024-01-14T15:48:28+01:00",
     "name": "Multi Theft Auto",
     "author": "info@six-gaming.com",
-    "description": "What more could you want? Multi Theft Auto provides the best online Grand Theft Auto experience there is. Read on to find out more.",
+    "description": "Multi Theft Auto (MTA) 是 GTA San Andreas 的多人模组。",
     "features": null,
     "docker_images": {
         "ghcr.io\/ptero-eggs\/games:mta": "ghcr.io\/ptero-eggs\/games:mta"

@@ -7,10 +7,10 @@
     "exported_at": "2025-06-16T15:45:13+02:00",
     "name": "Soldat 2",
     "author": "ptero@redbananaofficial.com",
-    "description": "Soldat 2 is a 2D deathmatch shooter with real guns, ragdoll violence and physics-based movement.",
+    "description": "Soldat 2 是经典 2D 射击游戏 Soldat 的续作，采用全新引擎和改进的游戏玩法。",
     "features": null,
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/yolks:debian": "ghcr.io\/ptero-eggs\/yolks:debian"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/yolks:debian"
     },
     "file_denylist": [],
     "startup": ".\/soldat2 Name={{SERVER_NAME}} Port={{SERVER_PORT}} WebSocketsPort={{WEBSOCKETS_PORT}} WebSocketsRconPort={{RCON_PORT}} MaxPlayers={{MAX_PLAYERS}} ServerPassword={{SERVER_PASSWORD}} RconPassword={{RCON_PASSWORD}}",
@@ -23,13 +23,13 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\n# download & extract server files\r\nwget -O soldat2-linuxserver-release.tar.gz \"https:\/\/dl.thd.vg\/soldat2-linuxserver-release.tar.gz\"\r\ntar -zxf soldat2-linuxserver-release.tar.gz\r\nrm soldat2-linuxserver-release.tar.gz\r\n\r\n# move content to \/mnt\/server\r\nmv soldat2-linuxserver-release\/* soldat2-linuxserver-release\/.* \/mnt\/server 2>\/dev\/null || true\r\nrm -r soldat2-linuxserver-release\r\n\r\ncd \/mnt\/server\r\nchmod +x .\/soldat2\r\n\r\necho -e \"-------------------------------------------------\"\r\necho -e \"Installation completed\"\r\necho -e \"-------------------------------------------------\"",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian",
             "entrypoint": "bash"
         }
     },
     "variables": [
         {
-            "name": "Server name",
+            "name": "服务器名称",
             "description": "The name of your server (this will show in the master list) Do not include spaces",
             "env_variable": "SERVER_NAME",
             "default_value": "PterodactylServer",
@@ -39,7 +39,7 @@
             "field_type": "text"
         },
         {
-            "name": "Max Players",
+            "name": "最大玩家数",
             "description": "The amount of players that can join your server at once. Maximum is 12.",
             "env_variable": "MAX_PLAYERS",
             "default_value": "12",
@@ -99,7 +99,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Password",
+            "name": "服务器密码",
             "description": "If set, players must enter this password to join.",
             "env_variable": "SERVER_PASSWORD",
             "default_value": "ServerPassword",

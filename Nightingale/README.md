@@ -7,22 +7,22 @@ Nightingale is an open world survival crafting game, where you’ll adventure ac
 | ------------- |-------------|
 |   brainshead   | https://github.com/brainshead |
 
-## Server Ports
+## 服务器端口
 
 Nightingale requires up to 1 ports
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
-| Game    | 7777          |
+| 游戏 | 7777          |
 
 This can be changed to any port.
 
 ## Install Notes
 
-| Requirements        | Memory| Storage | 
+| 要求        | Memory| 存储 | 
 |---------------------|-------|---------|
 | Minimal             | 4GB   | 15 GB   |
-| Recommended         | 6-8+ GB| 40GB+  |
+| 推荐 | 6-8+ GB| 40GB+  |
 
 
 ## Settings
@@ -76,7 +76,7 @@ To enable scraping server status from an http endpoint, add -statusPort=<port> t
 
 Status can be scraped from  the /status endpoint periodically.
 
-By default this will bind to localhost only. To bind to a specific IP, 
+By 默认值 this will bind to localhost only. To bind to a specific IP, 
 
 add -ini:Engine:[HTTPServer.Listeners]:+ListenerOverrides=(Port=<port>,BindAddress=<IP>) to the commandline as well, or use 0.0.0.0 to bind to all available interfaces.
 

@@ -4,13 +4,13 @@ SpongeForge is the implementation of the Sponge API on the Minecraft Forge platf
 
 [SpongePowered Website](https://www.spongepowered.org/)
 
-## Server Ports
+## 服务器端口
 
-The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
+The minecraft server requires a single port for access (默认值 25565) but plugins may require extra ports to enabled for the server.
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |
 
 ### Author & Contributers
 | Name        | Github Profile  | Buy me a Coffee |

@@ -1,15 +1,15 @@
 # Kerbal Space Program - LunaMultiplayer
 
-### Game Description
+### 游戏简介
 [LunaMultiplayer (LMP)](https://github.com/LunaMultiplayer/LunaMultiplayer) is a multiplayer mod for **Kerbal Space Program** that allows multiple players to explore the same universe together.  
 This egg provides an easy way to deploy the **LunaMultiplayer dedicated server** using Pterodactyl.
 
 ---
 
-## Server Ports
-| Port | Default | Description |
+## 服务器端口
+| 端口 | 默认值 | Description |
 |------|----------|-------------|
-| Game | 8800 | LMP game communication |
+| 游戏 | 8800 | LMP game communication |
 
 > [!IMPORTANT]
 > 
@@ -19,7 +19,7 @@ This egg provides an easy way to deploy the **LunaMultiplayer dedicated server**
 >  
 >So the difficulty setting will be set as "Custom".
 > 
->In case you want to use the default setting values for the difficulty you have chosen.
+>In case you want to use the 默认值 setting values for the difficulty you have chosen.
 > 
 >Remove the GameplaySettings.xml file so it's recreated again."
 >

@@ -2,13 +2,13 @@
 
 [Multi Theft Auto](https://mtasa.com/) is a Open Source Grand Theft Auto: San Andreas Multiplayer modification.
 
-## Server Ports
+## 服务器端口
 
 Multi Theft Auto requires 3 ports.
 
-| Port | Default |
+| 端口 | 默认值 |
 -------|----------
-| Game | 22003   |
+| 游戏 | 22003   |
 | http | 22005   |
 | ASE  | 22126   |
 

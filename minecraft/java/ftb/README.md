@@ -27,10 +27,10 @@ Please restart the server after first launch to fix this.**
 ## Neoforged
 If you have trouble using an neoforge pack, make sure to select the latest java.
 
-## Server Ports
+## 服务器端口
 
-The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
+The minecraft server requires a single port for access (默认值 25565) but plugins may require extra ports to enabled for the server.
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

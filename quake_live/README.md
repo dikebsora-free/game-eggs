@@ -8,11 +8,11 @@ Quake Live was previously a free-to-play game, with subscription options offerin
 server options. As of October 27, 2015, the game is no longer free and must be purchased, and the subscription options
 were dropped.
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default   |
+| 端口 | 默认值   |
 |---------|-----------|
-| Game    | 27960 UDP |
+| 游戏 | 27960 UDP |
 | Stats   | 27960 TCP |

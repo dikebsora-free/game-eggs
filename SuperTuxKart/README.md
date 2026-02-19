@@ -10,23 +10,23 @@ Essentially this is a standard build of the regular SuperTuxKart client but with
 
 First install will take a while because the games source code and assets will be downloaded and the games executable will have to be compiled.
 
-## Installation/System Requirements
-|  | Bare Minimum | Recommended |
+## 安装/系统要求
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| RAM | 1GiB | 1GiB |
-| Storage | 3GiB | 5GiB |
+| 内存 | 1GiB | 1GiB |
+| 存储 | 3GiB | 5GiB |
 
-## Server Ports
+## 服务器端口
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 2759   |
+| 游戏 | 2759   |
 
-### Notes
+### 备注
 
 To change server settings, stop the server then edit the 'config.xml' file in the root of the container. When done save the file and start the server.
 
-2759 is the default port, but any port can be used. You will have to manually change it in the config.xml file.
+2759 is 默认端口, but any port can be used. You will have to manually change it in the config.xml file.
 
 To update the server (only should have to be done when the games code or assets are updated) in panel as an admin go to Servers > SuperTuxKart Server > Manage > Reinstall. If you are a standard user go to SuperTuxKart Server > Settings > Reinstall Server. This will download the updated code/assets (should exclude anything that didn't change) and recompile the executable.
 

@@ -4,9 +4,9 @@ It’s a game about placing blocks and going on adventures
 
 It’s set in infinitely-generated worlds of wide open terrain - icy mountains, swampy bayous, vast pastures and much more - filled with secrets, wonders and peril!
 
-## Server Ports
+## 服务器端口
 
-The minecraft server requires a single port for access (default 25565) but plugins or mods may require extra ports to enabled for the server.
+The minecraft server requires a single port for access (默认值 25565) but plugins or mods may require extra ports to enabled for the server.
 
 ## [Cuberite](cuberite)
 
@@ -33,7 +33,7 @@ A Bukkit server implementation on common mod loaders.
 ### [Forge](forge/forge)
 
 [Forge MC Website](https://files.minecraftforge.net)
-This is a direct fork of the default forge service
+This is a direct fork of the 默认值 forge service
 
 - Has a version detection fix for "latest"
 
@@ -97,7 +97,7 @@ A collection of spigot and forked spigot eggs.
 
 [PaperMC GitHub](https://github.com/PaperMC/Paper)
 High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies
-Currently the default on pterodactyl for many reasons. First being that you don't need to build the jar.
+Currently the 默认值 on pterodactyl for many reasons. First being that you don't need to build the jar.
 
 ### [Folia](folia)
 
@@ -113,7 +113,7 @@ Purpur is a drop-in replacement for Paper servers designed for configurability, 
 ### [Spigot](spigot)
 
 [Spigot Website](https://www.spigotmc.org)
-This is a direct fork of the default spigot service with the added benefit of being able to build the spigot jar.
+This is a direct fork of the 默认值 spigot service with the added benefit of being able to build the spigot jar.
 
 - (It's noted that building the jar is intensive and time consuming)
 

@@ -6,13 +6,13 @@ TShock provides Terraria servers with server-side characters, anti-cheat, and co
 
 TShock is a toolbox for Terraria servers and communities. That toolbox is jam packed with anti-cheat tools, server-side characters, groups, permissions, item bans, tons of commands, and limitless potential. It's one of a kind.
 
-## Server Ports
+## 服务器端口
 
-TShock, like Terraria, only requires a single port to run. The default is 7777
+TShock, like Terraria, only requires a single port to run. 默认为 7777
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 7777    |
+| 游戏 | 7777    |
 
 ### Plugins may require ports to be added to the server.
 

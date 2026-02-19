@@ -19,7 +19,7 @@ Plugins do the work of modding in the visible changes into the game, see the [Pl
 
 - Extensive plugin support for adding your own cross server features to Factorio using Clusterio's communication backbone.
 
-## Setup
+## 设置
 
 Clusterio uses a Controller/Host system setup, with the Controller server running the Web UI and controlling which Hosts run which Instances.
 
@@ -37,11 +37,11 @@ Additional configuration options can be found in config-Controller.json and conf
 
 Changes to the Cluster will only be written out to the database on a graceful stop.
 
-## Server Ports
+## 服务器端口
 
 Clusterio requires a single port
 
-| Port       | default    |
+| 端口 | 默认值    |
 |------------|------------|
 | Controller HTTP| 8081       |
 | Host Game | 34197      |

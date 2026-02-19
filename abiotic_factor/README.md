@@ -4,16 +4,16 @@ Abiotic Factor is a survival crafting experience for 1-6 players set in the dept
 
 Official server documentation: https://github.com/DFJacob/AbioticFactorDedicatedServer/wiki
 
-### Configuration files
+### 配置文件
 
 |   File    |  Purpose  |   Path  |
 |-----------|---------|---------|
 | SandboxSettings.ini | General game configuration | /home/container/AbioticFactor/Saved/SaveGames/Server/Worlds/Cascade/SandboxSettings.ini |
 | Admin.ini | Server moderator settings | /home/container/AbioticFactor/Saved/SaveGames/Server/Admin.ini |
 
-## Server Ports
+## 服务器端口
 
-| Name    | Default       |
+| Name    | 默认值 |
 |---------|---------------|
-| Game    | 7777 |
-| Query    | 27015   |
+| 游戏 | 7777 |
+| 查询 | 27015   |

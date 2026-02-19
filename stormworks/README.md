@@ -1,7 +1,7 @@
 # Stormworks: Build and Rescue
 
 Join a world where you design, create and pilot your own air sea rescue service. Release your inner hero as you battle fierce storms out at sea to rescue those in need.
-## Configuration Warning
+## 配置 Warning
 
 As of the latest update, Stormworks server hosting now requires a Steam account that owns a copy of the game. You must provide valid Steam credentials (`STEAM_USER`, `STEAM_PASS`, and optionally `STEAM_AUTH` if your account uses two-factor authentication). Anonymous installation is no longer supported.
 
@@ -12,16 +12,16 @@ Due to the way the Stormworks configuration file is structured and how Pterodact
 Other configuration options not set during installation, such as `player_damage`, `npc_damage`, and various gameplay modifiers can still be freely edited in the `server_config.xml` file to customize the server to your liking.
 
 
-## Server Ports
+## 服务器端口
 
-Stormworks requires 2 consecutive ports in order to run. The default ports are shown below. Using non-default ports is possible; however, they must remain consecutive.
+Stormworks requires 2 consecutive ports in order to run. 默认端口s are shown below. Using non-默认值 ports is possible; however, they must remain consecutive.
 
 The `server_config.xml` only sets the **first** port, the game automatically assumes the second port is the next consecutive number (`port + 1`).
 
-| Port | default |
+| 端口 | 默认值 |
 |------|---------|
-| Game | 25564   |
-| Game | 25565   |
+| 游戏 | 25564   |
+| 游戏 | 25565   |
 
 ## Final Note
 

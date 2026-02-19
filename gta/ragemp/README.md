@@ -3,11 +3,11 @@
 The [Rage-MP](https://rage.mp/) GTA 5 dedicated server
 RAGE Multiplayer is an multiplayer modification for Grand Theft Auto V that is alternative to GTA Online.
 
-## Server Ports
+## 服务器端口
 
-Warband requires a 2 ports (default 22005, 22006)
+Warband requires a 2 ports (默认值 22005, 22006)
 
-| Port    | default  |
+| 端口 | 默认值  |
 |---------|----------|
-| Game    | 22005    |
+| 游戏 | 22005    |
 | http    | 22006    |

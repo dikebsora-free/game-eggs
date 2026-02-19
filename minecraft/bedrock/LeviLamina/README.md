@@ -14,13 +14,13 @@ Install LeviAntiCheat latest version
 `github.com/LiteLDev/LeviAntiCheat`
 
 
-### Server Ports
+### 服务器端口
 
-LeviLamina Bedrock Dedicated Server requires a single port (default 19132)
+LeviLamina Bedrock Dedicated Server requires a single port (默认值 19132)
 
-| Port    | default  |
+| 端口 | 默认值  |
 |---------|----------|
-| Game    | 19132    |
+| 游戏 | 19132    |
 
-### Known Issues
+### 已知问题
 General Issues can check here -> [LeviLamina Issues](https://github.com/LiteLDev/LeviLamina/issues)

@@ -7,12 +7,12 @@
     "exported_at": "2024-07-03T21:46:20-07:00",
     "name": "Arma Reforger",
     "author": "red_thirten@yahoo.com",
-    "description": "Experience authentic Cold War combat and join friends in the struggle for a sprawling, 51 km\u00b2 mid-Atlantic island \u2014 or take on the role of Game Master and create your very own scenarios for others to enjoy.",
+    "description": "Arma Reforger 是 Arma 系列的最新作品，采用全新引擎。",
     "features": [
         "steam_disk_space"
     ],
     "docker_images": {
-        "ghcr.io\/ptero-eggs\/steamcmd:debian": "ghcr.io\/ptero-eggs\/steamcmd:debian"
+        "registry.cn-shanghai.aliyuncs.com\/pterodactyl-images\/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-images\/steamcmd:debian"
     },
     "file_denylist": [],
     "startup": "sed -i 's\/\"true\"\/true\/g; s\/\"false\"\/false\/g' config.json; .\/ArmaReforgerServer -gproj .\/addons\/data\/ArmaReforger.gproj -config .\/config.json -profile .\/profile -backendlog -nothrow -listScenarios -logStats $(({{LOG_INTERVAL}}*1000)) -maxFPS {{MAX_FPS}} -addonTempDir .\/tmp",
@@ -24,14 +24,14 @@
     },
     "scripts": {
         "installation": {
-            "script": "#!\/bin\/bash\r\n\r\n## File: Pterodactyl Arma Reforger Egg - egg-pterodactyl-arma-reforger.json\r\n## Author: David Wolfe (Red-Thirten)\r\n## Date: 2024\/07\/03\r\n## License: MIT License\r\n## Image to install with is 'ghcr.io\/ptero-eggs\/installers:debian'\r\n\r\n## Download and install SteamCMD\r\nexport HOME=\/mnt\/server\r\ncd \/tmp\r\nmkdir -p $HOME\/steamcmd $HOME\/steamapps\r\ncurl -sSL -o steamcmd.tar.gz https:\/\/steamcdn-a.akamaihd.net\/client\/installer\/steamcmd_linux.tar.gz\r\ntar -xzvf steamcmd.tar.gz -C $HOME\/steamcmd\r\ncd $HOME\/steamcmd\r\n\r\n# SteamCMD fails otherwise for some reason, even running as root.\r\nchown -R root:root \/mnt\r\n\r\n# Install\/Verify game server using SteamCMD\r\n.\/steamcmd.sh +force_install_dir $HOME +login anonymous $( [[ \"${WINDOWS_INSTALL}\" == \"1\" ]] && printf %s '+@sSteamCmdForcePlatformType windows' ) +app_update ${SRCDS_APPID} +app_update 1007 $( [[ -z ${SRCDS_BETAID} ]] || printf %s \"-beta ${SRCDS_BETAID}\" ) $( [[ -z ${SRCDS_BETAPASS} ]] || printf %s \"-betapassword ${SRCDS_BETAPASS}\" ) validate +quit\r\n\r\n# Set up 32 and 64 bit libraries\r\nmkdir -p \/mnt\/server\/.steam\/sdk{32,64}\r\ncp -v linux32\/steamclient.so \/mnt\/server\/.steam\/sdk32\/steamclient.so\r\ncp -v linux64\/steamclient.so \/mnt\/server\/.steam\/sdk64\/steamclient.so\r\n\r\n## Arma Reforger setup\r\n# Check for successful installation\r\nif [[ ! -f $HOME\/ArmaReforgerServer ]]; then\r\n    echo -e \"\\n\\nSteamCMD failed to install the Arma Reforger Dedicated Server!\"\r\n    echo -e \"\\tTry reinstalling the server again.\\n\"\r\n    exit 1\r\nfi\r\n\r\nmkdir -p $HOME\/profile $HOME\/tmp\r\n\r\necho -e 'Creating default \"config.json\" configuration file...'\r\ncat > $HOME\/config.json << EOF\r\n{\r\n\t\"bindAddress\": \"0.0.0.0\",\r\n\t\"bindPort\": ${SERVER_PORT},\r\n\t\"publicAddress\": \"${SERVER_IP}\",\r\n\t\"publicPort\": ${SERVER_PORT},\r\n\t\"game\": {\r\n\t\t\"name\": \"${SERVER_NAME}\",\r\n\t\t\"password\": \"${SERVER_PASS}\",\r\n\t\t\"passwordAdmin\": \"${ADMIN_PASS}\",\r\n\t\t\"admins\" : [],\r\n\t\t\"scenarioId\": \"${SCENARIO_ID}\",\r\n\t\t\"maxPlayers\": ${MAX_PLAYERS},\r\n\t\t\"visible\": ${VISIBLE},\r\n\t\t\"gameProperties\": {\r\n\t\t\t\"serverMaxViewDistance\": 2500,\r\n\t\t\t\"serverMinGrassDistance\": 50,\r\n\t\t\t\"networkViewDistance\": 1000,\r\n\t\t\t\"disableThirdPerson\": ${DISABLE_THIRD},\r\n\t\t\t\"fastValidation\": true,\r\n\t\t\t\"battlEye\": ${BATTLEYE},\r\n\t\t\t\"VONDisableUI\": false,\r\n\t\t\t\"VONDisableDirectSpeechUI\": false\r\n\t\t},\r\n\t\t\"mods\": []\r\n\t}\r\n}\r\nEOF\r\n\r\necho -e \"\\nArma Reforger Dedicated Server successfully installed!\\n\"",
-            "container": "ghcr.io\/ptero-eggs\/installers:debian",
+            "script": "#!\/bin\/bash\r\n\r\n## File: Pterodactyl Arma Reforger Egg - egg-pterodactyl-arma-reforger.json\r\n## Author: David Wolfe (Red-Thirten)\r\n## Date: 2024\/07\/03\r\n## License: MIT License\r\n## Image to install with is 'registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian'\r\n\r\n## Download and install SteamCMD\r\nexport HOME=\/mnt\/server\r\ncd \/tmp\r\nmkdir -p $HOME\/steamcmd $HOME\/steamapps\r\ncurl -sSL -o steamcmd.tar.gz https:\/\/steamcdn-a.akamaihd.net\/client\/installer\/steamcmd_linux.tar.gz\r\ntar -xzvf steamcmd.tar.gz -C $HOME\/steamcmd\r\ncd $HOME\/steamcmd\r\n\r\n# SteamCMD fails otherwise for some reason, even running as root.\r\nchown -R root:root \/mnt\r\n\r\n# Install\/Verify game server using SteamCMD\r\n.\/steamcmd.sh +force_install_dir $HOME +login anonymous $( [[ \"${WINDOWS_INSTALL}\" == \"1\" ]] && printf %s '+@sSteamCmdForcePlatformType windows' ) +app_update ${SRCDS_APPID} +app_update 1007 $( [[ -z ${SRCDS_BETAID} ]] || printf %s \"-beta ${SRCDS_BETAID}\" ) $( [[ -z ${SRCDS_BETAPASS} ]] || printf %s \"-betapassword ${SRCDS_BETAPASS}\" ) validate +quit\r\n\r\n# Set up 32 and 64 bit libraries\r\nmkdir -p \/mnt\/server\/.steam\/sdk{32,64}\r\ncp -v linux32\/steamclient.so \/mnt\/server\/.steam\/sdk32\/steamclient.so\r\ncp -v linux64\/steamclient.so \/mnt\/server\/.steam\/sdk64\/steamclient.so\r\n\r\n## Arma Reforger setup\r\n# Check for successful installation\r\nif [[ ! -f $HOME\/ArmaReforgerServer ]]; then\r\n    echo -e \"\\n\\nSteamCMD failed to install the Arma Reforger Dedicated Server!\"\r\n    echo -e \"\\tTry reinstalling the server again.\\n\"\r\n    exit 1\r\nfi\r\n\r\nmkdir -p $HOME\/profile $HOME\/tmp\r\n\r\necho -e 'Creating default \"config.json\" configuration file...'\r\ncat > $HOME\/config.json << EOF\r\n{\r\n\t\"bindAddress\": \"0.0.0.0\",\r\n\t\"bindPort\": ${SERVER_PORT},\r\n\t\"publicAddress\": \"${SERVER_IP}\",\r\n\t\"publicPort\": ${SERVER_PORT},\r\n\t\"game\": {\r\n\t\t\"name\": \"${SERVER_NAME}\",\r\n\t\t\"password\": \"${SERVER_PASS}\",\r\n\t\t\"passwordAdmin\": \"${ADMIN_PASS}\",\r\n\t\t\"admins\" : [],\r\n\t\t\"scenarioId\": \"${SCENARIO_ID}\",\r\n\t\t\"maxPlayers\": ${MAX_PLAYERS},\r\n\t\t\"visible\": ${VISIBLE},\r\n\t\t\"gameProperties\": {\r\n\t\t\t\"serverMaxViewDistance\": 2500,\r\n\t\t\t\"serverMinGrassDistance\": 50,\r\n\t\t\t\"networkViewDistance\": 1000,\r\n\t\t\t\"disableThirdPerson\": ${DISABLE_THIRD},\r\n\t\t\t\"fastValidation\": true,\r\n\t\t\t\"battlEye\": ${BATTLEYE},\r\n\t\t\t\"VONDisableUI\": false,\r\n\t\t\t\"VONDisableDirectSpeechUI\": false\r\n\t\t},\r\n\t\t\"mods\": []\r\n\t}\r\n}\r\nEOF\r\n\r\necho -e \"\\nArma Reforger Dedicated Server successfully installed!\\n\"",
+            "container": "registry.cn-shanghai.aliyuncs.com\/pterodactyl-china\/installers:debian",
             "entrypoint": "\/bin\/bash"
         }
     },
     "variables": [
         {
-            "name": "Automatic Updates",
+            "name": "自动更新",
             "description": "Quickly checks for any server or mod updates on startup, and updates if necessary.",
             "env_variable": "AUTO_UPDATE",
             "default_value": "1",
@@ -51,7 +51,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Name",
+            "name": "服务器名称",
             "description": "Name displayed in the server browser.",
             "env_variable": "SERVER_NAME",
             "default_value": "Arma Reforger Server",
@@ -61,7 +61,7 @@
             "field_type": "text"
         },
         {
-            "name": "Max Players",
+            "name": "最大玩家数",
             "description": "Maximum number of players allowed to join the server.",
             "env_variable": "MAX_PLAYERS",
             "default_value": "32",
@@ -71,7 +71,7 @@
             "field_type": "text"
         },
         {
-            "name": "Server Password",
+            "name": "服务器密码",
             "description": "Password required for clients to enter before they can join the server. Leave empty to have no password.",
             "env_variable": "SERVER_PASS",
             "default_value": "",
@@ -81,7 +81,7 @@
             "field_type": "text"
         },
         {
-            "name": "Admin Password",
+            "name": "管理员密码",
             "description": "",
             "env_variable": "ADMIN_PASS",
             "default_value": "",
@@ -161,7 +161,7 @@
             "field_type": "text"
         },
         {
-            "name": "[Repair] Validate Server Files",
+            "name": "[修复] 验证服务器文件",
             "description": "\"true\" to enable; empty to disable. Validates all server files when Automatic Updates is enabled. Note: This will significantly increase server startup times, so it is recommended to only enable this when needed.",
             "env_variable": "VALIDATE",
             "default_value": "",

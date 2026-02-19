@@ -2,7 +2,7 @@
 Voyagers of Nera is a cooperative survival-crafting game for up to 10 players set in a vast ocean full of ancient ruins and diverse biomes. Nera is a magical ocean world full of beauty, magic, and danger. You are an Echo, descendants of the long-extinct protectors of this world.
 
 
-## Server Requirements
+## Server 要求
 
 Minimum RAM: 6 GiB
 Minimum Disk: 10GiB
@@ -13,7 +13,7 @@ Players can connect by
 - Using Direct Connect and entering the IP:Port and password if set
 - Using the invite code in `BoatGame/Saved/DedicatedServerMagicJoinCode.txt`
 
-## Server Ports
-| Port            | Default |
+## 服务器端口
+| 端口 | 默认值 |
 | --------------- | ------- |
-| Game            | 7777    |
+| 游戏 | 7777    |

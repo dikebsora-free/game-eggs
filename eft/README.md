@@ -18,19 +18,19 @@ To install the SIT client:
 - Afterwards, follow the instructions here [`SIT Manager Method`](https://docs.stayintarkov.com/en/install.html#).
 
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port                 | default |
+| 端口 | 默认值 |
 |----------------------|---------|
-| Game                 | 6969    |
+| 游戏 | 6969    |
 | SIT Mod Websocket    | 6970    |
 | Nat Helper WebSocket | 6971    |
 
 ## Server components
 
-Installation script based on [SIT.Docker](https://github.com/stayintarkov/SIT.Docker).
+安装 script based on [SIT.Docker](https://github.com/stayintarkov/SIT.Docker).
 
 [SPT-AKI Server](https://dev.sp-tarkov.com/SPT-AKI/Server) 
 

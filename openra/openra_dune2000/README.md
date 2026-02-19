@@ -10,12 +10,12 @@ This means that OpenRA is not restricted by the technical limitations of the ori
 
 Make sure to checkout their [Home Page](https://openra.net).
 
-## Server Ports
+## 服务器端口
 
 OpenRA requires a single port
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 5500    |
+| 游戏 | 5500    |
 
 ## Mods/Plugins may require ports to be added to the server

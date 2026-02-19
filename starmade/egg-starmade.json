@@ -7,7 +7,7 @@
     "exported_at": "2024-04-01T12:29:54+02:00",
     "name": "starmade",
     "author": "contact@hunters-tavern.de",
-    "description": "starmade",
+    "description": "StarMade 是一款 3D 沙盒太空射击游戏。建造自己的太空飞船、空间站和行星殖民地。",
     "features": null,
     "docker_images": {
         "ghcr.io\/ptero-eggs\/yolks:java_16": "ghcr.io\/ptero-eggs\/yolks:java_16"

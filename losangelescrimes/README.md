@@ -3,7 +3,7 @@ This egg makes it easy for you to create a public server in the game [Los Angele
 
 I made it because I was confused about how to create a server manually which requires using a vpn and so on... But here such a method is not needed. This egg uses a Linux Server that has been provided by the Game Developer.
 
-## Game Description
+## 游戏简介
 Los Angeles Crimes lets you play, create, and discover a variety of immersive worlds created by a global community!
 
 Features:
@@ -22,12 +22,12 @@ Website: https://lacrimesonline.com/
 
 > **The LAC server can only run on port 7777. So the server port in the pterodactyl panel that you will use must be 7777.**
 
-| Port | Default |
+| 端口 | 默认值 |
 |---|---|
 | Public Server | 7777 |
 
 ## To Do
 - [ ] Can change version.
 
-# Contributors
+# 贡献者
 - [JastinXyz](https://github.com/JastinXyz)

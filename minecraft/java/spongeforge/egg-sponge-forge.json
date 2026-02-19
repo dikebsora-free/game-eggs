@@ -7,7 +7,7 @@
     "exported_at": "2025-11-06T06:47:00+00:00",
     "name": "SpongeForge",
     "author": "ptero@redbananaofficial.com",
-    "description": "A community-driven open source Minecraft: Java Edition modding platform.",
+    "description": "SpongeForge 结合了 Forge 模组和 Sponge 插件 API。",
     "features": [
         "eula",
         "java_version",

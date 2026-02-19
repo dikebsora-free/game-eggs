@@ -2,29 +2,29 @@
 Longvinter is a multiplayer, third-person sandbox game that implements Crafting, Farming, Building, Trading, and PVP.
 ___
 
-### Server Ports
+### 服务器端口
 
 - Default server ports are listed below, but all three ports can be changed freely.
 - **Note:** The query ports does not seem to be used at all at the moment (at least on the linux server).
 
-| Port | Default |
+| 端口 | 默认值 |
 |---------|---------|
 | **Game (Primary Port in Pterodactyl)** | 7777 (UDP) |
-| Query | 27015 (UDP/TCP) |
+| 查询 | 27015 (UDP/TCP) |
 | Query +1 | 27016 (UDP/TCP) |
 
 ___
 
-### Installation/System Requirements
+### 安装/系统要求
 
 |  | Minimum | 
 |---------|---------|
-| RAM | 2048 MiB |
-| Storage | 2 GB |
+| 内存 | 2048 MiB |
+| 存储 | 2 GB |
 
 ___
 
-### Known Errors/Warnings
+### 已知错误/警告
 
 The following errors or warnings you see in the console can safely be ignored:
 

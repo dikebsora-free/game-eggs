@@ -7,7 +7,7 @@
     "exported_at": "2025-04-20T21:46:27+00:00",
     "name": "Nukkit",
     "author": "parker@parkervcp.com",
-    "description": "Nukkit is a nuclear-powered server software for Minecraft Bedrock Edition\r\n\r\nhttps:\/\/cloudburstmc.org",
+    "description": "Nukkit 是用 Java 编写的 Minecraft 基岩版服务器软件。",
     "features": null,
     "docker_images": {
         "Java 21": "ghcr.io\/ptero-eggs\/yolks:java_21",

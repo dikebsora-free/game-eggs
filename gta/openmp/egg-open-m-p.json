@@ -7,7 +7,7 @@
     "exported_at": "2023-07-01T11:37:31+02:00",
     "name": "OpenMP",
     "author": "vedrancappone@gmail.com",
-    "description": "A multiplayer mod for Grand Theft Auto: San Andreas that is fully backwards compatible with San Andreas Multiplayer.",
+    "description": "Open.MP 是 SA-MP 的开源重制版，GTA San Andreas 的多人模组。",
     "features": null,
     "docker_images": {
         "Samp": "ghcr.io\/ptero-eggs\/games:samp"

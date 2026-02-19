@@ -2,11 +2,11 @@
 
 The chaotic multiplayer hide-and-seek game. Possess seemingly harmless objects as Ghosts or chase them down as Hunters before the clock strikes midnight! 
 
-## Server Ports
+## 服务器端口
 
 
-| Port      | default |
+| 端口 | 默认值 |
 |-----------|---------|
-| Game      | 7777    |
-| Query     | 27015   |
+| 游戏 | 7777    |
+| 查询 | 27015   |
 | Beacon    | 7787    |

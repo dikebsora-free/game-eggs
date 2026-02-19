@@ -6,11 +6,11 @@
 ## desctiption
 Every aspect of Tower Unite allows for online multiplayer interaction. It is a living and evolving online game world, driven by the community. Play games online with your friends, or make new friends from across the globe.
 
-## Server Ports
+## 服务器端口
 
 Tower Unite requires a single port to be opened
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 7778    |
-| Query   | 27016   |
+| 游戏 | 7778    |
+| 查询 | 27016   |

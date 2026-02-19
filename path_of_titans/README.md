@@ -13,21 +13,21 @@ If you are experienced the I could reccomend using this documentation website on
 Get the AUTH token at https://alderongames.com/oauth/hosting-token.
 p.s. YOU NEED TO OWN the game
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port          | default |
+| 端口 | 默认值 |
 |---------------|---------|
-| Game          | 7777    |
+| 游戏 | 7777    |
 | Reserved port | 7778    |
 | Rcon          | 7779    |
 | Stats         | 7780    |
-| Query         | 7781    |
+| 查询 | 7781    |
 
-### Notes
+### 备注
 
-`7777` is the default port, but any port can be used.
+`7777` is 默认端口, but any port can be used.
 You need to assign to network port `7779` if you want to use RCON
 Also you need to open port `7778` and `7781` for the query, so it can appear on the server list.
 `7780` is Stats port.

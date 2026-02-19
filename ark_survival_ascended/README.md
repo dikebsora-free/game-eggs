@@ -3,7 +3,7 @@
 Steam Description :
 ARK is reimagined from the ground-up into the next-generation of video game technology with Unreal Engine 5! Form a tribe, tame & breed hundreds of unique dinosaurs and primeval creatures, explore, craft, build, and fight your way to the top of the food-chain. Your new world awaits!
 
-### Authors / Contributors
+### 作者 / 贡献者
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
@@ -82,23 +82,23 @@ The number is in reference to RAM/Memory usage.
 3) Server crashing around 1GB is probably either a MOD conflict or corrupted SavedArks files.
 
 
-## Known Issues
+## 已知问题
 
 1) Proxmox VM(s): You'll need to change your Processor Type to `Host` (Default: kvm64)
 
 2) ARK's wiki heavily reference A:SE and not all features are available in A:SA.
 
-## Recommended server settings
+## 推荐服务器配置
 
 ### Minimum RAM
 
-This server requires about 11GB of RAM to run with no players on a default map.
+This server requires about 11GB of RAM to run with no players on a 默认值 map.
 
 See the following - <https://ark.wiki.gg/wiki/Dedicated_server_setup#RAM>
 
-## Server Ports
+## 服务器端口
 
-| Port            | Default |
+| 端口 | 默认值 |
 | --------------- | ------- |
-| Game            | 7777    |
-| RCON (optional) | 37015   |
+| 游戏 | 7777    |
+| RCON（可选） | 37015   |

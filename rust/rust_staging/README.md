@@ -15,11 +15,11 @@ Wulf (Community Admin on Oxidemod/uMod):
 
 "We only release builds for the release/public branch of Rust, so if you'd like to use it on any other branch, you'd need to manually patch it yourself using our patcher tool founder under the Snapshots repo. To switch a different Rust branch, just use the -beta tag with SteamCMD and the branch name."
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server.
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
 | Game and Query | 28015 UDP |
 | RCON | 28016 TCP |

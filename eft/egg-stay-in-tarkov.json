@@ -7,7 +7,7 @@
     "exported_at": "2024-04-24T16:58:22+02:00",
     "name": "Stay In Tarkov",
     "author": "dino@papertots.page",
-    "description": "The Stay in Tarkov project was born due to Battlestate Games' (BSG) reluctance to create the pure PvE version of Escape from Tarkov. The project's aim is simple, create a Cooperation PvE experience that retains progression.",
+    "description": "Stay in Tarkov 项目诞生是因为 Battlestate Games (BSG) 不愿创建社区长期以来想要的纯 PvE 模式。",
     "features": null,
     "docker_images": {
         "ghcr.io\/ptero-eggs\/yolks:debian": "ghcr.io\/ptero-eggs\/yolks:debian"

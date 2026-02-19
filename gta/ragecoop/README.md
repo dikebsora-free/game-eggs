@@ -2,10 +2,10 @@
 
 The [ragecoop](https://ragecoop.online/) Drive around the interstate with your buddy, enjoy GTAs environment, make own missions and events or just chill in Grove Street! 🌐
 
-## Server Ports
+## 服务器端口
 
 ragecoop requires one port for both UDP/TCP
 
-| Port    | default  |
+| 端口 | 默认值  |
 |---------|----------|
-| Game    | 4499    |
+| 游戏 | 4499    |

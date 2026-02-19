@@ -7,7 +7,7 @@
     "exported_at": "2024-04-01T13:16:40+02:00",
     "name": "OpenArena",
     "author": "parker@parkervcp.com",
-    "description": "OpenArena is a community-produced deathmatch FPS based on GPL idTech3 technology.\r\n\r\nhttp:\/\/www.openarena.ws\/",
+    "description": "OpenArena 是一款基于 Quake III GPL 源代码的免费多人射击游戏。",
     "features": null,
     "docker_images": {
         "ghcr.io\/ptero-eggs\/yolks:debian": "ghcr.io\/ptero-eggs\/yolks:debian"

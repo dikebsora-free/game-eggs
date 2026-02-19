@@ -7,7 +7,7 @@
     "exported_at": "2023-10-19T18:53:04+02:00",
     "name": "SA-MP",
     "author": "bl4ckspr4y@protonmail.com",
-    "description": "SA-MP is a free Massively Multiplayer Online game mod for the PC version of Rockstar Games Grand Theft Auto: San Andreas (tm).",
+    "description": "SA-MP (San Andreas Multiplayer) 是 GTA San Andreas 的经典多人模组。",
     "features": null,
     "docker_images": {
         "Samp": "ghcr.io\/ptero-eggs\/games:samp"

@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T13:31:40+00:00",
     "name": "Krypton",
     "author": "callum.seabrook@prevarinite.com",
-    "description": "A fast, lightweight Minecraft server written in Kotlin",
+    "description": "Krypton 是用 Kotlin 编写的 Minecraft 服务器实现。",
     "features": [
         "eula",
         "java_version",

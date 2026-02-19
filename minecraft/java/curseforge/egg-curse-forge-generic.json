@@ -7,7 +7,7 @@
     "exported_at": "2025-11-06T06:47:00+00:00",
     "name": "CurseForge Generic",
     "author": "contact@chromozone.dev",
-    "description": "A generic egg for a CurseForge modpack.",
+    "description": "CurseForge 通用服务器，支持从 CurseForge 平台下载和运行模组包。",
     "features": [
         "eula",
         "java_version",

@@ -12,12 +12,12 @@ The words are case insensitive.
 The list of approved words changes can be found in: `SNM2020/Saved/Logs/Allowed-Words.txt`
 An working example would be: `Scarecrow Chicken` 
 
-## Server Ports
+## 服务器端口
 
 
-| Port      | default |
+| 端口 | 默认值 |
 |-----------|---------|
-| Game      | 7777    |
-| Query     | 27015   |
+| 游戏 | 7777    |
+| 查询 | 27015   |
 
 

@@ -7,7 +7,7 @@
 
 ## Valheim
 
-A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!
+一款适合 1-10 名玩家的残酷探索和生存游戏，设定在受维京文化启发的程序生成炼狱中。 Battle, build, and conquer your way to a saga worthy of Odin’s patronage!
 https://store.steampowered.com/app/892970/Valheim/
 
 ## BepInEx
@@ -31,12 +31,12 @@ In particular, the changes from base BepInEx releases are:
 ## Automatic Mod Downloading
 Mods can be downloaded from modpacks automatically by entering the "dependency string" for the modpack from https://valheim.thunderstore.io/
 
-## Server Ports
+## 服务器端口
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 2456    |
-| Query | 2457    |
+| 游戏 | 2456    |
+| 查询 | 2457    |
 
-## Updating
+## 更新
 Because the `DOORSTOP_CORLIB_OVERRIDE_PATH=./unstripped_corlib;` has been removed from the startup with the latest update of this egg. If your server is already running, update the startup manually.

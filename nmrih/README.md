@@ -4,11 +4,11 @@
 
 No More Room in Hell is the ultimate ruthless and unforgiving co-operative zombie survival experience on the Source Engine, delivering award winning survival horror gameplay with dozens of weapons and multiple game modes.
 
-## Server Ports
+## 服务器端口
 
 NMRIH servers require 1 port to be open, the SourceTV port can also be opened for spectators.
 
-| Port      | default |
+| 端口 | 默认值 |
 |-----------|---------|
 | Game/rcon | 27015   |
 | SourceTV  | 27020   |

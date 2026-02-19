@@ -2,15 +2,15 @@
 
 Rising World is a voxel based open-world sandbox game, featuring a procedurally generated world, playable in single and multi-player.
 
-## Server Ports
+## 服务器端口
 
 Rising World requires up to 7 ports.
 
-* The RCON port is optional, but is enabled by default.
+* The RCON port is optional, but is enabled 默认使用.
 * Game ports require both TCP and UDP
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
-| Game    |  4255 - 4259  |
+| 游戏 |  4255 - 4259  |
 | RCON    |  4253         |
-| Query   |  4254         |
+| 查询 |  4254         |

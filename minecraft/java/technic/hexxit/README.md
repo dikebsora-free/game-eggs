@@ -2,10 +2,10 @@
 
 https://www.technicpack.net/modpack/hexxit.552552
 
-## Server Ports
-The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
+## 服务器端口
+The minecraft server requires a single port for access (默认值 25565) but plugins may require extra ports to enabled for the server.
 
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

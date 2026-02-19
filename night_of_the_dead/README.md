@@ -4,9 +4,9 @@
 'Night of the Dead' is an open-world game that combines elements of exploration, tower defense, survival, and crafting. Traverse a world dominated by zombies while collecting various resources and powerful equipment. Build a fortress to survive the hordes of zombies that swarm every night! 
 
 
-### Server Ports
+### 服务器端口
 
-| Port      | default |
+| 端口 | 默认值 |
 |-----------|---------|
-| Game      | 27015   |
-| Query     | 27016   |
+| 游戏 | 27015   |
+| 查询 | 27016   |

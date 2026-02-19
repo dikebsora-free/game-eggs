@@ -11,20 +11,20 @@ Its using  https://store.steampowered.com/app/619910/Just_Cause_3_Multiplayer_Mo
  
 
 
-### Requirements
+### 要求
 
-| Requirements        | Memory| Storage | 
+| 要求        | Memory| 存储 | 
 |---------------------|-------|---------|
 | Minimal (no packages) | 1GB+   | 1 GB+   |
 
-## Server Ports
+## 服务器端口
 
 Just Cause 3 requires up to 4 ports
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
-| Game    | 4400          |
-| Query   | 4401          |
+| 游戏 | 4400          |
+| 查询 | 4401          |
 | Steam   | 4402          |
 | Web     | 4403          |
 

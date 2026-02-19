@@ -7,7 +7,7 @@
     "exported_at": "2025-01-11T09:35:02+00:00",
     "name": "Travertine",
     "author": "parker@parkervcp.com",
-    "description": "Travertine is a fork of Waterfall with 1.7 protocol support. Waterfall is a fork of the well-known BungeeCord server teleportation suite.",
+    "description": "Travertine 是基于 Waterfall 的 Minecraft 代理，支持 1.7.x 版本。",
     "features": [
         "eula",
         "java_version",

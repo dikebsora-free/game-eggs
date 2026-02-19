@@ -21,11 +21,11 @@ BepInEx is currently one of the most popular modding tools for Unity on GitHub.
 - This egg is using the latest Unix version of BepInEx available, no extra libraries added.
 - This egg is also using latest version of "[StationeersMods](https://github.com/jixxed/StationeersMods)"
 
-## Server Ports
+## 服务器端口
 
 Stationeers requires up to 2 ports
 
-| Port        | default |
+| 端口 | 默认值 |
 |-------------|---------|
-| Game        | 27500   |
+| 游戏 | 27500   |
 | Steam Query | 27015   |

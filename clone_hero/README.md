@@ -16,16 +16,16 @@ Minimum required storage to run the server.
 100MiB is recommended. 2GiB+ is preferred
 
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server.
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 14242   |
+| 游戏 | 14242   |
 
-### Notes
+### 备注
 
 <!--Notes about the server ports.-->
-14242 is the default port, but any port can be used.
+14242 is 默认端口, but any port can be used.
 

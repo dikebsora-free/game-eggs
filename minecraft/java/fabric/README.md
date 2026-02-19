@@ -1,13 +1,13 @@
 # Fabric
 
-Fabric is a modular, lightweight mod loader for Minecraft.
+Fabric 是 Minecraft 的模块化轻量级模组加载器。
 
 [Fabric Website](https://fabricmc.net/)
 
-## Server Ports
+## 服务器端口
 
-The fabric server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
+Fabric 服务器需要单个端口进行访问（默认 25565），但插件可能需要为服务器启用额外的端口。
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

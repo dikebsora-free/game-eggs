@@ -7,7 +7,7 @@
     "exported_at": "2025-11-06T06:47:00+00:00",
     "name": "FTB Server",
     "author": "runemaster580@gmail.com",
-    "description": "FTB modpacks are now distributed through their own API. This egg was developed for support for modpacks that are distributed through this.",
+    "description": "FTB (Feed The Beast) 安装器，用于运行 FTB 模组包。",
     "features": [
         "eula",
         "java_version",

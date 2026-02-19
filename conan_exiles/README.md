@@ -8,13 +8,13 @@ Conan Exiles is online multiplayer survival game set in the lands of Conan the B
 
 This server requires about 4096m to run properly.
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 7777    |
+| 游戏 | 7777    |
 | Game +1 | 7778    |
 | UDP Server query| 27015  |
 | RCON| 25575 |

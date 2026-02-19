@@ -1,6 +1,6 @@
-## Game egg list
+## 游戏蛋列表
 
-Below is a categorized list of games with links to their respective server configurations and mod files. Click on each game to explore further.
+以下是按分类排列的游戏列表，包含各自的服务器配置和模组文件链接。点击每个游戏以了解更多。
 
 ---
 
@@ -272,6 +272,6 @@ Below is a categorized list of games with links to their respective server confi
 
 ---
 
-For detailed configuration files, mod support, or server setup guides, refer to each game's folder. Please submit issues or pull requests for any improvements or additions.
+如需详细的配置文件、模组支持或服务器设置指南，请参阅各游戏文件夹。欢迎提交问题或拉取请求以改进或添加内容。
 
 ---

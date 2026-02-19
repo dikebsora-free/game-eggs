@@ -8,13 +8,13 @@ See https://iw4x.io/
 | ------------- |-------------|
 |   brainshead   | https://github.com/brainshead |
 
-## Server Ports
+## 服务器端口
 
 IW4X requires up to 1 ports
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
-| Game    | 28960         |
+| 游戏 | 28960         |
 
 This can be changed to any port.
 

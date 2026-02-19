@@ -17,9 +17,9 @@ Minimum memory required to run the server: 3096 MB
 
 Default port required to run the server.
 
-| Port    | Default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 7777    |
+| 游戏 | 7777    |
 
 ## Verification
 

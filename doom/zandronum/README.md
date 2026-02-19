@@ -1,12 +1,12 @@
 # Zandronum
 Zandronum is a multiplayer oriented port, based off Skulltag, for Doom and Doom II by id Software.
 
-This egg uses the [Freedoom](https://freedoom.github.io/) WAD by default.
+This egg uses the [Freedoom](https://freedoom.github.io/) WAD 默认使用.
 
-### Server Ports
+### 服务器端口
 
 Zandronum requires a single port:
 
-| Port    | default  |
+| 端口 | 默认值  |
 |---------|----------|
-| Game    | 10666    |
+| 游戏 | 10666    |

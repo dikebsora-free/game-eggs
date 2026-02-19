@@ -15,13 +15,13 @@ Minimum required storage to run the server.
 3GB is recommended.
 
 
-## Server Ports
+## 服务器端口
 
 Ports required to run the server in a table format.
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 5761    |
-| Query   | 27015   |
+| 游戏 | 5761    |
+| 查询 | 27015   |
 
 Both TCP and UDP

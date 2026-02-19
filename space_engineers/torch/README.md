@@ -16,19 +16,19 @@ Because of the winetricks installation, the install process could take some time
 When installed, the Server loads a base World and config from this repo. ONLY THIS WORLD IS SUPPORTED.
 Everything which is not defined in a variable could be edited directy in the config file /config/SpaceEngineers-Dedicated.cfg and config/Saves/World/Sandbox.sbc
 
-## Server Ports
+## 服务器端口
 
 Default server ports are listed below, but the Main, STEAM and API port can be any port. 
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 27016   |
+| 游戏 | 27016   |
 | Steam | 8766    |
 | API   | 8081    |
 
 ## Minumum server settings
 
-### RAM
+### 内存
 
 This server requires about 6GB.
 
@@ -38,7 +38,7 @@ Based on the information provided by the developer: [See here](https://www.space
 
 This server uses about 7GB of diskspace.
 
-### Updating
+### 更新
 
 Because some logic in this egg changed. Already made servers will manualy have to be updated.
 

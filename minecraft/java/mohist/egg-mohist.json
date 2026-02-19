@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T13:31:49+00:00",
     "name": "MohistMC",
     "author": "alex.chang-lam@protonmail.com",
-    "description": "Spigot fork with performance optimizations.",
+    "description": "Mohist 是一款混合服务器，同时支持 Forge 模组和 Bukkit\/Spigot 插件。",
     "features": [
         "eula",
         "java_version",

@@ -1,6 +1,6 @@
 # Soulmask
 
-### Game Description
+### 游戏简介
 
  Escaping a deadly sacrificial ritual, you find an ancient mystical mask on your journey. This mask holds potent knowledge, changing the world you knew. Face the harsh challenges of nature, survive, rally followers, and build your own tribe. Explore and unveil the truths behind the enigmatic mask. 
 
@@ -14,14 +14,14 @@ Steam: https://store.steampowered.com/app/2646460/Soulmask/
 |   QuintenQVD0   | https://github.com/QuintenQVD0 | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J2HGECS) |
 
 
-### Server Ports
+### 服务器端口
 
 Soulmask requires up to 3 ports. You can choose every port you want.
 
-| Port     | default       |
+| 端口 | 默认值       |
 |--------- |---------------|
-| Game     |     7777      |
-| Query    |     27015     |
+| 游戏 |     7777      |
+| 查询 |     27015     |
 | EchoPort |     18888     |
 
 ## Special Note

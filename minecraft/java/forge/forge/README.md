@@ -6,10 +6,10 @@ This will download the latest jar for a specific forge version.
 
 this has a fix for the broken 1.7.10 and 1.8.9 versions forge has
 
-## Server Ports
+## 服务器端口
 
-The minecraft server requires a single port for access (default 25565) but plugins may require extra ports to enabled for the server.
+The minecraft server requires a single port for access (默认值 25565) but plugins may require extra ports to enabled for the server.
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  | 25565   |
+| 游戏 | 25565   |

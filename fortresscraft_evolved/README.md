@@ -9,23 +9,23 @@ FortressCraft Evolved is a unique blend of Voxel Landscapes, Tower Defense, Craf
 | ------------- |-------------|
 |   brainshead   | https://github.com/brainshead |
 
-## Server Ports
+## 服务器端口
 
 FotressCraft Evolved requires up to 2 ports
 
-| Port    | default       |
+| 端口 | 默认值       |
 |---------|---------------|
-| Game    | 27000         |
+| 游戏 | 27000         |
 | RCON    | 27001         | 
 
 This can be changed to any port.
 
 ## Install Notes
 
-| Requirements        | Memory| Storage | CPU   | Network|
+| 要求        | Memory| 存储 | CPU   | 网络 |
 |---------------------|-------|---------|-------|-----------|
 | Minimal             | 8 GB   | 10GB   |Decent Quad-Core CPU (3.2GHz+)| 1-2Mbit/s per client is a rough guide|
-| Recommended         | 8+ GB  | 20GB+ (SSD)  |   | |
+| 推荐 | 8+ GB  | 20GB+ (SSD)  |   | |
 
 ## Settings
 
@@ -39,7 +39,7 @@ Copied from [Steam Source](https://steamcommunity.com/sharedfiles/filedetails/?i
 
 As always shutdown your server cleanly before youre toying around with the gamefiles.
 
-The following Lines are copied (sort off) from the "FortressCraft Evolved Modding API.pdf" that can be found in the Installationdirectory fo FortressCraft in "...\SteamApps\common\FortressCraft\64\Default" (or ..\32\.. when your playing in 32-Bit).
+The following Lines are copied (sort off) from the "FortressCraft Evolved Modding API.pdf" that can be found in the 安装directory fo FortressCraft in "...\SteamApps\common\FortressCraft\64\Default" (or ..\32\.. when your playing in 32-Bit).
 (see Chapter 3 - 4 (specialy 4.1))
 
 First get your Mod(s) to your Computer.

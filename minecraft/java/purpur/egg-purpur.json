@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T13:32:40+00:00",
     "name": "Purpur",
     "author": "purpur@birdflop.com",
-    "description": "A drop-in replacement for Paper servers designed for configurability, and new fun and exciting gameplay features.",
+    "description": "Purpur 是基于 Paper 的 Minecraft 服务器，提供更多配置选项和性能优化。",
     "features": [
         "eula",
         "java_version",

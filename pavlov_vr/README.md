@@ -2,7 +2,7 @@
 
 Pavlov VR is a multiplayer shooter in VR with heavy focus on community features. Realistic reloading features and fast-paced combat as part of the core experience.
 
-## Recommended server settings
+## 推荐服务器配置
 
 ### Minimum RAM
 
@@ -27,10 +27,10 @@ Additionally, due to the way Pavlov stores workshop maps in the temp directory, 
 
 For additional help, please see the following - [Dedicated Server Wiki](http://wiki.pavlov-vr.com/index.php?title=Dedicated_server)
 
-## Server Ports
+## 服务器端口
 
-| Port  | default |
+| 端口 | 默认值 |
 |-------|---------|
-| Game  |  7777   |
-| Game  |  8177   |
+| 游戏 |  7777   |
+| 游戏 |  8177   |
 | RCON  |  8188   |

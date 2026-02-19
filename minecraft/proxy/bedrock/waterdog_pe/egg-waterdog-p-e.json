@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T14:04:46+00:00",
     "name": "Waterdog PE",
     "author": "parker@pterodactyl.io",
-    "description": "Brand new proxy server for Minecraft: Bedrock Edition",
+    "description": "WaterdogPE 是 Minecraft 基岩版的代理服务器软件。",
     "features": [
         "eula",
         "java_version",

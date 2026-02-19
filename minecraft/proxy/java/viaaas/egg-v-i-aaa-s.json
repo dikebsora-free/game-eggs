@@ -7,7 +7,7 @@
     "exported_at": "2024-12-24T14:07:29+00:00",
     "name": "VIAaaS",
     "author": "regulad@outlook.com",
-    "description": "VIAaaS - ViaVersion as a Service - Standalone ViaVersion proxy",
+    "description": "VIAaaS 是提供版本兼容性的 Minecraft 代理服务。",
     "features": [
         "eula",
         "java_version",

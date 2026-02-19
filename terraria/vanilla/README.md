@@ -8,10 +8,10 @@ You may want to assign a minimum of 768 mb of RAM to a server as it will use aro
 
 ## Required Server Ports
 
-Terraria only requires a single port to run. The default is 7777
+Terraria only requires a single port to run. 默认为 7777
 
-| Port    | default |
+| 端口 | 默认值 |
 |---------|---------|
-| Game    | 7777    |
+| 游戏 | 7777    |
 
 ### Plugins may require ports to be added to the server

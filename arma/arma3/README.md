@@ -3,7 +3,7 @@
 ***Updating your Egg? Please see [How to Update Egg](#how-to-update-egg) to avoid any issues!***
 ___
 
-## Authors / Contributors
+## 作者 / 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -48,18 +48,18 @@ ___
 
 ___
 
-### Game Description
+### 游戏简介
 
 From Bohemia Interactive's [Website](https://arma3.com/):
 > Experience true combat gameplay in a massive military sandbox. Deploying a wide variety of single and multiplayer content, over 20 vehicles and 40 weapons, and limitless opportunities for content creation, this is the PC’s premier military game. Authentic, diverse, open - Arma 3 sends you to war.
 ___
 
-### Egg Capabilities
+### Egg 功能
 
 - Configurable to run 32 or 64-bit versions of the server
 - Max Players is configurable and able to be host enforced (\*see [Recommended Egg Modifications](#recommended-egg-modifications))
 - Able to download server updates on startup
-- Able to download, update, and load Steam Workshop mods on startup (\*see [Installation Requirements](#installation-requirements))
+- Able to download, update, and load Steam Workshop mods on startup (\*see [安装 要求](#installation-requirements))
   - Accepts uploaded HTML modlist files exported from the Arma 3 Launcher to define mods to load on the server.
   - Also accepts manually listed mods, CDLCs, and server-side only mods.
   - Checks for mod updates against their Steam Workshop page's last update for quick and efficient update checks.
@@ -72,18 +72,18 @@ ___
 
 ___
 
-### Installation Requirements
+### 安装要求
 
-- A valid, **real** Steam account, with **Steam Guard turned off**, is required to install the server (default "anonymous" login cannot be used). This account *does not* need to own Arma 3. For security reasons it is [recommended by Valve](https://developer.valvesoftware.com/wiki/SteamCMD#With_a_Steam_account) that you create a new Steam account just for your dedicated servers.
+- A valid, **real** Steam account, with **Steam Guard turned off**, is required to install the server (默认值 "anonymous" login cannot be used). This account *does not* need to own Arma 3. For security reasons it is [recommended by Valve](https://developer.valvesoftware.com/wiki/SteamCMD#With_a_Steam_account) that you create a new Steam account just for your dedicated servers.
 - For automatic Steam Workshop mod downloading to work, the Steam account *does* need to own Arma 3. However, this is optional functionality, and mods can be manually uploaded to the server if desired. Hosts may feel free to change the "Disable Mod Downloads/Updates" variable to `1` if they would not like to offer it's functionality to clients.
 
 ___
 
-### Server Ports
+### 服务器端口
 
 Default server ports are listed below, but the Main port can be any port. There are three more ports after the Main port that are relative to the Main port (For example: The BattlEye port is always 4 ports higher than the Main port). **All four ports are required for normal server behavior.** It is [recommended](https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server#Port_Forwarding) that each server be 100 ports separate from each other.
 
-| Port | Default (UDP) |
+| 端口 | Default (UDP) |
 |---------|---------|
 | **Arma 3 Game & VON (Main)** | 2302 |
 | Steam Query (+1) | 2303 |
@@ -92,15 +92,15 @@ Default server ports are listed below, but the Main port can be any port. There 
 
 ___
 
-### Installation/System Requirements
+### 安装/系统要求
 
-|  | Bare Minimum | Recommended |
+|  | 最低要求 | 推荐 |
 |---------|---------|---------|
-| Processor | Recent x86/64 (AMD/Intel) processor. No ARM support. | ARMA 3 is mainly CPU intensive. Contrary to popular belief, the server binary *can* run on multiple cores/threads. However, it's ability to manage asynchronous tasks and hyperthread is *very* limited, meaning additional cores/threads reach diminishing returns very quickly. In addition, it's ability to utilize all of the CPU allotted to it for AI processing seems to be limited as well. Therefore, a Headless Client ***and*** a properly written mission file are highly recommended if large amounts of AI units will be used. |
-| RAM | 2048 MiB | 3072 MiB (If used, every Headless Client uses an additional 2048 MB of RAM as well) |
-| Storage | 10 GB | 50+ GB (depends on how many mods are installed) |
-| Network | 0.512 Mbit/s/player | 1-5 Mbit/s/player |
-| Host OS | Most stable Linux OS branches should work | Using the latest kernel version for your installed OS can prevent some edge-case installation/boot issues. |
+| 处理器 | Recent x86/64 (AMD/Intel) processor. No ARM support. | ARMA 3 is mainly CPU intensive. Contrary to popular belief, the server binary *can* run on multiple cores/threads. However, it's ability to manage asynchronous tasks and hyperthread is *very* limited, meaning additional cores/threads reach diminishing returns very quickly. In addition, it's ability to utilize all of the CPU allotted to it for AI processing seems to be limited as well. Therefore, a Headless Client ***and*** a properly written mission file are highly recommended if large amounts of AI units will be used. |
+| 内存 | 2048 MiB | 3072 MiB (If used, every Headless Client uses an additional 2048 MB of RAM as well) |
+| 存储 | 10 GB | 50+ GB (depends on how many mods are installed) |
+| 网络 | 0.512 Mbit/s/player | 1-5 Mbit/s/player |
+| 主机操作系统 | Most stable Linux OS branches should work | Using the latest kernel version for your installed OS can prevent some edge-case installation/boot issues. |
 
 ___
 
@@ -130,11 +130,11 @@ The following are highly recommended variable modifications you can make to the 
 
 #### Default Steam Username & Password
 
-- To make deploying servers easy (**or if you are using WHMCS**), it is recommended to edit the default values of "Steam Username" and "Steam Password" to your Steam account dedicated for hosting. This will make all newly installed servers use these credentials. **DO NOT** make these fields visible to the end user so that they can use their own Steam accounts; the panel will save their Steam credentials in **plain text**, which is a BIG NO NO for security and privacy.
+- To make deploying servers easy (**or if you are using WHMCS**), it is recommended to edit the 默认值 values of "Steam Username" and "Steam Password" to your Steam account dedicated for hosting. This will make all newly installed servers use these credentials. **DO NOT** make these fields visible to the end user so that they can use their own Steam accounts; the panel will save their Steam credentials in **plain text**, which is a BIG NO NO for security and privacy.
 
 #### Restrict Max Players
 
-- If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's default value can also be changed, or the value can be changed on a server-by-server basis as desired.
+- If you would like to restrict the maximum number of players that can join your client's server, you can change the permissions of the "Max Players" variable so that clients can only view this value (and not edit it). It's 默认值 value can also be changed, or the value can be changed on a server-by-server basis as desired.
 ___
 
 ### How to Update Egg
