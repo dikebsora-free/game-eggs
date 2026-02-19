@@ -7,7 +7,7 @@
     "exported_at": "2024-07-15T18:52:08+02:00",
     "name": "Palworld",
     "author": "admin@ballaual.de",
-    "description": "Fight, farm, build and work alongside mysterious creatures called \"Pals\" in this completely new multiplayer, open world survival and crafting game!",
+    "description": "在这款全新的多人开放世界生存和建造游戏中，与被称为"伙伴"的神秘生物一起战斗、耕种、建造和工作！",
     "features": [
         "steam_disk_space"
     ],
@@ -33,8 +33,8 @@
     },
     "variables": [
         {
-            "name": "App ID",
-            "description": "Do not edit!",
+            "name": "应用ID",
+            "description": "请勿编辑！",
             "env_variable": "SRCDS_APPID",
             "default_value": "2394010",
             "user_viewable": false,
@@ -43,8 +43,8 @@
             "field_type": "text"
         },
         {
-            "name": "Auto Update",
-            "description": "Auto update the server on start.",
+            "name": "自动更新",
+            "description": "启动时自动更新服务器。",
             "env_variable": "AUTO_UPDATE",
             "default_value": "1",
             "user_viewable": true,
@@ -53,7 +53,7 @@
             "field_type": "text"
         },
         {
-            "name": "Max Players",
+            "name": "最大玩家数",
             "description": "",
             "env_variable": "MAX_PLAYERS",
             "default_value": "32",
@@ -63,8 +63,8 @@
             "field_type": "text"
         },
         {
-            "name": "Admin Password",
-            "description": "If specified, players must provide this password (via the in-game chat or RCON) to gain access to administrator commands on the server.",
+            "name": "管理员密码",
+            "description": "如果指定，玩家必须提供此密码（通过游戏内聊天或 RCON）以获得服务器上的管理员命令访问权限。",
             "env_variable": "ADMIN_PASSWORD",
             "default_value": "",
             "user_viewable": true,
@@ -73,8 +73,8 @@
             "field_type": "text"
         },
         {
-            "name": "Public IP",
-            "description": "Set this to the server public ip address.\r\nOnly needed if the allocation is a local ip, else the allocate ip will be used automatically",
+            "name": "公网IP",
+            "description": "将此设置为服务器的公网 IP 地址。\r\n仅当分配的是本地 IP 时才需要，否则将自动使用分配的 IP",
             "env_variable": "PUBLIC_IP",
             "default_value": "",
             "user_viewable": true,
@@ -83,18 +83,18 @@
             "field_type": "text"
         },
         {
-            "name": "Server Name",
+            "name": "服务器名称",
             "description": "",
             "env_variable": "SERVER_NAME",
-            "default_value": "A Pterodactyl hosted Palworld Server",
+            "default_value": "一个由 Pterodactyl 托管的 Palworld 服务器",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:64",
             "field_type": "text"
         },
         {
-            "name": "Server Password",
-            "description": "If specified, players must provide this password to join the server.",
+            "name": "服务器密码",
+            "description": "如果指定，玩家必须提供此密码才能加入服务器。",
             "env_variable": "SERVER_PASSWORD",
             "default_value": "",
             "user_viewable": true,
@@ -103,8 +103,8 @@
             "field_type": "text"
         },
         {
-            "name": "RCON Port",
-            "description": "Does not need to be allocated!",
+            "name": "RCON端口",
+            "description": "不需要分配！",
             "env_variable": "RCON_PORT",
             "default_value": "25575",
             "user_viewable": true,
@@ -113,8 +113,8 @@
             "field_type": "text"
         },
         {
-            "name": "Enable RCON",
-            "description": "Must Be ON",
+            "name": "启用RCON",
+            "description": "必须为开启",
             "env_variable": "RCON_ENABLE",
             "default_value": "True",
             "user_viewable": false,
@@ -123,8 +123,8 @@
             "field_type": "text"
         },
         {
-            "name": "Server Description",
-            "description": "The description of the server.",
+            "name": "服务器描述",
+            "description": "服务器的描述。",
             "env_variable": "SERVER_DESCRIPTION",
             "default_value": "",
             "user_viewable": true,
@@ -133,8 +133,8 @@
             "field_type": "text"
         },
         {
-            "name": "Connection Platfrom",
-            "description": "The platform players will be able to connect from",
+            "name": "连接平台",
+            "description": "玩家能够从哪个平台连接",
             "env_variable": "ALLOW_CONNECT_PLATFORM",
             "default_value": "Steam",
             "user_viewable": true,
