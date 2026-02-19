@@ -7,7 +7,7 @@
     "exported_at": "2024-04-01T12:25:08+02:00",
     "name": "Black Mesa",
     "author": "avalongamecs@gmail.com",
-    "description": "Black Mesa is a 2020 first-person shooter game. It is a third-party remake of Half-Life (1998) made in the Source game engine.",
+    "description": "Black Mesa 是由粉丝制作的半条命重制版，使用 Source 引擎完全重制了经典游戏。",
     "features": [
         "steam_disk_space"
     ],

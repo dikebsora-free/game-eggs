@@ -7,7 +7,7 @@
     "exported_at": "2024-03-09T13:41:23+01:00",
     "name": "Open Fortress",
     "author": "espeon@espeon.dev",
-    "description": "Open Fortress is a free Team Fortress 2 mod that introduces new gamemodes, weapons, characters, maps, and more to the world of TF2.",
+    "description": "Open Fortress 是一款快节奏的多人第一人称射击游戏，基于 Source 引擎。",
     "features": [
         "steam_disk_space"
     ],

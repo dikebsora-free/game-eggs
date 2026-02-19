@@ -7,7 +7,7 @@
     "exported_at": "2022-10-25T18:12:06+02:00",
     "name": "Terraria Vanilla",
     "author": "iamkubi@gmail.com",
-    "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game.",
+    "description": "Terraria 是一款沙盒冒险游戏，挖掘、战斗、探索和建造，在充满奇迹和危险的世界中。",
     "features": null,
     "docker_images": {
         "Debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

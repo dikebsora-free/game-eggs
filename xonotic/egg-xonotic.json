@@ -7,7 +7,7 @@
     "exported_at": "2025-04-03T09:14:57+00:00",
     "name": "Xonotic",
     "author": "parker@parkervcp.com",
-    "description": "This is for the 默认值 xonotic setup.",
+    "description": "Xonotic 是一款免费开源的快节奏竞技场风格第一人称射击游戏。",
     "features": null,
     "docker_images": {
         "SteamCMD (Debian)": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

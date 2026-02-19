@@ -7,7 +7,7 @@
     "exported_at": "2025-01-25T22:16:18+00:00",
     "name": "Minetest",
     "author": "support@pterodactyl.io",
-    "description": "An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server.",
+    "description": "Minetest 是一款免费开源的体素游戏引擎，具有易于修改的游戏内容和强大的模组支持。",
     "features": null,
     "docker_images": {
         "Minetest": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/games:minetest"

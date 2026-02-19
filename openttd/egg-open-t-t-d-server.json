@@ -7,7 +7,7 @@
     "exported_at": "2023-03-26T16:13:26+02:00",
     "name": "OpenTTD Server",
     "author": "admin@justmyrandomstuff.com",
-    "description": "OpenTTD is an open source simulation game based upon the popular Microprose game \"Transport Tycoon Deluxe\", written by Chris Sawyer. It attempts to mimic the original game as closely as possible while extending it with new features.\r\n\r\nOpenTTD is modelled after the original Transport Tycoon game by Chris Sawyer and enhances the game experience dramatically. Many features were inspired by TTDPatch while others are original.",
+    "description": "OpenTTD 是一款开源商业模拟游戏，基于经典游戏 Transport Tycoon Deluxe。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

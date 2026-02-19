@@ -7,7 +7,7 @@
     "exported_at": "2023-07-30T10:56:35+02:00",
     "name": "AssaultCube",
     "author": "holeintheseat@gmail.com",
-    "description": "AssaultCube is a FREE, multiplayer, first-person shooter game, based on the CUBE engine.\r\n\r\nTaking place in realistic environments, with fast, arcade gameplay, it's addictive and fun!",
+    "description": "AssaultCube 是一款免费的多人第一人称射击游戏，基于 Cube 引擎。",
     "features": null,
     "docker_images": {
         "Debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

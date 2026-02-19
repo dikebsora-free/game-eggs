@@ -7,7 +7,7 @@
     "exported_at": "2023-07-30T11:20:16+02:00",
     "name": "Cube 2: Sauerbraten",
     "author": "holeintheseat@gmail.com",
-    "description": "Cube 2: Sauerbraten is a free multiplayer & singleplayer first person shooter, the successor of the Cube FPS.\r\nMuch like the original Cube, the aim of this game is fun, old school deathmatch gameplay and also to allow map/geometry editing to be done cooperatively in-game.",
+    "description": "Cube 2: Sauerbraten 是一款免费多人第一人称射击游戏，具有内置关卡编辑器。",
     "features": null,
     "docker_images": {
         "Debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

@@ -7,7 +7,7 @@
     "exported_at": "2025-01-25T15:56:40+00:00",
     "name": "Empyrion: Galactic Survival",
     "author": "eggs@purpleflaghosting.com",
-    "description": "Build and explore in a true space sandbox survival adventure. Construct mighty capital vessels, sprawling planetary settlements, and vast space stations in your galactic journey to discover the mysteries of Empyrion!",
+    "description": "Empyrion 是一款 3D 开放世界太空生存冒险游戏，建造飞船、基地，探索银河系。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest"

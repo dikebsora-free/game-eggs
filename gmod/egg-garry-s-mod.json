@@ -7,7 +7,7 @@
     "exported_at": "2025-10-20T14:48:44+02:00",
     "name": "Garrys Mod",
     "author": "support@pterodactyl.io",
-    "description": "Garrys Mod, is a sandbox physics game created by Garry Newman, and developed by his company, Facepunch Studios.",
+    "description": "Garry's Mod 是一款沙盒物理游戏，让玩家可以自由操控各种物体和工具进行创作。",
     "features": [
         "gsl_token",
         "steam_disk_space"

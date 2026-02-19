@@ -7,7 +7,7 @@
     "exported_at": "2025-04-18T22:29:49+01:00",
     "name": "Spacestation 14",
     "author": "josdekurk@gmail.com",
-    "description": "Space Station 14 tells the story of an ordinary shift on a space station gone wrong. Immerse yourself into your role, tinker with detailed systems, and survive the chaos in this round-based multiplayer role playing game.",
+    "description": "Space Station 14 是一款关于偏执和混乱的多人游戏，发生在轨道空间站上。",
     "features": null,
     "docker_images": {
         "Dotnet 9": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:dotnet_9"

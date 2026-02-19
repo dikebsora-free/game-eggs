@@ -7,7 +7,7 @@
     "exported_at": "2025-06-16T15:45:13+02:00",
     "name": "Soldat 2",
     "author": "ptero@redbananaofficial.com",
-    "description": "Soldat 2 is a 2D deathmatch shooter with real guns, ragdoll violence and physics-based movement.",
+    "description": "Soldat 2 是经典 2D 射击游戏 Soldat 的续作，采用全新引擎和改进的游戏玩法。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

@@ -7,7 +7,7 @@
     "exported_at": "2022-10-24T19:25:32+02:00",
     "name": "Veloren",
     "author": "parker@parkervcp.com",
-    "description": "Veloren is a multiplayer voxel RPG written in Rust. It is inspired by games such as Cube World, Legend of Zelda: Breath of the Wild, Dwarf Fortress and Minecraft.",
+    "description": "Veloren 是一款受 Cube World 启发的多人体素 RPG，开放世界，自由探索和冒险。",
     "features": null,
     "docker_images": {
         "Ubuntu": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:ubuntu_24.04"

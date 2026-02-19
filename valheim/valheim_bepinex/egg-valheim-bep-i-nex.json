@@ -7,7 +7,7 @@
     "exported_at": "2025-09-03T16:07:36+00:00",
     "name": "Valheim  BepINex",
     "author": "eggs@goover.dev",
-    "description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture incl the Plugin Framework BepInEx",
+    "description": "Valheim BepInEx 服务器支持加载和管理 Valheim 模组。",
     "features": [
         "steam_disk_space"
     ],

@@ -7,7 +7,7 @@
     "exported_at": "2026-02-01T03:48:16+00:00",
     "name": "PixARK",
     "author": "hello@venatus.digital",
-    "description": "A simple Docker container with Wine to run PixARK using Pterodactyl Panel",
+    "description": "PixARK 是一款融合了 ARK 生存和 Minecraft 风格的体素沙盒生存游戏。",
     "features": [
         "steam_disk_space"
     ],

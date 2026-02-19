@@ -7,7 +7,7 @@
     "exported_at": "2025-03-10T13:31:01+01:00",
     "name": "Sonic Robo Blast 2",
     "author": "ptero@redbananaofficial.com",
-    "description": "Sonic Robo Blast 2 Dedicated Server",
+    "description": "Sonic Robo Blast 2 是基于 Doom 引擎的 3D 开源索尼克粉丝游戏。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:wine_latest"

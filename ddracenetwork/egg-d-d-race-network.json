@@ -7,7 +7,7 @@
     "exported_at": "2023-07-01T12:47:31+02:00",
     "name": "DDRaceNetwork",
     "author": "diedyesterdaywashere@gmail.com",
-    "description": "DDraceNetwork (DDNet) is an actively maintained version of DDRace, a Teeworlds modification with a unique cooperative gameplay.",
+    "description": "DDraceNetwork 是一款基于 Teeworlds 的合作竞速游戏模组。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

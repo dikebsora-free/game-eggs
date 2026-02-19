@@ -7,7 +7,7 @@
     "exported_at": "2024-04-05T01:20:18+02:00",
     "name": "Stationeers (BepInEx)",
     "author": "eggs@goover.dev",
-    "description": "Stationeers Server with very basic BepInEx support",
+    "description": "Stationeers BepInEx 服务器支持加载和管理 Stationeers 模组。",
     "features": [
         "steam_disk_space"
     ],

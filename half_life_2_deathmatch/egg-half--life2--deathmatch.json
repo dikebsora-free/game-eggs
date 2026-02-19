@@ -7,7 +7,7 @@
     "exported_at": "2025-10-06T13:52:09+02:00",
     "name": "Half-Life 2: Deathmatch",
     "author": "ptero@redbananaofficial.com",
-    "description": "Fast multiplayer action set in the Half-Life 2 universe! HL2's physics adds a new dimension to deathmatch play. Play straight deathmatch or try Combine vs. Resistance teamplay. Toss a toilet at your friend today!",
+    "description": "半条命 2 死亡竞赛是使用半条命 2 引擎的多人第一人称射击游戏。",
     "features": [],
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-images/steamcmd:debian"

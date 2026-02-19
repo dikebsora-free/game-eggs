@@ -7,7 +7,7 @@
     "exported_at": "2024-03-24T19:19:23+01:00",
     "name": "SuperTuxKart",
     "author": "mattamn107@github.com",
-    "description": "Egg for hosting a SuperTuxKart Server.",
+    "description": "SuperTuxKart 是一款免费的 3D 卡丁车竞速游戏，具有各种角色、赛道和游戏模式。",
     "features": null,
     "docker_images": {
         "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:debian"

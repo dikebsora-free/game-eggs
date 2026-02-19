@@ -7,7 +7,7 @@
     "exported_at": "2025-06-10T12:31:03+00:00",
     "name": "V Rising BepInEx",
     "author": "red_thirten@yahoo.com",
-    "description": "Awaken as a vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing open world full of mystery. Gain allies online and conquer the land of the living.",
+    "description": "V Rising BepInEx 服务器支持加载和管理 V Rising 模组。",
     "features": [
         "steam_disk_space"
     ],

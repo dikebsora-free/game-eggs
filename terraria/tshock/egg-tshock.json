@@ -7,7 +7,7 @@
     "exported_at": "2024-12-29T02:37:09+00:00",
     "name": "tshock",
     "author": "parker@parkervcp.com",
-    "description": "The t-shock modded terraria server.\r\n\r\nhttps://tshock.co/",
+    "description": "TShock 是一个 Terraria 服务器工具，提供管理命令、权限系统和插件支持。",
     "features": null,
     "docker_images": {
         "Dotnet 6": "registry.cn-shanghai.aliyuncs.com/pterodactyl-china/yolks:dotnet_6"
